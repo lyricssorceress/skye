@@ -1,0 +1,5 @@
+%% encoding: UTF-8
+{application,skye}.
+{modules,[application_util,demo,eagle_server,ib_connection,mnesia_lab,proc,
+          process_limit,query_util,skye,skye_app,skye_node_context,
+          skye_storage,skye_sup,skye_util,soj_server]}.

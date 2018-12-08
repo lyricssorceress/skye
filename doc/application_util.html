@@ -1,0 +1,181 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Module application_util</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" title="EDoc">
+</head>
+<body bgcolor="white">
+<div class="navbar"><a name="#navbar_top"></a><table width="100%" border="0" cellspacing="0" cellpadding="2" summary="navigation bar"><tr><td><a href="overview-summary.html" target="overviewFrame">Overview</a></td><td><a href="http://www.erlang.org/"><img src="erlang.png" align="right" border="0" alt="erlang logo"></a></td></tr></table></div>
+<hr>
+
+<h1>Module application_util</h1>
+<ul class="index"><li><a href="#index">Function Index</a></li><li><a href="#functions">Function Details</a></li></ul>
+
+
+<h2><a name="index">Function Index</a></h2>
+<table width="100%" border="1" cellspacing="0" cellpadding="2" summary="function index"><tr><td valign="top"><a href="#application_memory-1">application_memory/1</a></td><td></td></tr>
+<tr><td valign="top"><a href="#applications_memory-0">applications_memory/0</a></td><td></td></tr>
+<tr><td valign="top"><a href="#children_spec-1">children_spec/1</a></td><td></td></tr>
+<tr><td valign="top"><a href="#children_spec-2">children_spec/2</a></td><td></td></tr>
+<tr><td valign="top"><a href="#children_spec-3">children_spec/3</a></td><td></td></tr>
+<tr><td valign="top"><a href="#children_spec_with_protection-2">children_spec_with_protection/2</a></td><td></td></tr>
+<tr><td valign="top"><a href="#decode_record-3">decode_record/3</a></td><td></td></tr>
+<tr><td valign="top"><a href="#encode_record-2">encode_record/2</a></td><td></td></tr>
+<tr><td valign="top"><a href="#encode_with_null-1">encode_with_null/1</a></td><td></td></tr>
+<tr><td valign="top"><a href="#ets_memory-0">ets_memory/0</a></td><td></td></tr>
+<tr><td valign="top"><a href="#external_supervisor_spec-1">external_supervisor_spec/1</a></td><td></td></tr>
+<tr><td valign="top"><a href="#external_supervisor_spec-2">external_supervisor_spec/2</a></td><td></td></tr>
+<tr><td valign="top"><a href="#gen_server_call-2">gen_server_call/2</a></td><td></td></tr>
+<tr><td valign="top"><a href="#generic_supervisor-1">generic_supervisor/1</a></td><td></td></tr>
+<tr><td valign="top"><a href="#generic_supervisor-2">generic_supervisor/2</a></td><td></td></tr>
+<tr><td valign="top"><a href="#get_app_env-2">get_app_env/2</a></td><td></td></tr>
+<tr><td valign="top"><a href="#memory_info-1">memory_info/1</a></td><td></td></tr>
+<tr><td valign="top"><a href="#module_spec-2">module_spec/2</a></td><td></td></tr>
+<tr><td valign="top"><a href="#module_spec-3">module_spec/3</a></td><td></td></tr>
+<tr><td valign="top"><a href="#simple_spec-2">simple_spec/2</a></td><td></td></tr>
+<tr><td valign="top"><a href="#simple_supervisor-1">simple_supervisor/1</a></td><td></td></tr>
+<tr><td valign="top"><a href="#start_supervisor-3">start_supervisor/3</a></td><td></td></tr>
+<tr><td valign="top"><a href="#start_supervisor-4">start_supervisor/4</a></td><td></td></tr>
+<tr><td valign="top"><a href="#sup_children_spec-3">sup_children_spec/3</a></td><td></td></tr>
+<tr><td valign="top"><a href="#supervisor_spec-3">supervisor_spec/3</a></td><td></td></tr>
+<tr><td valign="top"><a href="#touch_node-2">touch_node/2</a></td><td></td></tr>
+</table>
+
+<h2><a name="functions">Function Details</a></h2>
+
+<h3 class="function"><a name="application_memory-1">application_memory/1</a></h3>
+<div class="spec">
+<p><tt>application_memory(App) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="applications_memory-0">applications_memory/0</a></h3>
+<div class="spec">
+<p><tt>applications_memory() -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="children_spec-1">children_spec/1</a></h3>
+<div class="spec">
+<p><tt>children_spec(Module) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="children_spec-2">children_spec/2</a></h3>
+<div class="spec">
+<p><tt>children_spec(Module, Args) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="children_spec-3">children_spec/3</a></h3>
+<div class="spec">
+<p><tt>children_spec(Module, Args, RestartType) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="children_spec_with_protection-2">children_spec_with_protection/2</a></h3>
+<div class="spec">
+<p><tt>children_spec_with_protection(Module, Args) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="decode_record-3">decode_record/3</a></h3>
+<div class="spec">
+<p><tt>decode_record(Props, T, Result) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="encode_record-2">encode_record/2</a></h3>
+<div class="spec">
+<p><tt>encode_record(Data, Fields) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="encode_with_null-1">encode_with_null/1</a></h3>
+<div class="spec">
+<p><tt>encode_with_null(Data) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="ets_memory-0">ets_memory/0</a></h3>
+<div class="spec">
+<p><tt>ets_memory() -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="external_supervisor_spec-1">external_supervisor_spec/1</a></h3>
+<div class="spec">
+<p><tt>external_supervisor_spec(Module) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="external_supervisor_spec-2">external_supervisor_spec/2</a></h3>
+<div class="spec">
+<p><tt>external_supervisor_spec(Module, Args) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="gen_server_call-2">gen_server_call/2</a></h3>
+<div class="spec">
+<p><tt>gen_server_call(Server, Request) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="generic_supervisor-1">generic_supervisor/1</a></h3>
+<div class="spec">
+<p><tt>generic_supervisor(Specs) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="generic_supervisor-2">generic_supervisor/2</a></h3>
+<div class="spec">
+<p><tt>generic_supervisor(Specs, Type) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="get_app_env-2">get_app_env/2</a></h3>
+<div class="spec">
+<p><tt>get_app_env(Opt, Default) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="memory_info-1">memory_info/1</a></h3>
+<div class="spec">
+<p><tt>memory_info(Sup) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="module_spec-2">module_spec/2</a></h3>
+<div class="spec">
+<p><tt>module_spec(Module, Args) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="module_spec-3">module_spec/3</a></h3>
+<div class="spec">
+<p><tt>module_spec(Name, Module, Args) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="simple_spec-2">simple_spec/2</a></h3>
+<div class="spec">
+<p><tt>simple_spec(Module, Args) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="simple_supervisor-1">simple_supervisor/1</a></h3>
+<div class="spec">
+<p><tt>simple_supervisor(Spec) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="start_supervisor-3">start_supervisor/3</a></h3>
+<div class="spec">
+<p><tt>start_supervisor(SupModule, Module, Args) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="start_supervisor-4">start_supervisor/4</a></h3>
+<div class="spec">
+<p><tt>start_supervisor(SupModule, Ah, RegisterName, At) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="sup_children_spec-3">sup_children_spec/3</a></h3>
+<div class="spec">
+<p><tt>sup_children_spec(SupModule, Module, Args) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="supervisor_spec-3">supervisor_spec/3</a></h3>
+<div class="spec">
+<p><tt>supervisor_spec(SupModule, Module, Args) -&gt; any()</tt></p>
+</div>
+
+<h3 class="function"><a name="touch_node-2">touch_node/2</a></h3>
+<div class="spec">
+<p><tt>touch_node(NodeName, X2) -&gt; any()</tt></p>
+</div>
+<hr>
+
+<div class="navbar"><a name="#navbar_bottom"></a><table width="100%" border="0" cellspacing="0" cellpadding="2" summary="navigation bar"><tr><td><a href="overview-summary.html" target="overviewFrame">Overview</a></td><td><a href="http://www.erlang.org/"><img src="erlang.png" align="right" border="0" alt="erlang logo"></a></td></tr></table></div>
+<p><i>Generated by EDoc</i></p>
+</body>
+</html>

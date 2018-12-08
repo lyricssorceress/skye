@@ -1,0 +1,40 @@
+2018-12-08 12:42:55 =CRASH REPORT====
+  crasher:
+    initial call: soj_server:init/1
+    pid: <0.430.0>
+    registered_name: []
+    exception error: {undef,[{gproc,reg,[{p,l,interesting_stuff}],[]},{soj_server,init,1,[{file,"/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl"},{line,76}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [skye_sup,<0.428.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.429.0>,<0.382.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 4524
+  neighbours:
+2018-12-08 12:42:55 =SUPERVISOR REPORT====
+     Supervisor: {local,skye_sup}
+     Context:    start_error
+     Reason:     {undef,[{gproc,reg,[{p,l,interesting_stuff}],[]},{soj_server,init,1,[{file,"/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl"},{line,76}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+     Offender:   [{pid,undefined},{id,soj_server},{mfargs,{soj_server,start_link,[test]}},{restart_type,transient},{shutdown,2000},{child_type,worker}]
+
+2018-12-08 12:42:55 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.427.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,soj_server,{undef,[{gproc,reg,[{p,l,interesting_stuff}],[]},{soj_server,init,1,[{file,"/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl"},{line,76}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}}},{skye_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}
+    ancestors: [<0.426.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.428.0>,normal}]
+    links: [<0.426.0>,<0.336.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 240
+  neighbours:

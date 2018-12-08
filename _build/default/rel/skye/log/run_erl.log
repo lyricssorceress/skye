@@ -1,0 +1,8 @@
+run_erl [8556] Sat Dec  8 12:56:08 2018
+Args before exec of shell:
+run_erl [8556] Sat Dec  8 12:56:08 2018
+argv[0] = sh
+run_erl [8556] Sat Dec  8 12:56:08 2018
+argv[1] = -c
+run_erl [8556] Sat Dec  8 12:56:08 2018
+argv[2] = exec "/Users/lc/IdeaProjects/Skye/_build/default/rel/skye/bin/skye" "console" '' 

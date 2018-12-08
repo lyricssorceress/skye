@@ -1,0 +1,34 @@
+2018-12-08 12:31:56.947 [debug] <0.121.0>@lager_handler_watcher:126 Lager installed handler error_logger_lager_h into error_logger
+2018-12-08 12:31:56.954 [debug] <0.102.0> Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.123.0>
+2018-12-08 12:31:56.954 [debug] <0.103.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.124.0>
+2018-12-08 12:31:56.955 [debug] <0.101.0> Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.125.0>
+2018-12-08 12:31:56.955 [debug] <0.103.0> Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0},{job_input,0},{job_run,0},{job_time,0},{job_error,0}]) at pid <0.126.0>
+2018-12-08 12:31:57.024 [info] <0.43.0> Application lager started on node 'chen@pilot.skye.gem'
+2018-12-08 12:31:57.036 [debug] <0.131.0> Supervisor mnesia_sup started mnesia_sup:start_event() at pid <0.132.0>
+2018-12-08 12:31:57.038 [debug] <0.131.0> Supervisor mnesia_sup started mnesia_ext_sup:start() at pid <0.133.0>
+2018-12-08 12:31:57.040 [debug] <0.134.0> Supervisor mnesia_kernel_sup started mnesia_monitor:start() at pid <0.135.0>
+2018-12-08 12:31:57.041 [debug] <0.134.0> Supervisor mnesia_kernel_sup started mnesia_subscr:start() at pid <0.136.0>
+2018-12-08 12:31:57.044 [debug] <0.134.0> Supervisor mnesia_kernel_sup started mnesia_locker:start() at pid <0.137.0>
+2018-12-08 12:31:57.046 [debug] <0.134.0> Supervisor mnesia_kernel_sup started mnesia_recover:start() at pid <0.138.0>
+2018-12-08 12:31:57.058 [debug] <0.73.0> Supervisor kernel_safe_sup started dets_sup:start_link() at pid <0.140.0>
+2018-12-08 12:31:57.058 [debug] <0.73.0> Supervisor kernel_safe_sup started dets_server:start_link() at pid <0.141.0>
+2018-12-08 12:31:57.074 [debug] <0.73.0> Supervisor kernel_safe_sup started disk_log_sup:start_link() at pid <0.145.0>
+2018-12-08 12:31:57.074 [debug] <0.73.0> Supervisor kernel_safe_sup started disk_log_server:start_link() at pid <0.146.0>
+2018-12-08 12:31:57.115 [debug] <0.152.0> Supervisor inet_gethost_native_sup started undefined at pid <0.153.0>
+2018-12-08 12:31:57.116 [debug] <0.73.0> Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.152.0>
+2018-12-08 12:31:57.143 [debug] <0.134.0> Supervisor mnesia_kernel_sup started mnesia_tm:start() at pid <0.139.0>
+2018-12-08 12:31:57.145 [debug] <0.134.0> Supervisor mnesia_kernel_sup started mnesia_checkpoint_sup:start() at pid <0.165.0>
+2018-12-08 12:31:57.145 [debug] <0.134.0> Supervisor mnesia_kernel_sup started mnesia_controller:start() at pid <0.166.0>
+2018-12-08 12:31:57.150 [debug] <0.134.0> Supervisor mnesia_kernel_sup started mnesia_late_loader:start() at pid <0.167.0>
+2018-12-08 12:31:57.150 [debug] <0.131.0> Supervisor mnesia_sup started mnesia_kernel_sup:start() at pid <0.134.0>
+2018-12-08 12:31:57.150 [info] <0.43.0> Application mnesia started on node 'chen@pilot.skye.gem'
+2018-12-08 12:31:57.159 [debug] <0.172.0> Supervisor gproc_sup started gproc:start_link() at pid <0.173.0>
+2018-12-08 12:31:57.160 [debug] <0.172.0> Supervisor gproc_sup started gproc_monitor:start_link() at pid <0.174.0>
+2018-12-08 12:31:57.161 [debug] <0.172.0> Supervisor gproc_sup started gproc_bcast:start_link() at pid <0.175.0>
+2018-12-08 12:31:57.163 [debug] <0.172.0> Supervisor gproc_sup started gproc_pool:start_link() at pid <0.176.0>
+2018-12-08 12:31:57.163 [info] <0.43.0> Application gproc started on node 'chen@pilot.skye.gem'
+2018-12-08 12:31:57.166 [info] <0.181.0>@soj_server:init:71 subscription done [test]
+2018-12-08 12:31:57.167 [debug] <0.180.0> Supervisor skye_sup started soj_server:start_link(test) at pid <0.181.0>
+2018-12-08 12:31:57.167 [debug] <0.180.0> Supervisor skye_sup started skye_sup:start_link(ib_connection_sup, ib_connection, []) at pid <0.182.0>
+2018-12-08 12:31:57.167 [info] <0.43.0> Application skye started on node 'chen@pilot.skye.gem'
+2018-12-08 12:31:57.441 [debug] <0.111.0>@lager_handler_watcher:126 Lager installed handler lager_backend_throttle into lager_event

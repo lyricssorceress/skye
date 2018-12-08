@@ -1,0 +1,32 @@
+{"1.1.0",
+[{<<"cowboy">>,
+  {git,"https://github.com/ninenines/cowboy.git",
+       {ref,"b8e4115eb13488c517d8d8ef33c47d0eaa7838c6"}},
+  0},
+ {<<"cowlib">>,
+  {git,"https://github.com/ninenines/cowlib.git",
+       {ref,"d544a494af4dbc810fc9c15eaf5cc050cced1501"}},
+  1},
+ {<<"goldrush">>,
+  {git,"git://github.com/DeadZen/goldrush.git",
+       {ref,"57e71f2789632a085f0963e1244644fdcb1941b9"}},
+  0},
+ {<<"gproc">>,{pkg,<<"gproc">>,<<"0.8.0">>},0},
+ {<<"lager">>,{pkg,<<"lager">>,<<"3.6.6">>},0},
+ {<<"ranch">>,
+  {git,"https://github.com/ninenines/ranch.git",
+       {ref,"adf1822defc2b7cfdc7aca112adabfa1d614043c"}},
+  1},
+ {<<"uuid">>,
+  {git,"git://github.com/avtobiff/erlang-uuid.git",
+       {ref,"cb02a2039a9b29dd2eef0446039c9c6e164df9ef"}},
+  0},
+ {<<"windforce">>,
+  {git,"git://github.com/lyricssorceress/windforce.git",
+       {ref,"9810bb2452b3a61dddf6d6c70c1e1fb7d0dacde3"}},
+  0}]}.
+[
+{pkg_hash,[
+ {<<"gproc">>, <<"CEA02C578589C61E5341FCE149EA36CCEF236CC2ECAC8691FBA408E7EA77EC2F">>},
+ {<<"lager">>, <<"23C8F5ABC4189F46804791E16BF6421C14EBC5B529DC113BC54639C6C62F255D">>}]}
+].

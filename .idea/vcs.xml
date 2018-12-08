@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/_build/default/deps/cowboy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_build/default/deps/cowlib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_build/default/deps/erl_utils" vcs="" />
+    <mapping directory="$PROJECT_DIR$/_build/default/deps/espec" vcs="" />
+    <mapping directory="$PROJECT_DIR$/_build/default/deps/goldrush" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_build/default/deps/meck" vcs="" />
+    <mapping directory="$PROJECT_DIR$/_build/default/deps/mustache" vcs="" />
+    <mapping directory="$PROJECT_DIR$/_build/default/deps/parsec" vcs="" />
+    <mapping directory="$PROJECT_DIR$/_build/default/deps/ranch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_build/default/deps/rebar_plugins" vcs="" />
+    <mapping directory="$PROJECT_DIR$/_build/default/deps/reloader" vcs="" />
+    <mapping directory="$PROJECT_DIR$/_build/default/deps/uuid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/_build/default/deps/windforce" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/deps/cowboy" vcs="" />
+    <mapping directory="$PROJECT_DIR$/deps/cowlib" vcs="" />
+    <mapping directory="$PROJECT_DIR$/deps/erl_utils" vcs="" />
+    <mapping directory="$PROJECT_DIR$/deps/espec" vcs="" />
+    <mapping directory="$PROJECT_DIR$/deps/goldrush" vcs="" />
+    <mapping directory="$PROJECT_DIR$/deps/lager" vcs="" />
+    <mapping directory="$PROJECT_DIR$/deps/meck" vcs="" />
+    <mapping directory="$PROJECT_DIR$/deps/mustache" vcs="" />
+    <mapping directory="$PROJECT_DIR$/deps/parsec" vcs="" />
+    <mapping directory="$PROJECT_DIR$/deps/ranch" vcs="" />
+    <mapping directory="$PROJECT_DIR$/deps/rebar_plugins" vcs="" />
+    <mapping directory="$PROJECT_DIR$/deps/reloader" vcs="" />
+    <mapping directory="$PROJECT_DIR$/deps/uuid" vcs="" />
+    <mapping directory="$PROJECT_DIR$/deps/windforce" vcs="" />
+  </component>
+</project>

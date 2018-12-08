@@ -1,0 +1,1211 @@
+2018-10-14 11:19:28.998 [UI] INFO  [JTS-Main] - ------------------------------- IB GATEWAY RESTART --------------------------------
+2018-10-14 11:19:29.006 [UI] INFO  [JTS-Main] - Jts dir is /Users/lc/IdeaProjects/Skye/
+2018-10-14 11:19:29.029 [UI] INFO  [JTS-Main] - PROXY Set SOCKS proxy (socket) 127.0.0.1:1080
+2018-10-14 11:19:29.029 [UI] INFO  [JTS-Main] - PROXY Installed custom selector
+2018-10-14 11:19:29.032 [UI] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null
+2018-10-14 11:19:29.036 [UI] INFO  [JTS-Main] - LOCALE: JTS Locale=en_US  country=United States  variant=
+2018-10-14 11:19:29.038 [UI] INFO  [JTS-Main] - Region: from ini usr -> Custom
+2018-10-14 11:19:29.038 [UI] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null
+2018-10-14 11:19:29.038 [UI] INFO  [JTS-Main] - LOCALE: JTS Locale=en_US  country=United States  variant=
+2018-10-14 11:19:29.038 [UI] INFO  [JTS-Main] - Region:Custom
+2018-10-14 11:19:29.039 [UI] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 11:19:29.040 [UI] INFO  [JTS-Main] - Chinese peer detected ('mcgw1.ibllc.com.cn:4000'): switching download root to 'https://download.ibkr.com.cn'.
+2018-10-14 11:19:29.042 [UI] INFO  [JTS-Main] - WebRegionURL Path:/java/classes/locales.jar URL:http://www.interactivebrokers.com/java/classes/locales.jar
+2018-10-14 11:19:29.042 [UI] INFO  [JTS-Main] - Starting to download 'https://download.ibkr.com.cn/java/classes/locales.jar' using HotBackup 'https://download.ibkr.com.cn/java/classes/locales.jar'
+2018-10-14 11:19:30.741 [UI] INFO  [JTS-Main] - LOCALE: needToUpdate  dest=/Users/lc/IdeaProjects/Skye/jars/locales.jar  sourceMod=2018-05-08 01:08:54  destMod=2018-05-08 01:08:54  sourceSize=104614  destSize=104614  conditions=[NEWER_REMOTE, LOCAL_IN_FUTURE, SIZE_DIFFERS]  download=false
+2018-10-14 11:19:30.741 [UI] INFO  [JTS-Main] - LOCALE: /Users/lc/IdeaProjects/Skye/jars/locales.jar already up-to-date
+2018-10-14 11:19:30.742 [UI] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 11:19:30.742 [UI] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 11:19:30.776 [UI] INFO  [JTS-Main] - LOCALE: loaded 9 supported locales
+2018-10-14 11:19:30.814 [UI] INFO  [JTS-Main] - LOCALE: loaded 8 countries
+2018-10-14 11:19:30.814 [UI] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 11:19:30.821 [UI] INFO  [JTS-Main] - Locale from ini: en
+2018-10-14 11:19:30.821 [UI] INFO  [JTS-Main] - LOCALE: created classloader java.net.URLClassLoader@dd05255 with file:/Users/lc/IdeaProjects/Skye/jars/locales.jar, parent: sun.misc.Launcher$AppClassLoader@14ae5a5
+2018-10-14 11:19:30.822 [UI] INFO  [JTS-Main] - Locale=en_US  country=United States  variant=
+2018-10-14 11:19:30.825 [UI] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage]
+2018-10-14 11:19:30.826 [UI] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en]
+2018-10-14 11:19:30.826 [UI] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en_US]
+2018-10-14 11:19:30.827 [UI] INFO  [JTS-Main] - LOCALE: type: launcher intended: en_US actual:  size: 353
+2018-10-14 11:19:30.828 [UI] INFO  [JTS-Main] - initPreUI() - entry
+2018-10-14 11:19:30.843 [UI] INFO  [JTS-Main] - Build 973.2h, Sep 25, 2018 12:05:32 PM
+2018-10-14 11:19:30.964 [UI] INFO  [JTS-Main] - LookAndFeelChangedListener installed
+2018-10-14 11:19:30.972 [UI] INFO  [JTS-Main] - JtsLookAndFeel initialized
+2018-10-14 11:19:31.150 [UI] INFO  [JTS-Main] - Current LAF: TWS LAF
+2018-10-14 11:19:31.150 [UI] INFO  [JTS-Main] - initPreUI() - exit
+2018-10-14 11:19:31.160 [UI] INFO  [JTS-Main] - Connect and request MiscUrls
+2018-10-14 11:19:31.162 [UI] INFO  [JTS-MiscUlrsRequester-5] - Connecting mcgw1.ibllc.com.cn:4000 timeout=0
+2018-10-14 11:19:31.164 [UI] INFO  [AWT-EventQueue-0] - java.lang.UnsupportedOperationException: Toolkit.getLockingKeyState
+2018-10-14 11:19:31.164 [UI] INFO  [JTS-Main] - Hard linking is not enabled in standalone mode
+2018-10-14 11:19:31.205 [UI] INFO  [JTS-MiscUlrsRequester-5] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /127.0.0.1:53973
+2018-10-14 11:19:31.207 [UI] INFO  [JTS-MiscUlrsRequester-5] - Resolving mac address
+2018-10-14 11:19:31.208 [UI] INFO  [JTS-MiscUlrsRequester-5] - falling back to custom mac address resolution
+2018-10-14 11:19:31.217 [UI] INFO  [JTS-MiscUlrsRequester-5] - MACNetworkInfo created <1a98229d|ac:de:48:00:11:22|127.0.0.1>
+2018-10-14 11:19:31.219 [UI] INFO  [JTS-MISC URLsListenerS1-7] - Starting Listener thread
+2018-10-14 11:19:31.233 [UI] INFO  [JTS-MiscUlrsRequester-5] - Sending MiscUrls request
+2018-10-14 11:19:31.233 [UI] INFO  [JTS-AuthDispatcherS1-8] - Starting dispatcher
+2018-10-14 11:19:31.236 [UI] INFO  [JTS-MiscUlrsRequester-5] - LOGIN_TIME_MONITOR	 false 11:19:31:235 since start = 0 thread delay = 0 global delay = -1 tag=null, cls=AuthDispatcher method=send
+2018-10-14 11:19:31.236 [UI] INFO  [JTS-AuthResponseMonitor-9] - Starting auth response monitor thread
+2018-10-14 11:19:31.236 [UI] INFO  [JTS-MISC URLsListenerS1-7] - Initial listener buffer size is 408288
+2018-10-14 11:19:31.236 [UI] INFO  [JTS-MISC URLsListenerS1-7] - Capping listener buffer size at 65536
+2018-10-14 11:19:31.338 [UI] INFO  [JTS-AuthDispatcherS1-8] - Received NS_MISC_URLS
+2018-10-14 11:19:31.339 [UI] INFO  [JTS-AuthDispatcherS1-8] - Received URLs ='{alpine_help=https://www.interactivebrokers.com/en/general/alpineHelp.php, ib_system_status=http://status.interactivebrokers.net/cgi-bin/bb_status.pl, customer_service=https://www.interactivebrokers.com/en/p.php?f=customerService&ib_entity=llc, wbdemo=direct, java_upgrade_howto=https://www.interactivebrokers.com/en/software/downloadPlugin.php?ib_entity=llc, demo=email, ssl=1, pass_change_ib=https://gdcdyn.interactivebrokers.com/sso/Login?service=AM.LOGIN&MSG=PWD, paper_account_creation=https://gdcdyn.interactivebrokers.com/sso/Login, pass_reset=https://gdcdyn.interactivebrokers.com/Universal/servlet/AccountAccess.PasswordReset, bingo_help=https://www.interactivebrokers.com/en/general/bingoHelp.php, pass_reset_wb=https://www.clientam.com/Universal/servlet/AccountAccess.PasswordReset, gold_help=https://www.interactivebrokers.com/en/general/goldHelp.php, s3store=1}'
+2018-10-14 11:19:31.341 [UI] INFO  [JTS-AuthDispatcherS1-8] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_BY_DESIGN
+2018-10-14 11:19:31.342 [UI] INFO  [JTS-MISC URLsListenerS1-7] - Socket or stream for connection mcgw1.ibllc.com.cn:4000 was closed by another thread
+2018-10-14 11:19:31.342 [UI] INFO  [JTS-AuthDispatcherS1-8] - Terminating dispatcher
+2018-10-14 11:19:31.342 [UI] INFO  [JTS-MISC URLsListenerS1-7] - Terminating Listener thread
+2018-10-14 11:19:31.342 [UI] INFO  [JTS-AuthResponseMonitor-9] - Terminating auth response monitor thread
+2018-10-14 11:19:32.923 [UI] INFO  [AWT-EventQueue-0] - twslaunch.autoupdate.serviceImpl: null
+2018-10-14 11:19:33.032 [UI] INFO  [AWT-EventQueue-0] - Started on 20181014-03:19:33
+2018-10-14 11:19:33.035 [UI] INFO  [AWT-EventQueue-0] - Default timezone:Asia/Shanghai name:China Standard Time dst:0
+2018-10-14 11:19:33.035 [UI] INFO  [AWT-EventQueue-0] - java version = 1.8.0_181
+2018-10-14 11:19:33.035 [UI] INFO  [AWT-EventQueue-0] - sun.arch.data.model = 64
+2018-10-14 11:19:33.035 [UI] INFO  [AWT-EventQueue-0] - os = Mac OS X
+2018-10-14 11:19:33.035 [UI] INFO  [AWT-EventQueue-0] - os architecture = 32
+2018-10-14 11:19:33.035 [UI] INFO  [AWT-EventQueue-0] - runtime = Java(TM) SE Runtime Environment
+2018-10-14 11:19:33.035 [UI] INFO  [AWT-EventQueue-0] - vendor = Oracle Corporation
+2018-10-14 11:19:33.035 [UI] INFO  [AWT-EventQueue-0] - vm name = Java HotSpot(TM) 64-Bit Server VM
+2018-10-14 11:19:33.035 [UI] INFO  [AWT-EventQueue-0] - username = 'lc'
+2018-10-14 11:19:33.218 [UI] INFO  [AWT-EventQueue-0] - OvernightManager.dayInit: new values: dayOfTheWeek: 1 (Sun), YYYYMMofToday: 201810, YYYYMMDDofToday: 20181014, m_todayDate: 20181014, dueToChangeInTimezone: false
+2018-10-14 11:19:33.437 [UI] INFO  [AWT-EventQueue-0] - Setting dir is /Users/lc/IdeaProjects/Skye/
+2018-10-14 11:19:33.437 [UI] INFO  [AWT-EventQueue-0] - PROXY Cleared HTTP proxy: no valid proxy is present (passing on :0)
+2018-10-14 11:19:33.439 [UI] INFO  [AWT-EventQueue-0] - SPLASH Creating screen with 5 steps
+2018-10-14 11:19:33.944 [UI] INFO  [AWT-EventQueue-0] - initAutoEncryptionMenu(): autoEncryption set to true
+2018-10-14 11:19:33.954 [UI] INFO  [AWT-EventQueue-0] - Contacting mcgw1.ibllc.com.cn:4000 as user NOT PRINTED
+2018-10-14 11:19:33.967 [UI] INFO  [AWT-EventQueue-0] - mapProdToPaper: m_simulatedTradingModeSelected=false
+2018-10-14 11:19:33.967 [UI] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection attempt time is cleared!
+2018-10-14 11:19:33.967 [UI] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection set as now:11:19:33:967
+2018-10-14 11:19:33.967 [UI] INFO  [AWT-EventQueue-0] - Prelogin delay:0
+2018-10-14 11:19:33.969 [UI] INFO  [JTS-Login-13] - Starting launcher login thread
+2018-10-14 11:19:33.969 [UI] INFO  [JTS-Login-13] - SPLASH Connecting to server
+2018-10-14 11:19:33.970 [UI] INFO  [JTS-Login-13] - Connecting mcgw1.ibllc.com.cn:4000 timeout=20000
+2018-10-14 11:19:33.970 [UI] INFO  [JTS-Login-13] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /127.0.0.1:53975
+2018-10-14 11:19:33.972 [UI] INFO  [JTS-Order-Audit-15] - Starting async queue thread
+2018-10-14 11:19:33.973 [UI] INFO  [AWT-EventQueue-0] - Network monitor is activated
+2018-10-14 11:19:33.974 [UI] INFO  [JTS-Login-13] - NSCX init:false
+2018-10-14 11:19:33.974 [UI] INFO  [JTS-Login-13] - JTSAuthConnection.onConnected(): lastKnownCipherStatus=SECURE
+2018-10-14 11:19:33.975 [UI] INFO  [JTS-Login-13] - Changing state for connection from PRELOGON to PRELOGON in A 761934257: SessionSocket:2
+2018-10-14 11:19:33.975 [UI] INFO  [JTS-Login-13] - Authenticating
+2018-10-14 11:19:33.975 [UI] INFO  [JTS-CCPListenerS2-16] - Starting Listener thread
+2018-10-14 11:19:33.975 [UI] INFO  [JTS-Login-13] - AuthTimeoutMonitor: deactivate
+2018-10-14 11:19:33.976 [UI] INFO  [JTS-Login-13] - AuthTimeoutMonitor: timeout=20000
+2018-10-14 11:19:33.976 [UI] INFO  [JTS-Login-13] - AuthTimeoutMonitor: activate
+2018-10-14 11:19:33.976 [UI] INFO  [JTS-AuthTimeoutMonitorThread-18] - Starting auth timeout monitor thread
+2018-10-14 11:19:33.977 [UI] INFO  [JTS-Login-13] - SPLASH -0001 step 1 AuthDispatcher.connect
+2018-10-14 11:19:33.977 [UI] INFO  [JTS-Login-13] - Sending connect request
+2018-10-14 11:19:33.977 [UI] INFO  [JTS-AuthDispatcherS2-17] - Starting dispatcher
+2018-10-14 11:19:33.978 [UI] INFO  [JTS-Login-13] - AuthDispatcher.initNSMsgVersionLimits: minVersion=35, maxVersion=38
+2018-10-14 11:19:33.980 [UI] INFO  [JTS-Login-13] - SPLASH Authenticating
+2018-10-14 11:19:33.980 [UI] INFO  [JTS-CCPListenerS2-16] - Initial listener buffer size is 408288
+2018-10-14 11:19:33.980 [UI] INFO  [JTS-CCPListenerS2-16] - Capping listener buffer size at 65536
+2018-10-14 11:19:33.981 [UI] INFO  [JTS-Login-13] - Terminating launcher login thread
+2018-10-14 11:19:34.035 [UI] INFO  [JTS-DeadlockMonitor-2] - Memory:total=3,728,384KB free=3,670,787KB HeapUsage: Max=3,728,384KB used=57,596KB committed=152,064KB NonHeapUsage: Max=0KB used=46,621KB committed=47,744KB
+2018-10-14 11:19:34.106 [UI] INFO  [JTS-AuthDispatcherS2-17] - set nsMsgVersion: context=SecureConnectionStart; version=38
+2018-10-14 11:19:34.183 [UI] INFO  [JTS-AuthDispatcherS2-17] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,OU=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20181013-14:00:11 Europe/London	notAfter:20181015-22:00:11 Europe/London
+2018-10-14 11:19:34.183 [UI] INFO  [JTS-AuthDispatcherS2-17] - cert #1 subject:CN=prod.ckg.ibllc.com,OU=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20180720-01:00:00 Europe/London	notAfter:20200904-13:00:00 Europe/London
+2018-10-14 11:19:34.183 [UI] INFO  [JTS-AuthDispatcherS2-17] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2018-10-14 11:19:34.185 [UI] INFO  [JTS-AuthDispatcherS2-17] - Current time is: 20181014-04:19:34 Europe/London
+2018-10-14 11:19:34.190 [UI] INFO  [JTS-AuthDispatcherS2-17] - CipherContext initialization successed.
+2018-10-14 11:19:34.193 [UI] INFO  [JTS-AuthDispatcherS2-17] - SPLASH 0216 step 2 AuthDispatcher.send
+2018-10-14 11:19:34.244 [UI] INFO  [JTS-AuthDispatcherS2-17] - set nsMsgVersion: context=AuthStart; version=38
+2018-10-14 11:19:34.245 [UI] INFO  [JTS-AuthDispatcherS2-17] - Received NS_AUTH_START: 1
+2018-10-14 11:19:34.247 [UI] INFO  [JTS-AuthDispatcherS2-17] - pwd time to expiry ms: 2562889226000 days: 29664
+2018-10-14 11:19:34.247 [UI] INFO  [JTS-AuthDispatcherS2-17] - Long pwd allowed : true
+2018-10-14 11:19:34.247 [UI] INFO  [JTS-AuthDispatcherS2-17] -  NS_AUTH_START version=38 pwd=1 soft=0 token(s)=[token=0] initialTokenType=PWD authenticationType=MARKET_DATA_CONNECTION identityHashcode=1600316647
+2018-10-14 11:19:34.248 [UI] INFO  [JTS-AuthDispatcherS2-17] - Starting password Authentication
+2018-10-14 11:19:34.248 [UI] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 11:19:34.301 [UI] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 11:19:34.301 [UI] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 11:19:34.301 [UI] INFO  [JTS-AuthDispatcherS2-17] - Received AUTH_PARAMS
+2018-10-14 11:19:34.301 [UI] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 11:19:34.352 [UI] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 11:19:34.352 [UI] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 11:19:34.352 [UI] INFO  [JTS-AuthDispatcherS2-17] - Received SERVER_PARAMS
+2018-10-14 11:19:34.354 [UI] INFO  [JTS-AuthDispatcherS2-17] - Session Token received in AuthenticationMessageXYZ: facc2eac0ad661a034bf55ca14b64b1acb1600da  messageId=SERVER_KEY (4)
+2018-10-14 11:19:34.355 [UI] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 11:19:34.403 [UI] INFO  [JTS-AuthDispatcherS2-17] - SPLASH 0211 step 3 AuthDispatcher.processDataItr
+2018-10-14 11:19:34.404 [UI] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 11:19:34.404 [UI] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 11:19:34.404 [UI] INFO  [JTS-AuthDispatcherS2-17] - Received AUTH_RESULT
+2018-10-14 11:19:34.405 [UI] INFO  [JTS-AuthDispatcherS2-17] - Passed pwd authentication.
+2018-10-14 11:19:34.405 [UI] INFO  [JTS-AuthDispatcherS2-17] - Authentication completed.
+2018-10-14 11:19:34.405 [UI] INFO  [JTS-AuthDispatcherS2-17] - setting session token in AuthenticationHandler: authenticationType=MARKET_DATA_CONNECTION hashCode=1600316647 new=facc2eac0ad661a034bf55ca14b64b1acb1600da old=NULL ctciOld=NULL
+2018-10-14 11:19:34.450 [UI] INFO  [JTS-AuthDispatcherS2-17] - Received NS_CONNECT_RESPONSE
+2018-10-14 11:19:34.451 [UI] INFO  [JTS-AuthDispatcherS2-17] - Log encryption support is enabled [logKeyId: aaa].
+2018-10-14 11:19:34.451 [UI] INFO  [JTS-AuthDispatcherS2-17] - CCP sent paperUser NOT PRINTED for prodUser NOT PRINTED
+2018-10-14 11:19:34.500 [UI] INFO  [JTS-AuthDispatcherS2-17] - Received NS_FIX_START
+2018-10-14 11:19:34.501 [UI] INFO  [JTS-AuthDispatcherS2-17] - Terminating dispatcher
+2018-10-14 11:19:34.501 [UI] INFO  [JTS-PostAuthenticateS2-23] - AuthTimeoutMonitor: deactivate
+2018-10-14 11:19:34.502 [UI] INFO  [JTS-AuthTimeoutMonitorThread-18] - Terminating auth timeout monitor thread
+2018-10-14 11:19:34.502 [UI] INFO  [JTS-PostAuthenticateS2-23] - Authentication complete
+2018-10-14 11:19:34.502 [UI] INFO  [JTS-PostAuthenticateS2-23] - Creating a FixLogonHandlerFactory instance...
+2018-10-14 11:19:34.503 [UI] INFO  [JTS-PostAuthenticateS2-23] - Instance created.
+2018-10-14 11:19:34.515 [UI] INFO  [AWT-EventQueue-0] - initPreUI() - entry
+2018-10-14 11:19:34.516 [UI] INFO  [AWT-EventQueue-0] - jtsLookAndFeel uninitialized
+2018-10-14 11:19:34.516 [UI] INFO  [AWT-EventQueue-0] - JtsLookAndFeel initialized
+2018-10-14 11:19:34.519 [UI] INFO  [JTS-PostAuthenticateS2-23] - JDOMFactory Class =interface org.jdom.JDOMFactory
+2018-10-14 11:19:34.520 [UI] INFO  [AWT-EventQueue-0] - Current LAF: TWS LAF
+2018-10-14 11:19:34.520 [UI] INFO  [AWT-EventQueue-0] - initPreUI() - exit
+2018-10-14 11:19:34.526 [UI] INFO  [JTS-PostAuthenticateS2-23] - hsqldb jdbc =class org.hsqldb.jdbcDriver 2.4
+2018-10-14 11:19:34.529 [UI] INFO  [JTS-PostAuthenticateS2-23] - Changing state for connection from PRELOGON to PRELOGON in A 761934257: SessionSocket:2
+2018-10-14 11:19:34.529 [UI] INFO  [JTS-PostAuthenticateS2-23] - createOrRenameToNewStyleUserDirectory: create newDir=/Users/lc/IdeaProjects/Skye/beokipfnbfiojkemeddcpjjcjbaifpmiejmmnahg
+2018-10-14 11:19:34.530 [UI] INFO  [JTS-PostAuthenticateS2-23] - performLogSwitch: forceToSwitch=false
+2018-10-14 11:19:34.533 [UI] INFO  [JTS-PostAuthenticateS2-23] - Switching to a new encrypted log...
+2018-10-14 11:34:00.254 [NH] INFO  [JTS-Main] - ------------------------------- IB GATEWAY RESTART --------------------------------
+2018-10-14 11:34:00.256 [NH] INFO  [JTS-Main] - Jts dir is /Users/lc/IdeaProjects/Skye/
+2018-10-14 11:34:00.269 [NH] INFO  [JTS-Main] - PROXY Set SOCKS proxy (socket) 127.0.0.1:1080
+2018-10-14 11:34:00.270 [NH] INFO  [JTS-Main] - PROXY Installed custom selector
+2018-10-14 11:34:00.272 [NH] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null
+2018-10-14 11:34:00.274 [NH] INFO  [JTS-Main] - LOCALE: JTS Locale=en_US  country=United States  variant=
+2018-10-14 11:34:00.276 [NH] INFO  [JTS-Main] - Region: from ini usr -> Custom
+2018-10-14 11:34:00.276 [NH] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null
+2018-10-14 11:34:00.276 [NH] INFO  [JTS-Main] - LOCALE: JTS Locale=en_US  country=United States  variant=
+2018-10-14 11:34:00.276 [NH] INFO  [JTS-Main] - Region:Custom
+2018-10-14 11:34:00.277 [NH] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 11:34:00.278 [NH] INFO  [JTS-Main] - Chinese peer detected ('mcgw1.ibllc.com.cn:4000'): switching download root to 'https://download.ibkr.com.cn'.
+2018-10-14 11:34:00.279 [NH] INFO  [JTS-Main] - WebRegionURL Path:/java/classes/locales.jar URL:http://www.interactivebrokers.com/java/classes/locales.jar
+2018-10-14 11:34:00.279 [NH] INFO  [JTS-Main] - Starting to download 'https://download.ibkr.com.cn/java/classes/locales.jar' using HotBackup 'https://download.ibkr.com.cn/java/classes/locales.jar'
+2018-10-14 11:34:01.479 [NH] INFO  [JTS-Main] - LOCALE: needToUpdate  dest=/Users/lc/IdeaProjects/Skye/jars/locales.jar  sourceMod=2018-05-08 01:08:54  destMod=2018-05-08 01:08:54  sourceSize=104614  destSize=104614  conditions=[NEWER_REMOTE, LOCAL_IN_FUTURE, SIZE_DIFFERS]  download=false
+2018-10-14 11:34:01.479 [NH] INFO  [JTS-Main] - LOCALE: /Users/lc/IdeaProjects/Skye/jars/locales.jar already up-to-date
+2018-10-14 11:34:01.479 [NH] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 11:34:01.480 [NH] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 11:34:01.510 [NH] INFO  [JTS-Main] - LOCALE: loaded 9 supported locales
+2018-10-14 11:34:01.529 [NH] INFO  [JTS-Main] - LOCALE: loaded 8 countries
+2018-10-14 11:34:01.529 [NH] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 11:34:01.533 [NH] INFO  [JTS-Main] - Locale from ini: en
+2018-10-14 11:34:01.533 [NH] INFO  [JTS-Main] - LOCALE: created classloader java.net.URLClassLoader@34e9fd99 with file:/Users/lc/IdeaProjects/Skye/jars/locales.jar, parent: sun.misc.Launcher$AppClassLoader@14ae5a5
+2018-10-14 11:34:01.534 [NH] INFO  [JTS-Main] - Locale=en_US  country=United States  variant=
+2018-10-14 11:34:01.536 [NH] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage]
+2018-10-14 11:34:01.539 [NH] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en]
+2018-10-14 11:34:01.539 [NH] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en_US]
+2018-10-14 11:34:01.540 [NH] INFO  [JTS-Main] - LOCALE: type: launcher intended: en_US actual:  size: 353
+2018-10-14 11:34:01.540 [NH] INFO  [JTS-Main] - initPreUI() - entry
+2018-10-14 11:34:01.551 [NH] INFO  [JTS-Main] - Build 973.2h, Sep 25, 2018 12:05:32 PM
+2018-10-14 11:34:01.613 [NH] INFO  [JTS-Main] - LookAndFeelChangedListener installed
+2018-10-14 11:34:01.616 [NH] INFO  [JTS-Main] - JtsLookAndFeel initialized
+2018-10-14 11:34:01.734 [NH] INFO  [JTS-Main] - Current LAF: TWS LAF
+2018-10-14 11:34:01.734 [NH] INFO  [JTS-Main] - initPreUI() - exit
+2018-10-14 11:34:01.740 [NH] INFO  [JTS-Main] - Connect and request MiscUrls
+2018-10-14 11:34:01.741 [NH] INFO  [JTS-MiscUlrsRequester-5] - Connecting mcgw1.ibllc.com.cn:4000 timeout=0
+2018-10-14 11:34:01.742 [NH] INFO  [AWT-EventQueue-0] - java.lang.UnsupportedOperationException: Toolkit.getLockingKeyState
+2018-10-14 11:34:01.743 [NH] INFO  [JTS-Main] - Hard linking is not enabled in standalone mode
+2018-10-14 11:34:02.527 [NH] INFO  [JTS-MiscUlrsRequester-5] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /127.0.0.1:54097
+2018-10-14 11:34:02.528 [NH] INFO  [JTS-MiscUlrsRequester-5] - Resolving mac address
+2018-10-14 11:34:02.529 [NH] INFO  [JTS-MiscUlrsRequester-5] - falling back to custom mac address resolution
+2018-10-14 11:34:02.538 [NH] INFO  [JTS-MiscUlrsRequester-5] - MACNetworkInfo created <1a98229d|ac:de:48:00:11:22|127.0.0.1>
+2018-10-14 11:34:02.540 [NH] INFO  [JTS-MISC URLsListenerS1-7] - Starting Listener thread
+2018-10-14 11:34:02.553 [NH] INFO  [JTS-MiscUlrsRequester-5] - Sending MiscUrls request
+2018-10-14 11:34:02.553 [NH] INFO  [JTS-AuthDispatcherS1-8] - Starting dispatcher
+2018-10-14 11:34:02.556 [NH] INFO  [JTS-MiscUlrsRequester-5] - LOGIN_TIME_MONITOR	 false 11:34:02:555 since start = 0 thread delay = 0 global delay = 0 tag=null, cls=AuthDispatcher method=send
+2018-10-14 11:34:02.556 [NH] INFO  [JTS-AuthResponseMonitor-9] - Starting auth response monitor thread
+2018-10-14 11:34:02.556 [NH] INFO  [JTS-MISC URLsListenerS1-7] - Initial listener buffer size is 408288
+2018-10-14 11:34:02.556 [NH] INFO  [JTS-MISC URLsListenerS1-7] - Capping listener buffer size at 65536
+2018-10-14 11:34:02.649 [NH] INFO  [JTS-AuthDispatcherS1-8] - Received NS_MISC_URLS
+2018-10-14 11:34:02.650 [NH] INFO  [JTS-AuthDispatcherS1-8] - Received URLs ='{alpine_help=https://www.interactivebrokers.com/en/general/alpineHelp.php, ib_system_status=http://status.interactivebrokers.net/cgi-bin/bb_status.pl, customer_service=https://www.interactivebrokers.com/en/p.php?f=customerService&ib_entity=llc, wbdemo=direct, java_upgrade_howto=https://www.interactivebrokers.com/en/software/downloadPlugin.php?ib_entity=llc, demo=email, ssl=1, pass_change_ib=https://gdcdyn.interactivebrokers.com/sso/Login?service=AM.LOGIN&MSG=PWD, paper_account_creation=https://gdcdyn.interactivebrokers.com/sso/Login, pass_reset=https://gdcdyn.interactivebrokers.com/Universal/servlet/AccountAccess.PasswordReset, bingo_help=https://www.interactivebrokers.com/en/general/bingoHelp.php, pass_reset_wb=https://www.clientam.com/Universal/servlet/AccountAccess.PasswordReset, gold_help=https://www.interactivebrokers.com/en/general/goldHelp.php, s3store=1}'
+2018-10-14 11:34:02.651 [NH] INFO  [JTS-AuthDispatcherS1-8] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_BY_DESIGN
+2018-10-14 11:34:02.652 [NH] INFO  [JTS-MISC URLsListenerS1-7] - Socket or stream for connection mcgw1.ibllc.com.cn:4000 was closed by another thread
+2018-10-14 11:34:02.652 [NH] INFO  [JTS-AuthDispatcherS1-8] - Terminating dispatcher
+2018-10-14 11:34:02.652 [NH] INFO  [JTS-MISC URLsListenerS1-7] - Terminating Listener thread
+2018-10-14 11:34:02.652 [NH] INFO  [JTS-AuthResponseMonitor-9] - Terminating auth response monitor thread
+2018-10-14 11:34:03.338 [NH] INFO  [AWT-EventQueue-0] - twslaunch.autoupdate.serviceImpl: null
+2018-10-14 11:34:03.405 [NH] INFO  [AWT-EventQueue-0] - Started on 20181014-03:34:03
+2018-10-14 11:34:03.407 [NH] INFO  [AWT-EventQueue-0] - Default timezone:Asia/Shanghai name:China Standard Time dst:0
+2018-10-14 11:34:03.407 [NH] INFO  [AWT-EventQueue-0] - java version = 1.8.0_181
+2018-10-14 11:34:03.407 [NH] INFO  [AWT-EventQueue-0] - sun.arch.data.model = 64
+2018-10-14 11:34:03.407 [NH] INFO  [AWT-EventQueue-0] - os = Mac OS X
+2018-10-14 11:34:03.407 [NH] INFO  [AWT-EventQueue-0] - os architecture = 32
+2018-10-14 11:34:03.407 [NH] INFO  [AWT-EventQueue-0] - runtime = Java(TM) SE Runtime Environment
+2018-10-14 11:34:03.407 [NH] INFO  [AWT-EventQueue-0] - vendor = Oracle Corporation
+2018-10-14 11:34:03.407 [NH] INFO  [AWT-EventQueue-0] - vm name = Java HotSpot(TM) 64-Bit Server VM
+2018-10-14 11:34:03.407 [NH] INFO  [AWT-EventQueue-0] - username = 'lc'
+2018-10-14 11:34:03.552 [NH] INFO  [AWT-EventQueue-0] - OvernightManager.dayInit: new values: dayOfTheWeek: 1 (Sun), YYYYMMofToday: 201810, YYYYMMDDofToday: 20181014, m_todayDate: 20181014, dueToChangeInTimezone: false
+2018-10-14 11:34:03.736 [NH] INFO  [AWT-EventQueue-0] - Setting dir is /Users/lc/IdeaProjects/Skye/
+2018-10-14 11:34:03.737 [NH] INFO  [AWT-EventQueue-0] - PROXY Cleared HTTP proxy: no valid proxy is present (passing on :0)
+2018-10-14 11:34:03.739 [NH] INFO  [AWT-EventQueue-0] - SPLASH Creating screen with 5 steps
+2018-10-14 11:34:04.220 [NH] INFO  [AWT-EventQueue-0] - initAutoEncryptionMenu(): autoEncryption set to true
+2018-10-14 11:34:04.226 [NH] INFO  [AWT-EventQueue-0] - Contacting mcgw1.ibllc.com.cn:4000 as user NOT PRINTED
+2018-10-14 11:34:04.235 [NH] INFO  [AWT-EventQueue-0] - mapProdToPaper: m_simulatedTradingModeSelected=false
+2018-10-14 11:34:04.235 [NH] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection attempt time is cleared!
+2018-10-14 11:34:04.236 [NH] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection set as now:11:34:04:235
+2018-10-14 11:34:04.236 [NH] INFO  [AWT-EventQueue-0] - Prelogin delay:0
+2018-10-14 11:34:04.237 [NH] INFO  [JTS-Login-13] - Starting launcher login thread
+2018-10-14 11:34:04.237 [NH] INFO  [JTS-Login-13] - SPLASH Connecting to server
+2018-10-14 11:34:04.238 [NH] INFO  [JTS-Login-13] - Connecting mcgw1.ibllc.com.cn:4000 timeout=20000
+2018-10-14 11:34:04.238 [NH] INFO  [JTS-Login-13] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /127.0.0.1:54099
+2018-10-14 11:34:04.239 [NH] INFO  [JTS-Order-Audit-15] - Starting async queue thread
+2018-10-14 11:34:04.240 [NH] INFO  [AWT-EventQueue-0] - Network monitor is activated
+2018-10-14 11:34:04.242 [NH] INFO  [JTS-Login-13] - NSCX init:false
+2018-10-14 11:34:04.242 [NH] INFO  [JTS-Login-13] - JTSAuthConnection.onConnected(): lastKnownCipherStatus=SECURE
+2018-10-14 11:34:04.242 [NH] INFO  [JTS-Login-13] - Changing state for connection from PRELOGON to PRELOGON in A 1624416296: SessionSocket:2
+2018-10-14 11:34:04.242 [NH] INFO  [JTS-Login-13] - Authenticating
+2018-10-14 11:34:04.243 [NH] INFO  [JTS-CCPListenerS2-16] - Starting Listener thread
+2018-10-14 11:34:04.243 [NH] INFO  [JTS-Login-13] - AuthTimeoutMonitor: deactivate
+2018-10-14 11:34:04.243 [NH] INFO  [JTS-Login-13] - AuthTimeoutMonitor: timeout=20000
+2018-10-14 11:34:04.243 [NH] INFO  [JTS-Login-13] - AuthTimeoutMonitor: activate
+2018-10-14 11:34:04.243 [NH] INFO  [JTS-AuthTimeoutMonitorThread-18] - Starting auth timeout monitor thread
+2018-10-14 11:34:04.244 [NH] INFO  [JTS-Login-13] - SPLASH -0001 step 1 AuthDispatcher.connect
+2018-10-14 11:34:04.244 [NH] INFO  [JTS-Login-13] - Sending connect request
+2018-10-14 11:34:04.244 [NH] INFO  [JTS-AuthDispatcherS2-17] - Starting dispatcher
+2018-10-14 11:34:04.245 [NH] INFO  [JTS-Login-13] - AuthDispatcher.initNSMsgVersionLimits: minVersion=35, maxVersion=38
+2018-10-14 11:34:04.247 [NH] INFO  [JTS-CCPListenerS2-16] - Initial listener buffer size is 408288
+2018-10-14 11:34:04.247 [NH] INFO  [JTS-Login-13] - SPLASH Authenticating
+2018-10-14 11:34:04.247 [NH] INFO  [JTS-CCPListenerS2-16] - Capping listener buffer size at 65536
+2018-10-14 11:34:04.247 [NH] INFO  [JTS-Login-13] - Terminating launcher login thread
+2018-10-14 11:34:04.372 [NH] INFO  [JTS-AuthDispatcherS2-17] - set nsMsgVersion: context=SecureConnectionStart; version=38
+2018-10-14 11:34:04.434 [NH] INFO  [JTS-AuthDispatcherS2-17] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,OU=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20181013-14:00:11 Europe/London	notAfter:20181015-22:00:11 Europe/London
+2018-10-14 11:34:04.434 [NH] INFO  [JTS-AuthDispatcherS2-17] - cert #1 subject:CN=prod.ckg.ibllc.com,OU=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20180720-01:00:00 Europe/London	notAfter:20200904-13:00:00 Europe/London
+2018-10-14 11:34:04.434 [NH] INFO  [JTS-AuthDispatcherS2-17] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2018-10-14 11:34:04.436 [NH] INFO  [JTS-AuthDispatcherS2-17] - Current time is: 20181014-04:34:04 Europe/London
+2018-10-14 11:34:04.441 [NH] INFO  [JTS-AuthDispatcherS2-17] - CipherContext initialization successed.
+2018-10-14 11:34:04.443 [NH] INFO  [JTS-AuthDispatcherS2-17] - SPLASH 0200 step 2 AuthDispatcher.send
+2018-10-14 11:34:04.495 [NH] INFO  [JTS-AuthDispatcherS2-17] - set nsMsgVersion: context=AuthStart; version=38
+2018-10-14 11:34:04.496 [NH] INFO  [JTS-AuthDispatcherS2-17] - Received NS_AUTH_START: 1
+2018-10-14 11:34:04.497 [NH] INFO  [JTS-AuthDispatcherS2-17] - pwd time to expiry ms: 2562888356000 days: 29664
+2018-10-14 11:34:04.497 [NH] INFO  [JTS-AuthDispatcherS2-17] - Long pwd allowed : true
+2018-10-14 11:34:04.498 [NH] INFO  [JTS-AuthDispatcherS2-17] -  NS_AUTH_START version=38 pwd=1 soft=0 token(s)=[token=0] initialTokenType=PWD authenticationType=MARKET_DATA_CONNECTION identityHashcode=141827846
+2018-10-14 11:34:04.499 [NH] INFO  [JTS-AuthDispatcherS2-17] - Starting password Authentication
+2018-10-14 11:34:04.499 [NH] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 11:34:04.548 [NH] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 11:34:04.549 [NH] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 11:34:04.549 [NH] INFO  [JTS-AuthDispatcherS2-17] - Received AUTH_PARAMS
+2018-10-14 11:34:04.549 [NH] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 11:34:04.599 [NH] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 11:34:04.600 [NH] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 11:34:04.600 [NH] INFO  [JTS-AuthDispatcherS2-17] - Received SERVER_PARAMS
+2018-10-14 11:34:04.601 [NH] INFO  [JTS-AuthDispatcherS2-17] - Session Token received in AuthenticationMessageXYZ: 56df6335702f75b459bf44c2757367055030dacb  messageId=SERVER_KEY (4)
+2018-10-14 11:34:04.603 [NH] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 11:34:04.651 [NH] INFO  [JTS-AuthDispatcherS2-17] - SPLASH 0208 step 3 AuthDispatcher.processDataItr
+2018-10-14 11:34:04.651 [NH] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 11:34:04.652 [NH] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 11:34:04.652 [NH] INFO  [JTS-AuthDispatcherS2-17] - Received AUTH_RESULT
+2018-10-14 11:34:04.652 [NH] INFO  [JTS-AuthDispatcherS2-17] - Passed pwd authentication.
+2018-10-14 11:34:04.652 [NH] INFO  [JTS-AuthDispatcherS2-17] - Authentication completed.
+2018-10-14 11:34:04.652 [NH] INFO  [JTS-AuthDispatcherS2-17] - setting session token in AuthenticationHandler: authenticationType=MARKET_DATA_CONNECTION hashCode=141827846 new=56df6335702f75b459bf44c2757367055030dacb old=NULL ctciOld=NULL
+2018-10-14 11:34:04.701 [NH] INFO  [JTS-AuthDispatcherS2-17] - Received NS_CONNECT_RESPONSE
+2018-10-14 11:34:04.702 [NH] INFO  [JTS-AuthDispatcherS2-17] - Log encryption support is enabled [logKeyId: aaa].
+2018-10-14 11:34:04.702 [NH] INFO  [JTS-AuthDispatcherS2-17] - CCP sent paperUser NOT PRINTED for prodUser NOT PRINTED
+2018-10-14 11:34:04.760 [NH] INFO  [JTS-AuthDispatcherS2-17] - Received NS_FIX_START
+2018-10-14 11:34:04.762 [NH] INFO  [JTS-AuthDispatcherS2-17] - Terminating dispatcher
+2018-10-14 11:34:04.762 [NH] INFO  [JTS-PostAuthenticateS2-23] - AuthTimeoutMonitor: deactivate
+2018-10-14 11:34:04.763 [NH] INFO  [JTS-AuthTimeoutMonitorThread-18] - Terminating auth timeout monitor thread
+2018-10-14 11:34:04.763 [NH] INFO  [JTS-PostAuthenticateS2-23] - Authentication complete
+2018-10-14 11:34:04.763 [NH] INFO  [JTS-PostAuthenticateS2-23] - Creating a FixLogonHandlerFactory instance...
+2018-10-14 11:34:04.765 [NH] INFO  [JTS-PostAuthenticateS2-23] - Instance created.
+2018-10-14 11:34:04.771 [NH] INFO  [AWT-EventQueue-0] - initPreUI() - entry
+2018-10-14 11:34:04.772 [NH] INFO  [AWT-EventQueue-0] - jtsLookAndFeel uninitialized
+2018-10-14 11:34:04.772 [NH] INFO  [AWT-EventQueue-0] - JtsLookAndFeel initialized
+2018-10-14 11:34:04.774 [NH] INFO  [JTS-PostAuthenticateS2-23] - JDOMFactory Class =interface org.jdom.JDOMFactory
+2018-10-14 11:34:04.775 [NH] INFO  [AWT-EventQueue-0] - Current LAF: TWS LAF
+2018-10-14 11:34:04.775 [NH] INFO  [AWT-EventQueue-0] - initPreUI() - exit
+2018-10-14 11:34:04.776 [NH] INFO  [JTS-PostAuthenticateS2-23] - hsqldb jdbc =class org.hsqldb.jdbcDriver 2.4
+2018-10-14 11:34:04.778 [NH] INFO  [JTS-PostAuthenticateS2-23] - Changing state for connection from PRELOGON to PRELOGON in A 1624416296: SessionSocket:2
+2018-10-14 11:34:04.778 [NH] INFO  [JTS-PostAuthenticateS2-23] - createOrRenameToNewStyleUserDirectory: no action: use existing newDir=/Users/lc/IdeaProjects/Skye/beokipfnbfiojkemeddcpjjcjbaifpmiejmmnahg
+2018-10-14 11:34:04.778 [NH] INFO  [JTS-PostAuthenticateS2-23] - performLogSwitch: forceToSwitch=false
+2018-10-14 11:34:04.783 [NH] INFO  [JTS-PostAuthenticateS2-23] - Switching to a new encrypted log...
+2018-10-14 14:08:11.707 [QD] INFO  [JTS-Main] - ------------------------------- IB GATEWAY RESTART --------------------------------
+2018-10-14 14:08:11.709 [QD] INFO  [JTS-Main] - Jts dir is /Users/lc/IdeaProjects/Skye/
+2018-10-14 14:08:11.723 [QD] INFO  [JTS-Main] - PROXY Set SOCKS proxy (socket) 127.0.0.1:1080
+2018-10-14 14:08:11.723 [QD] INFO  [JTS-Main] - PROXY Installed custom selector
+2018-10-14 14:08:11.726 [QD] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null
+2018-10-14 14:08:11.728 [QD] INFO  [JTS-Main] - LOCALE: JTS Locale=en_US  country=United States  variant=
+2018-10-14 14:08:11.729 [QD] INFO  [JTS-Main] - Region: from ini usr -> Custom
+2018-10-14 14:08:11.729 [QD] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null
+2018-10-14 14:08:11.729 [QD] INFO  [JTS-Main] - LOCALE: JTS Locale=en_US  country=United States  variant=
+2018-10-14 14:08:11.729 [QD] INFO  [JTS-Main] - Region:Custom
+2018-10-14 14:08:11.730 [QD] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 14:08:11.731 [QD] INFO  [JTS-Main] - Chinese peer detected ('mcgw1.ibllc.com.cn:4000'): switching download root to 'https://download.ibkr.com.cn'.
+2018-10-14 14:08:11.732 [QD] INFO  [JTS-Main] - WebRegionURL Path:/java/classes/locales.jar URL:http://www.interactivebrokers.com/java/classes/locales.jar
+2018-10-14 14:08:11.733 [QD] INFO  [JTS-Main] - Starting to download 'https://download.ibkr.com.cn/java/classes/locales.jar' using HotBackup 'https://download.ibkr.com.cn/java/classes/locales.jar'
+2018-10-14 14:08:14.275 [QD] INFO  [JTS-Main] - LOCALE: needToUpdate  dest=/Users/lc/IdeaProjects/Skye/jars/locales.jar  sourceMod=2018-05-08 01:08:54  destMod=2018-05-08 01:08:54  sourceSize=104614  destSize=104614  conditions=[NEWER_REMOTE, LOCAL_IN_FUTURE, SIZE_DIFFERS]  download=false
+2018-10-14 14:08:14.277 [QD] INFO  [JTS-Main] - LOCALE: /Users/lc/IdeaProjects/Skye/jars/locales.jar already up-to-date
+2018-10-14 14:08:14.277 [QD] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 14:08:14.278 [QD] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 14:08:14.308 [QD] INFO  [JTS-Main] - LOCALE: loaded 9 supported locales
+2018-10-14 14:08:14.328 [QD] INFO  [JTS-Main] - LOCALE: loaded 8 countries
+2018-10-14 14:08:14.328 [QD] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 14:08:14.332 [QD] INFO  [JTS-Main] - Locale from ini: en
+2018-10-14 14:08:14.332 [QD] INFO  [JTS-Main] - LOCALE: created classloader java.net.URLClassLoader@34e9fd99 with file:/Users/lc/IdeaProjects/Skye/jars/locales.jar, parent: sun.misc.Launcher$AppClassLoader@14ae5a5
+2018-10-14 14:08:14.332 [QD] INFO  [JTS-Main] - Locale=en_US  country=United States  variant=
+2018-10-14 14:08:14.334 [QD] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage]
+2018-10-14 14:08:14.337 [QD] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en]
+2018-10-14 14:08:14.337 [QD] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en_US]
+2018-10-14 14:08:14.338 [QD] INFO  [JTS-Main] - LOCALE: type: launcher intended: en_US actual:  size: 353
+2018-10-14 14:08:14.339 [QD] INFO  [JTS-Main] - initPreUI() - entry
+2018-10-14 14:08:14.349 [QD] INFO  [JTS-Main] - Build 973.2h, Sep 25, 2018 12:05:32 PM
+2018-10-14 14:08:14.408 [QD] INFO  [JTS-Main] - LookAndFeelChangedListener installed
+2018-10-14 14:08:14.411 [QD] INFO  [JTS-Main] - JtsLookAndFeel initialized
+2018-10-14 14:08:14.529 [QD] INFO  [JTS-Main] - Current LAF: TWS LAF
+2018-10-14 14:08:14.529 [QD] INFO  [JTS-Main] - initPreUI() - exit
+2018-10-14 14:08:14.536 [QD] INFO  [JTS-Main] - Connect and request MiscUrls
+2018-10-14 14:08:14.537 [QD] INFO  [JTS-MiscUlrsRequester-5] - Connecting mcgw1.ibllc.com.cn:4000 timeout=0
+2018-10-14 14:08:14.538 [QD] INFO  [AWT-EventQueue-0] - java.lang.UnsupportedOperationException: Toolkit.getLockingKeyState
+2018-10-14 14:08:14.538 [QD] INFO  [JTS-Main] - Hard linking is not enabled in standalone mode
+2018-10-14 14:08:14.996 [QD] INFO  [JTS-MiscUlrsRequester-5] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /127.0.0.1:55296
+2018-10-14 14:08:14.997 [QD] INFO  [JTS-MiscUlrsRequester-5] - Resolving mac address
+2018-10-14 14:08:14.998 [QD] INFO  [JTS-MiscUlrsRequester-5] - falling back to custom mac address resolution
+2018-10-14 14:08:15.006 [QD] INFO  [JTS-MiscUlrsRequester-5] - MACNetworkInfo created <1a98229d|ac:de:48:00:11:22|127.0.0.1>
+2018-10-14 14:08:15.008 [QD] INFO  [JTS-MISC URLsListenerS1-7] - Starting Listener thread
+2018-10-14 14:08:15.018 [QD] INFO  [JTS-MiscUlrsRequester-5] - Sending MiscUrls request
+2018-10-14 14:08:15.018 [QD] INFO  [JTS-AuthDispatcherS1-8] - Starting dispatcher
+2018-10-14 14:08:15.021 [QD] INFO  [JTS-MiscUlrsRequester-5] - LOGIN_TIME_MONITOR	 false 14:08:15:020 since start = 0 thread delay = 0 global delay = 0 tag=null, cls=AuthDispatcher method=send
+2018-10-14 14:08:15.021 [QD] INFO  [JTS-AuthResponseMonitor-9] - Starting auth response monitor thread
+2018-10-14 14:08:15.021 [QD] INFO  [JTS-MISC URLsListenerS1-7] - Initial listener buffer size is 408288
+2018-10-14 14:08:15.021 [QD] INFO  [JTS-MISC URLsListenerS1-7] - Capping listener buffer size at 65536
+2018-10-14 14:08:15.116 [QD] INFO  [JTS-AuthDispatcherS1-8] - Received NS_MISC_URLS
+2018-10-14 14:08:15.118 [QD] INFO  [JTS-AuthDispatcherS1-8] - Received URLs ='{alpine_help=https://www.interactivebrokers.com/en/general/alpineHelp.php, ib_system_status=http://status.interactivebrokers.net/cgi-bin/bb_status.pl, customer_service=https://www.interactivebrokers.com/en/p.php?f=customerService&ib_entity=llc, wbdemo=direct, java_upgrade_howto=https://www.interactivebrokers.com/en/software/downloadPlugin.php?ib_entity=llc, demo=email, ssl=1, pass_change_ib=https://gdcdyn.interactivebrokers.com/sso/Login?service=AM.LOGIN&MSG=PWD, paper_account_creation=https://gdcdyn.interactivebrokers.com/sso/Login, pass_reset=https://gdcdyn.interactivebrokers.com/Universal/servlet/AccountAccess.PasswordReset, bingo_help=https://www.interactivebrokers.com/en/general/bingoHelp.php, pass_reset_wb=https://www.clientam.com/Universal/servlet/AccountAccess.PasswordReset, gold_help=https://www.interactivebrokers.com/en/general/goldHelp.php, s3store=1}'
+2018-10-14 14:08:15.121 [QD] INFO  [JTS-AuthDispatcherS1-8] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_BY_DESIGN
+2018-10-14 14:08:15.122 [QD] INFO  [JTS-MISC URLsListenerS1-7] - Socket or stream for connection mcgw1.ibllc.com.cn:4000 was closed by another thread
+2018-10-14 14:08:15.122 [QD] INFO  [JTS-AuthDispatcherS1-8] - Terminating dispatcher
+2018-10-14 14:08:15.122 [QD] INFO  [JTS-MISC URLsListenerS1-7] - Terminating Listener thread
+2018-10-14 14:08:15.122 [QD] INFO  [JTS-AuthResponseMonitor-9] - Terminating auth response monitor thread
+2018-10-14 14:08:16.190 [QD] INFO  [AWT-EventQueue-0] - twslaunch.autoupdate.serviceImpl: null
+2018-10-14 14:08:16.256 [QD] INFO  [AWT-EventQueue-0] - Started on 20181014-06:08:16
+2018-10-14 14:08:16.258 [QD] INFO  [AWT-EventQueue-0] - Default timezone:Asia/Shanghai name:China Standard Time dst:0
+2018-10-14 14:08:16.258 [QD] INFO  [AWT-EventQueue-0] - java version = 1.8.0_181
+2018-10-14 14:08:16.258 [QD] INFO  [AWT-EventQueue-0] - sun.arch.data.model = 64
+2018-10-14 14:08:16.258 [QD] INFO  [AWT-EventQueue-0] - os = Mac OS X
+2018-10-14 14:08:16.258 [QD] INFO  [AWT-EventQueue-0] - os architecture = 32
+2018-10-14 14:08:16.258 [QD] INFO  [AWT-EventQueue-0] - runtime = Java(TM) SE Runtime Environment
+2018-10-14 14:08:16.259 [QD] INFO  [AWT-EventQueue-0] - vendor = Oracle Corporation
+2018-10-14 14:08:16.259 [QD] INFO  [AWT-EventQueue-0] - vm name = Java HotSpot(TM) 64-Bit Server VM
+2018-10-14 14:08:16.259 [QD] INFO  [AWT-EventQueue-0] - username = 'lc'
+2018-10-14 14:08:16.401 [QD] INFO  [AWT-EventQueue-0] - OvernightManager.dayInit: new values: dayOfTheWeek: 1 (Sun), YYYYMMofToday: 201810, YYYYMMDDofToday: 20181014, m_todayDate: 20181014, dueToChangeInTimezone: false
+2018-10-14 14:08:16.579 [QD] INFO  [AWT-EventQueue-0] - Setting dir is /Users/lc/IdeaProjects/Skye/
+2018-10-14 14:08:16.580 [QD] INFO  [AWT-EventQueue-0] - PROXY Cleared HTTP proxy: no valid proxy is present (passing on :0)
+2018-10-14 14:08:16.582 [QD] INFO  [AWT-EventQueue-0] - SPLASH Creating screen with 5 steps
+2018-10-14 14:08:16.856 [QD] INFO  [JTS-DeadlockMonitor-2] - Memory:total=3,728,384KB free=3,678,449KB HeapUsage: Max=3,728,384KB used=49,934KB committed=152,064KB NonHeapUsage: Max=0KB used=44,141KB committed=45,632KB
+2018-10-14 14:08:17.075 [QD] INFO  [AWT-EventQueue-0] - initAutoEncryptionMenu(): autoEncryption set to true
+2018-10-14 14:08:17.081 [QD] INFO  [AWT-EventQueue-0] - Contacting mcgw1.ibllc.com.cn:4000 as user NOT PRINTED
+2018-10-14 14:08:17.091 [QD] INFO  [AWT-EventQueue-0] - mapProdToPaper: m_simulatedTradingModeSelected=false
+2018-10-14 14:08:17.091 [QD] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection attempt time is cleared!
+2018-10-14 14:08:17.091 [QD] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection set as now:14:08:17:091
+2018-10-14 14:08:17.091 [QD] INFO  [AWT-EventQueue-0] - Prelogin delay:0
+2018-10-14 14:08:17.092 [QD] INFO  [JTS-Login-13] - Starting launcher login thread
+2018-10-14 14:08:17.093 [QD] INFO  [JTS-Login-13] - SPLASH Connecting to server
+2018-10-14 14:08:17.093 [QD] INFO  [JTS-Login-13] - Connecting mcgw1.ibllc.com.cn:4000 timeout=20000
+2018-10-14 14:08:17.094 [QD] INFO  [JTS-Login-13] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /127.0.0.1:55298
+2018-10-14 14:08:17.095 [QD] INFO  [JTS-Order-Audit-15] - Starting async queue thread
+2018-10-14 14:08:17.095 [QD] INFO  [AWT-EventQueue-0] - Network monitor is activated
+2018-10-14 14:08:17.097 [QD] INFO  [JTS-Login-13] - NSCX init:false
+2018-10-14 14:08:17.097 [QD] INFO  [JTS-Login-13] - JTSAuthConnection.onConnected(): lastKnownCipherStatus=SECURE
+2018-10-14 14:08:17.097 [QD] INFO  [JTS-Login-13] - Changing state for connection from PRELOGON to PRELOGON in A 2126363232: SessionSocket:2
+2018-10-14 14:08:17.097 [QD] INFO  [JTS-Login-13] - Authenticating
+2018-10-14 14:08:17.098 [QD] INFO  [JTS-CCPListenerS2-16] - Starting Listener thread
+2018-10-14 14:08:17.098 [QD] INFO  [JTS-Login-13] - AuthTimeoutMonitor: deactivate
+2018-10-14 14:08:17.098 [QD] INFO  [JTS-Login-13] - AuthTimeoutMonitor: timeout=20000
+2018-10-14 14:08:17.098 [QD] INFO  [JTS-Login-13] - AuthTimeoutMonitor: activate
+2018-10-14 14:08:17.098 [QD] INFO  [JTS-AuthTimeoutMonitorThread-18] - Starting auth timeout monitor thread
+2018-10-14 14:08:17.099 [QD] INFO  [JTS-Login-13] - SPLASH -0001 step 1 AuthDispatcher.connect
+2018-10-14 14:08:17.099 [QD] INFO  [JTS-Login-13] - Sending connect request
+2018-10-14 14:08:17.100 [QD] INFO  [JTS-AuthDispatcherS2-17] - Starting dispatcher
+2018-10-14 14:08:17.101 [QD] INFO  [JTS-Login-13] - AuthDispatcher.initNSMsgVersionLimits: minVersion=35, maxVersion=38
+2018-10-14 14:08:17.102 [QD] INFO  [JTS-Login-13] - SPLASH Authenticating
+2018-10-14 14:08:17.102 [QD] INFO  [JTS-CCPListenerS2-16] - Initial listener buffer size is 408288
+2018-10-14 14:08:17.102 [QD] INFO  [JTS-CCPListenerS2-16] - Capping listener buffer size at 65536
+2018-10-14 14:08:17.103 [QD] INFO  [JTS-Login-13] - Terminating launcher login thread
+2018-10-14 14:08:17.228 [QD] INFO  [JTS-AuthDispatcherS2-17] - set nsMsgVersion: context=SecureConnectionStart; version=38
+2018-10-14 14:08:17.251 [QD] INFO  [JTS-AuthDispatcherS2-17] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,OU=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20181013-14:00:11 Europe/London	notAfter:20181015-22:00:11 Europe/London
+2018-10-14 14:08:17.251 [QD] INFO  [JTS-AuthDispatcherS2-17] - cert #1 subject:CN=prod.ckg.ibllc.com,OU=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20180720-01:00:00 Europe/London	notAfter:20200904-13:00:00 Europe/London
+2018-10-14 14:08:17.252 [QD] INFO  [JTS-AuthDispatcherS2-17] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2018-10-14 14:08:17.253 [QD] INFO  [JTS-AuthDispatcherS2-17] - Current time is: 20181014-07:08:17 Europe/London
+2018-10-14 14:08:17.259 [QD] INFO  [JTS-AuthDispatcherS2-17] - CipherContext initialization successed.
+2018-10-14 14:08:17.313 [QD] INFO  [JTS-AuthDispatcherS2-17] - SPLASH 0214 step 2 AuthDispatcher.processDataItr
+2018-10-14 14:08:17.314 [QD] INFO  [JTS-AuthDispatcherS2-17] - set nsMsgVersion: context=AuthStart; version=38
+2018-10-14 14:08:17.315 [QD] INFO  [JTS-AuthDispatcherS2-17] - Received NS_AUTH_START: 1
+2018-10-14 14:08:17.355 [QD] INFO  [JTS-AuthDispatcherS2-17] - pwd time to expiry ms: 2562879103000 days: 29663
+2018-10-14 14:08:17.355 [QD] INFO  [JTS-AuthDispatcherS2-17] - Long pwd allowed : true
+2018-10-14 14:08:17.356 [QD] INFO  [JTS-AuthDispatcherS2-17] -  NS_AUTH_START version=38 pwd=1 soft=0 token(s)=[token=0] initialTokenType=PWD authenticationType=MARKET_DATA_CONNECTION identityHashcode=1551581439
+2018-10-14 14:08:17.357 [QD] INFO  [JTS-AuthDispatcherS2-17] - Starting password Authentication
+2018-10-14 14:08:17.358 [QD] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 14:08:17.411 [QD] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 14:08:17.412 [QD] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 14:08:17.412 [QD] INFO  [JTS-AuthDispatcherS2-17] - Received AUTH_PARAMS
+2018-10-14 14:08:17.412 [QD] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 14:08:17.460 [QD] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 14:08:17.461 [QD] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 14:08:17.461 [QD] INFO  [JTS-AuthDispatcherS2-17] - Received SERVER_PARAMS
+2018-10-14 14:08:17.462 [QD] INFO  [JTS-AuthDispatcherS2-17] - Session Token received in AuthenticationMessageXYZ: d943035f24f541c43084cac46ecc2001dd167a9e  messageId=SERVER_KEY (4)
+2018-10-14 14:08:17.464 [QD] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 14:08:17.511 [QD] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 14:08:17.512 [QD] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 14:08:17.512 [QD] INFO  [JTS-AuthDispatcherS2-17] - Received AUTH_RESULT
+2018-10-14 14:08:17.512 [QD] INFO  [JTS-AuthDispatcherS2-17] - Passed pwd authentication.
+2018-10-14 14:08:17.512 [QD] INFO  [JTS-AuthDispatcherS2-17] - Authentication completed.
+2018-10-14 14:08:17.512 [QD] INFO  [JTS-AuthDispatcherS2-17] - setting session token in AuthenticationHandler: authenticationType=MARKET_DATA_CONNECTION hashCode=1551581439 new=d943035f24f541c43084cac46ecc2001dd167a9e old=NULL ctciOld=NULL
+2018-10-14 14:08:17.558 [QD] INFO  [JTS-AuthDispatcherS2-17] - SPLASH 0245 step 2 AuthDispatcher.processDataItr
+2018-10-14 14:08:17.559 [QD] INFO  [JTS-AuthDispatcherS2-17] - Received NS_CONNECT_RESPONSE
+2018-10-14 14:08:17.560 [QD] INFO  [JTS-AuthDispatcherS2-17] - Log encryption support is enabled [logKeyId: aaa].
+2018-10-14 14:08:17.560 [QD] INFO  [JTS-AuthDispatcherS2-17] - CCP sent paperUser NOT PRINTED for prodUser NOT PRINTED
+2018-10-14 14:08:17.608 [QD] INFO  [JTS-AuthDispatcherS2-17] - Received NS_FIX_START
+2018-10-14 14:08:17.610 [QD] INFO  [JTS-AuthDispatcherS2-17] - Terminating dispatcher
+2018-10-14 14:08:17.611 [QD] INFO  [JTS-PostAuthenticateS2-23] - AuthTimeoutMonitor: deactivate
+2018-10-14 14:08:17.611 [QD] INFO  [JTS-AuthTimeoutMonitorThread-18] - Terminating auth timeout monitor thread
+2018-10-14 14:08:17.611 [QD] INFO  [JTS-PostAuthenticateS2-23] - Authentication complete
+2018-10-14 14:08:17.612 [QD] INFO  [JTS-PostAuthenticateS2-23] - Creating a FixLogonHandlerFactory instance...
+2018-10-14 14:08:17.612 [QD] INFO  [JTS-PostAuthenticateS2-23] - Instance created.
+2018-10-14 14:08:17.619 [QD] INFO  [AWT-EventQueue-0] - initPreUI() - entry
+2018-10-14 14:08:17.620 [QD] INFO  [AWT-EventQueue-0] - jtsLookAndFeel uninitialized
+2018-10-14 14:08:17.620 [QD] INFO  [AWT-EventQueue-0] - JtsLookAndFeel initialized
+2018-10-14 14:08:17.622 [QD] INFO  [JTS-PostAuthenticateS2-23] - JDOMFactory Class =interface org.jdom.JDOMFactory
+2018-10-14 14:08:17.623 [QD] INFO  [AWT-EventQueue-0] - Current LAF: TWS LAF
+2018-10-14 14:08:17.623 [QD] INFO  [AWT-EventQueue-0] - initPreUI() - exit
+2018-10-14 14:08:17.624 [QD] INFO  [JTS-PostAuthenticateS2-23] - hsqldb jdbc =class org.hsqldb.jdbcDriver 2.4
+2018-10-14 14:08:17.626 [QD] INFO  [JTS-PostAuthenticateS2-23] - Changing state for connection from PRELOGON to PRELOGON in A 2126363232: SessionSocket:2
+2018-10-14 14:08:17.626 [QD] INFO  [JTS-PostAuthenticateS2-23] - createOrRenameToNewStyleUserDirectory: no action: use existing newDir=/Users/lc/IdeaProjects/Skye/beokipfnbfiojkemeddcpjjcjbaifpmiejmmnahg
+2018-10-14 14:08:17.626 [QD] INFO  [JTS-PostAuthenticateS2-23] - performLogSwitch: forceToSwitch=false
+2018-10-14 14:08:17.631 [QD] INFO  [JTS-PostAuthenticateS2-23] - Switching to a new encrypted log...
+2018-10-14 14:25:37.716 [TT] INFO  [JTS-Main] - ------------------------------- IB GATEWAY RESTART --------------------------------
+2018-10-14 14:25:37.718 [TT] INFO  [JTS-Main] - Jts dir is /Users/lc/IdeaProjects/Skye/
+2018-10-14 14:25:37.731 [TT] INFO  [JTS-Main] - PROXY Set SOCKS proxy (socket) 127.0.0.1:1080
+2018-10-14 14:25:37.731 [TT] INFO  [JTS-Main] - PROXY Installed custom selector
+2018-10-14 14:25:37.734 [TT] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null
+2018-10-14 14:25:37.736 [TT] INFO  [JTS-Main] - LOCALE: JTS Locale=en_US  country=United States  variant=
+2018-10-14 14:25:37.738 [TT] INFO  [JTS-Main] - Region: from ini usr -> Custom
+2018-10-14 14:25:37.738 [TT] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null
+2018-10-14 14:25:37.738 [TT] INFO  [JTS-Main] - LOCALE: JTS Locale=en_US  country=United States  variant=
+2018-10-14 14:25:37.738 [TT] INFO  [JTS-Main] - Region:Custom
+2018-10-14 14:25:37.740 [TT] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 14:25:37.740 [TT] INFO  [JTS-Main] - Chinese peer detected ('mcgw1.ibllc.com.cn:4000'): switching download root to 'https://download.ibkr.com.cn'.
+2018-10-14 14:25:37.741 [TT] INFO  [JTS-Main] - WebRegionURL Path:/java/classes/locales.jar URL:http://www.interactivebrokers.com/java/classes/locales.jar
+2018-10-14 14:25:37.742 [TT] INFO  [JTS-Main] - Starting to download 'https://download.ibkr.com.cn/java/classes/locales.jar' using HotBackup 'https://download.ibkr.com.cn/java/classes/locales.jar'
+2018-10-14 14:25:39.055 [TT] INFO  [JTS-Main] - LOCALE: needToUpdate  dest=/Users/lc/IdeaProjects/Skye/jars/locales.jar  sourceMod=2018-05-08 01:08:54  destMod=2018-05-08 01:08:54  sourceSize=104614  destSize=104614  conditions=[NEWER_REMOTE, LOCAL_IN_FUTURE, SIZE_DIFFERS]  download=false
+2018-10-14 14:25:39.056 [TT] INFO  [JTS-Main] - LOCALE: /Users/lc/IdeaProjects/Skye/jars/locales.jar already up-to-date
+2018-10-14 14:25:39.056 [TT] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 14:25:39.056 [TT] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 14:25:39.087 [TT] INFO  [JTS-Main] - LOCALE: loaded 9 supported locales
+2018-10-14 14:25:39.107 [TT] INFO  [JTS-Main] - LOCALE: loaded 8 countries
+2018-10-14 14:25:39.107 [TT] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 14:25:39.111 [TT] INFO  [JTS-Main] - Locale from ini: en
+2018-10-14 14:25:39.111 [TT] INFO  [JTS-Main] - LOCALE: created classloader java.net.URLClassLoader@34e9fd99 with file:/Users/lc/IdeaProjects/Skye/jars/locales.jar, parent: sun.misc.Launcher$AppClassLoader@14ae5a5
+2018-10-14 14:25:39.111 [TT] INFO  [JTS-Main] - Locale=en_US  country=United States  variant=
+2018-10-14 14:25:39.113 [TT] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage]
+2018-10-14 14:25:39.116 [TT] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en]
+2018-10-14 14:25:39.117 [TT] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en_US]
+2018-10-14 14:25:39.117 [TT] INFO  [JTS-Main] - LOCALE: type: launcher intended: en_US actual:  size: 353
+2018-10-14 14:25:39.118 [TT] INFO  [JTS-Main] - initPreUI() - entry
+2018-10-14 14:25:39.128 [TT] INFO  [JTS-Main] - Build 973.2h, Sep 25, 2018 12:05:32 PM
+2018-10-14 14:25:39.189 [TT] INFO  [JTS-Main] - LookAndFeelChangedListener installed
+2018-10-14 14:25:39.193 [TT] INFO  [JTS-Main] - JtsLookAndFeel initialized
+2018-10-14 14:25:39.310 [TT] INFO  [JTS-Main] - Current LAF: TWS LAF
+2018-10-14 14:25:39.311 [TT] INFO  [JTS-Main] - initPreUI() - exit
+2018-10-14 14:25:39.317 [TT] INFO  [JTS-Main] - Connect and request MiscUrls
+2018-10-14 14:25:39.318 [TT] INFO  [JTS-MiscUlrsRequester-5] - Connecting mcgw1.ibllc.com.cn:4000 timeout=0
+2018-10-14 14:25:39.319 [TT] INFO  [AWT-EventQueue-0] - java.lang.UnsupportedOperationException: Toolkit.getLockingKeyState
+2018-10-14 14:25:39.319 [TT] INFO  [JTS-Main] - Hard linking is not enabled in standalone mode
+2018-10-14 14:25:39.320 [TT] INFO  [JTS-MiscUlrsRequester-5] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /127.0.0.1:55456
+2018-10-14 14:25:39.321 [TT] INFO  [JTS-MiscUlrsRequester-5] - Resolving mac address
+2018-10-14 14:25:39.322 [TT] INFO  [JTS-MiscUlrsRequester-5] - falling back to custom mac address resolution
+2018-10-14 14:25:39.331 [TT] INFO  [JTS-MiscUlrsRequester-5] - MACNetworkInfo created <1a98229d|ac:de:48:00:11:22|127.0.0.1>
+2018-10-14 14:25:39.332 [TT] INFO  [JTS-MISC URLsListenerS1-7] - Starting Listener thread
+2018-10-14 14:25:39.343 [TT] INFO  [JTS-MiscUlrsRequester-5] - Sending MiscUrls request
+2018-10-14 14:25:39.344 [TT] INFO  [JTS-AuthDispatcherS1-8] - Starting dispatcher
+2018-10-14 14:25:39.347 [TT] INFO  [JTS-MiscUlrsRequester-5] - LOGIN_TIME_MONITOR	 false 14:25:39:346 since start = 0 thread delay = 0 global delay = 0 tag=null, cls=AuthDispatcher method=send
+2018-10-14 14:25:39.347 [TT] INFO  [JTS-AuthResponseMonitor-9] - Starting auth response monitor thread
+2018-10-14 14:25:39.347 [TT] INFO  [JTS-MISC URLsListenerS1-7] - Initial listener buffer size is 408288
+2018-10-14 14:25:39.347 [TT] INFO  [JTS-MISC URLsListenerS1-7] - Capping listener buffer size at 65536
+2018-10-14 14:25:39.578 [TT] INFO  [JTS-AuthDispatcherS1-8] - Received NS_MISC_URLS
+2018-10-14 14:25:39.579 [TT] INFO  [JTS-AuthDispatcherS1-8] - Received URLs ='{alpine_help=https://www.interactivebrokers.com/en/general/alpineHelp.php, ib_system_status=http://status.interactivebrokers.net/cgi-bin/bb_status.pl, customer_service=https://www.interactivebrokers.com/en/p.php?f=customerService&ib_entity=llc, wbdemo=direct, java_upgrade_howto=https://www.interactivebrokers.com/en/software/downloadPlugin.php?ib_entity=llc, demo=email, ssl=1, pass_change_ib=https://gdcdyn.interactivebrokers.com/sso/Login?service=AM.LOGIN&MSG=PWD, paper_account_creation=https://gdcdyn.interactivebrokers.com/sso/Login, pass_reset=https://gdcdyn.interactivebrokers.com/Universal/servlet/AccountAccess.PasswordReset, bingo_help=https://www.interactivebrokers.com/en/general/bingoHelp.php, pass_reset_wb=https://www.clientam.com/Universal/servlet/AccountAccess.PasswordReset, gold_help=https://www.interactivebrokers.com/en/general/goldHelp.php, s3store=1}'
+2018-10-14 14:25:39.581 [TT] INFO  [JTS-AuthDispatcherS1-8] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_BY_DESIGN
+2018-10-14 14:25:39.582 [TT] INFO  [JTS-MISC URLsListenerS1-7] - Socket or stream for connection mcgw1.ibllc.com.cn:4000 was closed by another thread
+2018-10-14 14:25:39.582 [TT] INFO  [JTS-AuthDispatcherS1-8] - Terminating dispatcher
+2018-10-14 14:25:39.582 [TT] INFO  [JTS-MISC URLsListenerS1-7] - Terminating Listener thread
+2018-10-14 14:25:39.582 [TT] INFO  [JTS-AuthResponseMonitor-9] - Terminating auth response monitor thread
+2018-10-14 14:25:40.908 [TT] INFO  [AWT-EventQueue-0] - twslaunch.autoupdate.serviceImpl: null
+2018-10-14 14:25:40.976 [TT] INFO  [AWT-EventQueue-0] - Started on 20181014-06:25:40
+2018-10-14 14:25:40.978 [TT] INFO  [AWT-EventQueue-0] - Default timezone:Asia/Shanghai name:China Standard Time dst:0
+2018-10-14 14:25:40.978 [TT] INFO  [AWT-EventQueue-0] - java version = 1.8.0_181
+2018-10-14 14:25:40.978 [TT] INFO  [AWT-EventQueue-0] - sun.arch.data.model = 64
+2018-10-14 14:25:40.978 [TT] INFO  [AWT-EventQueue-0] - os = Mac OS X
+2018-10-14 14:25:40.978 [TT] INFO  [AWT-EventQueue-0] - os architecture = 32
+2018-10-14 14:25:40.978 [TT] INFO  [AWT-EventQueue-0] - runtime = Java(TM) SE Runtime Environment
+2018-10-14 14:25:40.978 [TT] INFO  [AWT-EventQueue-0] - vendor = Oracle Corporation
+2018-10-14 14:25:40.978 [TT] INFO  [AWT-EventQueue-0] - vm name = Java HotSpot(TM) 64-Bit Server VM
+2018-10-14 14:25:40.978 [TT] INFO  [AWT-EventQueue-0] - username = 'lc'
+2018-10-14 14:25:41.121 [TT] INFO  [AWT-EventQueue-0] - OvernightManager.dayInit: new values: dayOfTheWeek: 1 (Sun), YYYYMMofToday: 201810, YYYYMMDDofToday: 20181014, m_todayDate: 20181014, dueToChangeInTimezone: false
+2018-10-14 14:25:41.307 [TT] INFO  [AWT-EventQueue-0] - Setting dir is /Users/lc/IdeaProjects/Skye/
+2018-10-14 14:25:41.307 [TT] INFO  [AWT-EventQueue-0] - PROXY Cleared HTTP proxy: no valid proxy is present (passing on :0)
+2018-10-14 14:25:41.309 [TT] INFO  [AWT-EventQueue-0] - SPLASH Creating screen with 5 steps
+2018-10-14 14:25:41.794 [TT] INFO  [AWT-EventQueue-0] - initAutoEncryptionMenu(): autoEncryption set to true
+2018-10-14 14:25:41.800 [TT] INFO  [AWT-EventQueue-0] - Contacting mcgw1.ibllc.com.cn:4000 as user NOT PRINTED
+2018-10-14 14:25:41.810 [TT] INFO  [AWT-EventQueue-0] - mapProdToPaper: m_simulatedTradingModeSelected=false
+2018-10-14 14:25:41.810 [TT] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection attempt time is cleared!
+2018-10-14 14:25:41.810 [TT] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection set as now:14:25:41:810
+2018-10-14 14:25:41.810 [TT] INFO  [AWT-EventQueue-0] - Prelogin delay:0
+2018-10-14 14:25:41.811 [TT] INFO  [JTS-Login-13] - Starting launcher login thread
+2018-10-14 14:25:41.812 [TT] INFO  [JTS-Login-13] - SPLASH Connecting to server
+2018-10-14 14:25:41.812 [TT] INFO  [JTS-Login-13] - Connecting mcgw1.ibllc.com.cn:4000 timeout=20000
+2018-10-14 14:25:41.813 [TT] INFO  [JTS-Login-13] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /127.0.0.1:55458
+2018-10-14 14:25:41.814 [TT] INFO  [JTS-Order-Audit-15] - Starting async queue thread
+2018-10-14 14:25:41.815 [TT] INFO  [AWT-EventQueue-0] - Network monitor is activated
+2018-10-14 14:25:41.820 [TT] INFO  [JTS-Login-13] - NSCX init:false
+2018-10-14 14:25:41.820 [TT] INFO  [JTS-Login-13] - JTSAuthConnection.onConnected(): lastKnownCipherStatus=SECURE
+2018-10-14 14:25:41.820 [TT] INFO  [JTS-Login-13] - Changing state for connection from PRELOGON to PRELOGON in A 1464814763: SessionSocket:2
+2018-10-14 14:25:41.820 [TT] INFO  [JTS-Login-13] - Authenticating
+2018-10-14 14:25:41.821 [TT] INFO  [JTS-CCPListenerS2-16] - Starting Listener thread
+2018-10-14 14:25:41.821 [TT] INFO  [JTS-Login-13] - AuthTimeoutMonitor: deactivate
+2018-10-14 14:25:41.821 [TT] INFO  [JTS-Login-13] - AuthTimeoutMonitor: timeout=20000
+2018-10-14 14:25:41.822 [TT] INFO  [JTS-Login-13] - AuthTimeoutMonitor: activate
+2018-10-14 14:25:41.822 [TT] INFO  [JTS-AuthTimeoutMonitorThread-18] - Starting auth timeout monitor thread
+2018-10-14 14:25:41.822 [TT] INFO  [JTS-Login-13] - SPLASH -0001 step 1 AuthDispatcher.connect
+2018-10-14 14:25:41.823 [TT] INFO  [JTS-Login-13] - Sending connect request
+2018-10-14 14:25:41.823 [TT] INFO  [JTS-AuthDispatcherS2-17] - Starting dispatcher
+2018-10-14 14:25:41.823 [TT] INFO  [JTS-Login-13] - AuthDispatcher.initNSMsgVersionLimits: minVersion=35, maxVersion=38
+2018-10-14 14:25:41.824 [TT] INFO  [JTS-Login-13] - SPLASH Authenticating
+2018-10-14 14:25:41.825 [TT] INFO  [JTS-CCPListenerS2-16] - Initial listener buffer size is 408288
+2018-10-14 14:25:41.825 [TT] INFO  [JTS-CCPListenerS2-16] - Capping listener buffer size at 65536
+2018-10-14 14:25:41.825 [TT] INFO  [JTS-Login-13] - Terminating launcher login thread
+2018-10-14 14:25:41.950 [TT] INFO  [JTS-AuthDispatcherS2-17] - set nsMsgVersion: context=SecureConnectionStart; version=38
+2018-10-14 14:25:42.011 [TT] INFO  [JTS-AuthDispatcherS2-17] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,OU=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20181013-14:00:11 Europe/London	notAfter:20181015-22:00:11 Europe/London
+2018-10-14 14:25:42.012 [TT] INFO  [JTS-AuthDispatcherS2-17] - cert #1 subject:CN=prod.ckg.ibllc.com,OU=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20180720-01:00:00 Europe/London	notAfter:20200904-13:00:00 Europe/London
+2018-10-14 14:25:42.012 [TT] INFO  [JTS-AuthDispatcherS2-17] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2018-10-14 14:25:42.013 [TT] INFO  [JTS-AuthDispatcherS2-17] - Current time is: 20181014-07:25:42 Europe/London
+2018-10-14 14:25:42.019 [TT] INFO  [JTS-AuthDispatcherS2-17] - CipherContext initialization successed.
+2018-10-14 14:25:42.073 [TT] INFO  [JTS-AuthDispatcherS2-17] - SPLASH 0251 step 2 AuthDispatcher.processDataItr
+2018-10-14 14:25:42.074 [TT] INFO  [JTS-AuthDispatcherS2-17] - set nsMsgVersion: context=AuthStart; version=38
+2018-10-14 14:25:42.075 [TT] INFO  [JTS-AuthDispatcherS2-17] - Received NS_AUTH_START: 1
+2018-10-14 14:25:42.077 [TT] INFO  [JTS-AuthDispatcherS2-17] - pwd time to expiry ms: 2562878058000 days: 29663
+2018-10-14 14:25:42.077 [TT] INFO  [JTS-AuthDispatcherS2-17] - Long pwd allowed : true
+2018-10-14 14:25:42.077 [TT] INFO  [JTS-AuthDispatcherS2-17] -  NS_AUTH_START version=38 pwd=1 soft=0 token(s)=[token=0] initialTokenType=PWD authenticationType=MARKET_DATA_CONNECTION identityHashcode=1955427267
+2018-10-14 14:25:42.078 [TT] INFO  [JTS-AuthDispatcherS2-17] - Starting password Authentication
+2018-10-14 14:25:42.078 [TT] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 14:25:42.129 [TT] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 14:25:42.129 [TT] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 14:25:42.130 [TT] INFO  [JTS-AuthDispatcherS2-17] - Received AUTH_PARAMS
+2018-10-14 14:25:42.130 [TT] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 14:25:42.179 [TT] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 14:25:42.180 [TT] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 14:25:42.180 [TT] INFO  [JTS-AuthDispatcherS2-17] - Received SERVER_PARAMS
+2018-10-14 14:25:42.182 [TT] INFO  [JTS-AuthDispatcherS2-17] - Session Token received in AuthenticationMessageXYZ: 8c20536c44e636cd7082098e2f1e41fe2d98a6ec  messageId=SERVER_KEY (4)
+2018-10-14 14:25:42.183 [TT] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 14:25:42.231 [TT] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 14:25:42.232 [TT] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 14:25:42.232 [TT] INFO  [JTS-AuthDispatcherS2-17] - Received AUTH_RESULT
+2018-10-14 14:25:42.232 [TT] INFO  [JTS-AuthDispatcherS2-17] - Passed pwd authentication.
+2018-10-14 14:25:42.232 [TT] INFO  [JTS-AuthDispatcherS2-17] - Authentication completed.
+2018-10-14 14:25:42.233 [TT] INFO  [JTS-AuthDispatcherS2-17] - setting session token in AuthenticationHandler: authenticationType=MARKET_DATA_CONNECTION hashCode=1955427267 new=8c20536c44e636cd7082098e2f1e41fe2d98a6ec old=NULL ctciOld=NULL
+2018-10-14 14:25:42.277 [TT] INFO  [JTS-AuthDispatcherS2-17] - SPLASH 0204 step 2 AuthDispatcher.processDataItr
+2018-10-14 14:25:42.278 [TT] INFO  [JTS-AuthDispatcherS2-17] - Received NS_CONNECT_RESPONSE
+2018-10-14 14:25:42.279 [TT] INFO  [JTS-AuthDispatcherS2-17] - Log encryption support is enabled [logKeyId: aaa].
+2018-10-14 14:25:42.280 [TT] INFO  [JTS-AuthDispatcherS2-17] - CCP sent paperUser NOT PRINTED for prodUser NOT PRINTED
+2018-10-14 14:25:42.329 [TT] INFO  [JTS-AuthDispatcherS2-17] - Received NS_FIX_START
+2018-10-14 14:25:42.330 [TT] INFO  [JTS-AuthDispatcherS2-17] - Terminating dispatcher
+2018-10-14 14:25:42.330 [TT] INFO  [JTS-PostAuthenticateS2-23] - AuthTimeoutMonitor: deactivate
+2018-10-14 14:25:42.331 [TT] INFO  [JTS-AuthTimeoutMonitorThread-18] - Terminating auth timeout monitor thread
+2018-10-14 14:25:42.331 [TT] INFO  [JTS-PostAuthenticateS2-23] - Authentication complete
+2018-10-14 14:25:42.331 [TT] INFO  [JTS-PostAuthenticateS2-23] - Creating a FixLogonHandlerFactory instance...
+2018-10-14 14:25:42.331 [TT] INFO  [JTS-PostAuthenticateS2-23] - Instance created.
+2018-10-14 14:25:42.337 [TT] INFO  [AWT-EventQueue-0] - initPreUI() - entry
+2018-10-14 14:25:42.337 [TT] INFO  [AWT-EventQueue-0] - jtsLookAndFeel uninitialized
+2018-10-14 14:25:42.337 [TT] INFO  [AWT-EventQueue-0] - JtsLookAndFeel initialized
+2018-10-14 14:25:42.339 [TT] INFO  [JTS-PostAuthenticateS2-23] - JDOMFactory Class =interface org.jdom.JDOMFactory
+2018-10-14 14:25:42.340 [TT] INFO  [AWT-EventQueue-0] - Current LAF: TWS LAF
+2018-10-14 14:25:42.340 [TT] INFO  [AWT-EventQueue-0] - initPreUI() - exit
+2018-10-14 14:25:42.341 [TT] INFO  [JTS-PostAuthenticateS2-23] - hsqldb jdbc =class org.hsqldb.jdbcDriver 2.4
+2018-10-14 14:25:42.343 [TT] INFO  [JTS-PostAuthenticateS2-23] - Changing state for connection from PRELOGON to PRELOGON in A 1464814763: SessionSocket:2
+2018-10-14 14:25:42.344 [TT] INFO  [JTS-PostAuthenticateS2-23] - createOrRenameToNewStyleUserDirectory: create newDir=/Users/lc/IdeaProjects/Skye/beokipfnbfiojkemeddcpjjcjbaifpmiejmmnahg
+2018-10-14 14:25:42.344 [TT] INFO  [JTS-PostAuthenticateS2-23] - performLogSwitch: forceToSwitch=false
+2018-10-14 14:25:42.347 [TT] INFO  [JTS-PostAuthenticateS2-23] - Switching to a new encrypted log...
+2018-10-14 14:27:48.615 [NQ] INFO  [JTS-Main] - ------------------------------- IB GATEWAY RESTART --------------------------------
+2018-10-14 14:27:48.617 [NQ] INFO  [JTS-Main] - Jts dir is /Users/lc/IdeaProjects/Skye/
+2018-10-14 14:27:48.630 [NQ] INFO  [JTS-Main] - PROXY Set SOCKS proxy (socket) 127.0.0.1:1080
+2018-10-14 14:27:48.631 [NQ] INFO  [JTS-Main] - PROXY Installed custom selector
+2018-10-14 14:27:48.633 [NQ] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null
+2018-10-14 14:27:48.635 [NQ] INFO  [JTS-Main] - LOCALE: JTS Locale=en_US  country=United States  variant=
+2018-10-14 14:27:48.637 [NQ] INFO  [JTS-Main] - Region: from ini usr -> Custom
+2018-10-14 14:27:48.637 [NQ] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null
+2018-10-14 14:27:48.637 [NQ] INFO  [JTS-Main] - LOCALE: JTS Locale=en_US  country=United States  variant=
+2018-10-14 14:27:48.637 [NQ] INFO  [JTS-Main] - Region:Custom
+2018-10-14 14:27:48.638 [NQ] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 14:27:48.639 [NQ] INFO  [JTS-Main] - Chinese peer detected ('mcgw1.ibllc.com.cn:4000'): switching download root to 'https://download.ibkr.com.cn'.
+2018-10-14 14:27:48.640 [NQ] INFO  [JTS-Main] - WebRegionURL Path:/java/classes/locales.jar URL:http://www.interactivebrokers.com/java/classes/locales.jar
+2018-10-14 14:27:48.640 [NQ] INFO  [JTS-Main] - Starting to download 'https://download.ibkr.com.cn/java/classes/locales.jar' using HotBackup 'https://download.ibkr.com.cn/java/classes/locales.jar'
+2018-10-14 14:27:50.157 [NQ] INFO  [JTS-Main] - LOCALE: needToUpdate  dest=/Users/lc/IdeaProjects/Skye/jars/locales.jar  sourceMod=2018-05-08 01:08:54  destMod=2018-05-08 01:08:54  sourceSize=104614  destSize=104614  conditions=[NEWER_REMOTE, LOCAL_IN_FUTURE, SIZE_DIFFERS]  download=false
+2018-10-14 14:27:50.157 [NQ] INFO  [JTS-Main] - LOCALE: /Users/lc/IdeaProjects/Skye/jars/locales.jar already up-to-date
+2018-10-14 14:27:50.158 [NQ] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 14:27:50.158 [NQ] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 14:27:50.189 [NQ] INFO  [JTS-Main] - LOCALE: loaded 9 supported locales
+2018-10-14 14:27:50.208 [NQ] INFO  [JTS-Main] - LOCALE: loaded 8 countries
+2018-10-14 14:27:50.208 [NQ] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 14:27:50.213 [NQ] INFO  [JTS-Main] - Locale from ini: en
+2018-10-14 14:27:50.213 [NQ] INFO  [JTS-Main] - LOCALE: created classloader java.net.URLClassLoader@34e9fd99 with file:/Users/lc/IdeaProjects/Skye/jars/locales.jar, parent: sun.misc.Launcher$AppClassLoader@14ae5a5
+2018-10-14 14:27:50.213 [NQ] INFO  [JTS-Main] - Locale=en_US  country=United States  variant=
+2018-10-14 14:27:50.215 [NQ] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage]
+2018-10-14 14:27:50.218 [NQ] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en]
+2018-10-14 14:27:50.219 [NQ] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en_US]
+2018-10-14 14:27:50.219 [NQ] INFO  [JTS-Main] - LOCALE: type: launcher intended: en_US actual:  size: 353
+2018-10-14 14:27:50.220 [NQ] INFO  [JTS-Main] - initPreUI() - entry
+2018-10-14 14:27:50.230 [NQ] INFO  [JTS-Main] - Build 973.2h, Sep 25, 2018 12:05:32 PM
+2018-10-14 14:27:50.293 [NQ] INFO  [JTS-Main] - LookAndFeelChangedListener installed
+2018-10-14 14:27:50.296 [NQ] INFO  [JTS-Main] - JtsLookAndFeel initialized
+2018-10-14 14:27:50.413 [NQ] INFO  [JTS-Main] - Current LAF: TWS LAF
+2018-10-14 14:27:50.413 [NQ] INFO  [JTS-Main] - initPreUI() - exit
+2018-10-14 14:27:50.419 [NQ] INFO  [JTS-Main] - Connect and request MiscUrls
+2018-10-14 14:27:50.420 [NQ] INFO  [JTS-MiscUlrsRequester-5] - Connecting mcgw1.ibllc.com.cn:4000 timeout=0
+2018-10-14 14:27:50.421 [NQ] INFO  [AWT-EventQueue-0] - java.lang.UnsupportedOperationException: Toolkit.getLockingKeyState
+2018-10-14 14:27:50.422 [NQ] INFO  [JTS-Main] - Hard linking is not enabled in standalone mode
+2018-10-14 14:27:50.461 [NQ] INFO  [JTS-MiscUlrsRequester-5] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /127.0.0.1:55487
+2018-10-14 14:27:50.463 [NQ] INFO  [JTS-MiscUlrsRequester-5] - Resolving mac address
+2018-10-14 14:27:50.464 [NQ] INFO  [JTS-MiscUlrsRequester-5] - falling back to custom mac address resolution
+2018-10-14 14:27:50.474 [NQ] INFO  [JTS-MiscUlrsRequester-5] - MACNetworkInfo created <1a98229d|ac:de:48:00:11:22|127.0.0.1>
+2018-10-14 14:27:50.676 [NQ] INFO  [JTS-MISC URLsListenerS1-7] - Starting Listener thread
+2018-10-14 14:27:50.688 [NQ] INFO  [JTS-MiscUlrsRequester-5] - Sending MiscUrls request
+2018-10-14 14:27:50.688 [NQ] INFO  [JTS-AuthDispatcherS1-8] - Starting dispatcher
+2018-10-14 14:27:50.690 [NQ] INFO  [JTS-MiscUlrsRequester-5] - LOGIN_TIME_MONITOR	 false 14:27:50:690 since start = 0 thread delay = 0 global delay = 0 tag=null, cls=AuthDispatcher method=send
+2018-10-14 14:27:50.691 [NQ] INFO  [JTS-AuthResponseMonitor-9] - Starting auth response monitor thread
+2018-10-14 14:27:50.691 [NQ] INFO  [JTS-MISC URLsListenerS1-7] - Initial listener buffer size is 408288
+2018-10-14 14:27:50.691 [NQ] INFO  [JTS-MISC URLsListenerS1-7] - Capping listener buffer size at 65536
+2018-10-14 14:27:50.740 [NQ] INFO  [JTS-AuthDispatcherS1-8] - Received NS_MISC_URLS
+2018-10-14 14:27:50.741 [NQ] INFO  [JTS-AuthDispatcherS1-8] - Received URLs ='{alpine_help=https://www.interactivebrokers.com/en/general/alpineHelp.php, ib_system_status=http://status.interactivebrokers.net/cgi-bin/bb_status.pl, customer_service=https://www.interactivebrokers.com/en/p.php?f=customerService&ib_entity=llc, wbdemo=direct, java_upgrade_howto=https://www.interactivebrokers.com/en/software/downloadPlugin.php?ib_entity=llc, demo=email, ssl=1, pass_change_ib=https://gdcdyn.interactivebrokers.com/sso/Login?service=AM.LOGIN&MSG=PWD, paper_account_creation=https://gdcdyn.interactivebrokers.com/sso/Login, pass_reset=https://gdcdyn.interactivebrokers.com/Universal/servlet/AccountAccess.PasswordReset, bingo_help=https://www.interactivebrokers.com/en/general/bingoHelp.php, pass_reset_wb=https://www.clientam.com/Universal/servlet/AccountAccess.PasswordReset, gold_help=https://www.interactivebrokers.com/en/general/goldHelp.php, s3store=1}'
+2018-10-14 14:27:50.743 [NQ] INFO  [JTS-AuthDispatcherS1-8] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_BY_DESIGN
+2018-10-14 14:27:50.743 [NQ] INFO  [JTS-MISC URLsListenerS1-7] - Socket or stream for connection mcgw1.ibllc.com.cn:4000 was closed by another thread
+2018-10-14 14:27:50.743 [NQ] INFO  [JTS-AuthDispatcherS1-8] - Terminating dispatcher
+2018-10-14 14:27:50.743 [NQ] INFO  [JTS-MISC URLsListenerS1-7] - Terminating Listener thread
+2018-10-14 14:27:50.744 [NQ] INFO  [JTS-AuthResponseMonitor-9] - Terminating auth response monitor thread
+2018-10-14 14:27:51.991 [NQ] INFO  [AWT-EventQueue-0] - twslaunch.autoupdate.serviceImpl: null
+2018-10-14 14:27:52.055 [NQ] INFO  [AWT-EventQueue-0] - Started on 20181014-06:27:52
+2018-10-14 14:27:52.058 [NQ] INFO  [AWT-EventQueue-0] - Default timezone:Asia/Shanghai name:China Standard Time dst:0
+2018-10-14 14:27:52.058 [NQ] INFO  [AWT-EventQueue-0] - java version = 1.8.0_181
+2018-10-14 14:27:52.058 [NQ] INFO  [AWT-EventQueue-0] - sun.arch.data.model = 64
+2018-10-14 14:27:52.058 [NQ] INFO  [AWT-EventQueue-0] - os = Mac OS X
+2018-10-14 14:27:52.058 [NQ] INFO  [AWT-EventQueue-0] - os architecture = 32
+2018-10-14 14:27:52.058 [NQ] INFO  [AWT-EventQueue-0] - runtime = Java(TM) SE Runtime Environment
+2018-10-14 14:27:52.058 [NQ] INFO  [AWT-EventQueue-0] - vendor = Oracle Corporation
+2018-10-14 14:27:52.058 [NQ] INFO  [AWT-EventQueue-0] - vm name = Java HotSpot(TM) 64-Bit Server VM
+2018-10-14 14:27:52.058 [NQ] INFO  [AWT-EventQueue-0] - username = 'lc'
+2018-10-14 14:27:52.201 [NQ] INFO  [AWT-EventQueue-0] - OvernightManager.dayInit: new values: dayOfTheWeek: 1 (Sun), YYYYMMofToday: 201810, YYYYMMDDofToday: 20181014, m_todayDate: 20181014, dueToChangeInTimezone: false
+2018-10-14 14:27:52.387 [NQ] INFO  [AWT-EventQueue-0] - Setting dir is /Users/lc/IdeaProjects/Skye/
+2018-10-14 14:27:52.388 [NQ] INFO  [AWT-EventQueue-0] - PROXY Cleared HTTP proxy: no valid proxy is present (passing on :0)
+2018-10-14 14:27:52.390 [NQ] INFO  [AWT-EventQueue-0] - SPLASH Creating screen with 5 steps
+2018-10-14 14:27:52.875 [NQ] INFO  [AWT-EventQueue-0] - initAutoEncryptionMenu(): autoEncryption set to true
+2018-10-14 14:27:52.881 [NQ] INFO  [AWT-EventQueue-0] - Contacting mcgw1.ibllc.com.cn:4000 as user NOT PRINTED
+2018-10-14 14:27:52.891 [NQ] INFO  [AWT-EventQueue-0] - mapProdToPaper: m_simulatedTradingModeSelected=false
+2018-10-14 14:27:52.891 [NQ] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection attempt time is cleared!
+2018-10-14 14:27:52.891 [NQ] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection set as now:14:27:52:891
+2018-10-14 14:27:52.891 [NQ] INFO  [AWT-EventQueue-0] - Prelogin delay:0
+2018-10-14 14:27:52.893 [NQ] INFO  [JTS-Login-13] - Starting launcher login thread
+2018-10-14 14:27:52.893 [NQ] INFO  [JTS-Login-13] - SPLASH Connecting to server
+2018-10-14 14:27:52.894 [NQ] INFO  [JTS-Login-13] - Connecting mcgw1.ibllc.com.cn:4000 timeout=20000
+2018-10-14 14:27:52.895 [NQ] INFO  [JTS-Login-13] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /127.0.0.1:55491
+2018-10-14 14:27:52.896 [NQ] INFO  [JTS-Order-Audit-15] - Starting async queue thread
+2018-10-14 14:27:52.896 [NQ] INFO  [AWT-EventQueue-0] - Network monitor is activated
+2018-10-14 14:27:52.901 [NQ] INFO  [JTS-Login-13] - NSCX init:false
+2018-10-14 14:27:52.901 [NQ] INFO  [JTS-Login-13] - JTSAuthConnection.onConnected(): lastKnownCipherStatus=SECURE
+2018-10-14 14:27:52.901 [NQ] INFO  [JTS-Login-13] - Changing state for connection from PRELOGON to PRELOGON in A 1718179380: SessionSocket:2
+2018-10-14 14:27:52.901 [NQ] INFO  [JTS-Login-13] - Authenticating
+2018-10-14 14:27:52.902 [NQ] INFO  [JTS-CCPListenerS2-16] - Starting Listener thread
+2018-10-14 14:27:52.902 [NQ] INFO  [JTS-Login-13] - AuthTimeoutMonitor: deactivate
+2018-10-14 14:27:52.903 [NQ] INFO  [JTS-Login-13] - AuthTimeoutMonitor: timeout=20000
+2018-10-14 14:27:52.903 [NQ] INFO  [JTS-Login-13] - AuthTimeoutMonitor: activate
+2018-10-14 14:27:52.903 [NQ] INFO  [JTS-AuthTimeoutMonitorThread-18] - Starting auth timeout monitor thread
+2018-10-14 14:27:52.903 [NQ] INFO  [JTS-Login-13] - SPLASH -0001 step 1 AuthDispatcher.connect
+2018-10-14 14:27:52.904 [NQ] INFO  [JTS-Login-13] - Sending connect request
+2018-10-14 14:27:52.904 [NQ] INFO  [JTS-AuthDispatcherS2-17] - Starting dispatcher
+2018-10-14 14:27:52.905 [NQ] INFO  [JTS-Login-13] - AuthDispatcher.initNSMsgVersionLimits: minVersion=35, maxVersion=38
+2018-10-14 14:27:52.906 [NQ] INFO  [JTS-CCPListenerS2-16] - Initial listener buffer size is 408288
+2018-10-14 14:27:52.906 [NQ] INFO  [JTS-Login-13] - SPLASH Authenticating
+2018-10-14 14:27:52.906 [NQ] INFO  [JTS-CCPListenerS2-16] - Capping listener buffer size at 65536
+2018-10-14 14:27:52.907 [NQ] INFO  [JTS-Login-13] - Terminating launcher login thread
+2018-10-14 14:27:53.030 [NQ] INFO  [JTS-AuthDispatcherS2-17] - set nsMsgVersion: context=SecureConnectionStart; version=38
+2018-10-14 14:27:53.091 [NQ] INFO  [JTS-AuthDispatcherS2-17] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,OU=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20181013-14:00:11 Europe/London	notAfter:20181015-22:00:11 Europe/London
+2018-10-14 14:27:53.091 [NQ] INFO  [JTS-AuthDispatcherS2-17] - cert #1 subject:CN=prod.ckg.ibllc.com,OU=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20180720-01:00:00 Europe/London	notAfter:20200904-13:00:00 Europe/London
+2018-10-14 14:27:53.091 [NQ] INFO  [JTS-AuthDispatcherS2-17] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2018-10-14 14:27:53.093 [NQ] INFO  [JTS-AuthDispatcherS2-17] - Current time is: 20181014-07:27:53 Europe/London
+2018-10-14 14:27:53.098 [NQ] INFO  [JTS-AuthDispatcherS2-17] - CipherContext initialization successed.
+2018-10-14 14:27:53.150 [NQ] INFO  [JTS-AuthDispatcherS2-17] - SPLASH 0247 step 2 AuthDispatcher.processDataItr
+2018-10-14 14:27:53.152 [NQ] INFO  [JTS-AuthDispatcherS2-17] - set nsMsgVersion: context=AuthStart; version=38
+2018-10-14 14:27:53.152 [NQ] INFO  [JTS-AuthDispatcherS2-17] - Received NS_AUTH_START: 1
+2018-10-14 14:27:53.154 [NQ] INFO  [JTS-AuthDispatcherS2-17] - pwd time to expiry ms: 2562877927000 days: 29663
+2018-10-14 14:27:53.154 [NQ] INFO  [JTS-AuthDispatcherS2-17] - Long pwd allowed : true
+2018-10-14 14:27:53.154 [NQ] INFO  [JTS-AuthDispatcherS2-17] -  NS_AUTH_START version=38 pwd=1 soft=0 token(s)=[token=0] initialTokenType=PWD authenticationType=MARKET_DATA_CONNECTION identityHashcode=1955427267
+2018-10-14 14:27:53.155 [NQ] INFO  [JTS-AuthDispatcherS2-17] - Starting password Authentication
+2018-10-14 14:27:53.156 [NQ] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 14:27:53.206 [NQ] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 14:27:53.206 [NQ] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 14:27:53.206 [NQ] INFO  [JTS-AuthDispatcherS2-17] - Received AUTH_PARAMS
+2018-10-14 14:27:53.207 [NQ] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 14:27:53.256 [NQ] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 14:27:53.256 [NQ] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 14:27:53.256 [NQ] INFO  [JTS-AuthDispatcherS2-17] - Received SERVER_PARAMS
+2018-10-14 14:27:53.258 [NQ] INFO  [JTS-AuthDispatcherS2-17] - Session Token received in AuthenticationMessageXYZ: dee3b2610a773a33e464be60cb4fa15f9265911  messageId=SERVER_KEY (4)
+2018-10-14 14:27:53.260 [NQ] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 14:27:53.307 [NQ] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 14:27:53.308 [NQ] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 14:27:53.308 [NQ] INFO  [JTS-AuthDispatcherS2-17] - Received AUTH_RESULT
+2018-10-14 14:27:53.308 [NQ] INFO  [JTS-AuthDispatcherS2-17] - Passed pwd authentication.
+2018-10-14 14:27:53.308 [NQ] INFO  [JTS-AuthDispatcherS2-17] - Authentication completed.
+2018-10-14 14:27:53.309 [NQ] INFO  [JTS-AuthDispatcherS2-17] - setting session token in AuthenticationHandler: authenticationType=MARKET_DATA_CONNECTION hashCode=1955427267 new=dee3b2610a773a33e464be60cb4fa15f9265911 old=NULL ctciOld=NULL
+2018-10-14 14:27:53.356 [NQ] INFO  [JTS-AuthDispatcherS2-17] - SPLASH 0206 step 2 AuthDispatcher.processDataItr
+2018-10-14 14:27:53.357 [NQ] INFO  [JTS-AuthDispatcherS2-17] - Received NS_CONNECT_RESPONSE
+2018-10-14 14:27:53.358 [NQ] INFO  [JTS-AuthDispatcherS2-17] - Log encryption support is enabled [logKeyId: aaa].
+2018-10-14 14:27:53.358 [NQ] INFO  [JTS-AuthDispatcherS2-17] - CCP sent paperUser NOT PRINTED for prodUser NOT PRINTED
+2018-10-14 14:27:53.406 [NQ] INFO  [JTS-AuthDispatcherS2-17] - Received NS_FIX_START
+2018-10-14 14:27:53.408 [NQ] INFO  [JTS-AuthDispatcherS2-17] - Terminating dispatcher
+2018-10-14 14:27:53.408 [NQ] INFO  [JTS-PostAuthenticateS2-23] - AuthTimeoutMonitor: deactivate
+2018-10-14 14:27:53.408 [NQ] INFO  [JTS-AuthTimeoutMonitorThread-18] - Terminating auth timeout monitor thread
+2018-10-14 14:27:53.408 [NQ] INFO  [JTS-PostAuthenticateS2-23] - Authentication complete
+2018-10-14 14:27:53.409 [NQ] INFO  [JTS-PostAuthenticateS2-23] - Creating a FixLogonHandlerFactory instance...
+2018-10-14 14:27:53.409 [NQ] INFO  [JTS-PostAuthenticateS2-23] - Instance created.
+2018-10-14 14:27:53.415 [NQ] INFO  [AWT-EventQueue-0] - initPreUI() - entry
+2018-10-14 14:27:53.415 [NQ] INFO  [AWT-EventQueue-0] - jtsLookAndFeel uninitialized
+2018-10-14 14:27:53.416 [NQ] INFO  [AWT-EventQueue-0] - JtsLookAndFeel initialized
+2018-10-14 14:27:53.417 [NQ] INFO  [JTS-PostAuthenticateS2-23] - JDOMFactory Class =interface org.jdom.JDOMFactory
+2018-10-14 14:27:53.418 [NQ] INFO  [AWT-EventQueue-0] - Current LAF: TWS LAF
+2018-10-14 14:27:53.418 [NQ] INFO  [AWT-EventQueue-0] - initPreUI() - exit
+2018-10-14 14:27:53.420 [NQ] INFO  [JTS-PostAuthenticateS2-23] - hsqldb jdbc =class org.hsqldb.jdbcDriver 2.4
+2018-10-14 14:27:53.421 [NQ] INFO  [JTS-PostAuthenticateS2-23] - Changing state for connection from PRELOGON to PRELOGON in A 1718179380: SessionSocket:2
+2018-10-14 14:27:53.422 [NQ] INFO  [JTS-PostAuthenticateS2-23] - createOrRenameToNewStyleUserDirectory: no action: use existing newDir=/Users/lc/IdeaProjects/Skye/beokipfnbfiojkemeddcpjjcjbaifpmiejmmnahg
+2018-10-14 14:27:53.422 [NQ] INFO  [JTS-PostAuthenticateS2-23] - performLogSwitch: forceToSwitch=false
+2018-10-14 14:27:53.426 [NQ] INFO  [JTS-PostAuthenticateS2-23] - Switching to a new encrypted log...
+2018-10-14 14:44:26.737 [JV] INFO  [JTS-Main] - ------------------------------- IB GATEWAY RESTART --------------------------------
+2018-10-14 14:44:26.740 [JV] INFO  [JTS-Main] - Jts dir is /Users/lc/IdeaProjects/Skye/
+2018-10-14 14:44:26.753 [JV] INFO  [JTS-Main] - PROXY Set SOCKS proxy (socket) 127.0.0.1:1080
+2018-10-14 14:44:26.753 [JV] INFO  [JTS-Main] - PROXY Installed custom selector
+2018-10-14 14:44:26.755 [JV] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null
+2018-10-14 14:44:26.757 [JV] INFO  [JTS-Main] - LOCALE: JTS Locale=en_US  country=United States  variant=
+2018-10-14 14:44:26.759 [JV] INFO  [JTS-Main] - Region: from ini usr -> Custom
+2018-10-14 14:44:26.759 [JV] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null
+2018-10-14 14:44:26.759 [JV] INFO  [JTS-Main] - LOCALE: JTS Locale=en_US  country=United States  variant=
+2018-10-14 14:44:26.759 [JV] INFO  [JTS-Main] - Region:Custom
+2018-10-14 14:44:26.760 [JV] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 14:44:26.761 [JV] INFO  [JTS-Main] - Chinese peer detected ('mcgw1.ibllc.com.cn:4000'): switching download root to 'https://download.ibkr.com.cn'.
+2018-10-14 14:44:26.762 [JV] INFO  [JTS-Main] - WebRegionURL Path:/java/classes/locales.jar URL:http://www.interactivebrokers.com/java/classes/locales.jar
+2018-10-14 14:44:26.763 [JV] INFO  [JTS-Main] - Starting to download 'https://download.ibkr.com.cn/java/classes/locales.jar' using HotBackup 'https://download.ibkr.com.cn/java/classes/locales.jar'
+2018-10-14 14:44:27.850 [JV] INFO  [JTS-Main] - LOCALE: needToUpdate  dest=/Users/lc/IdeaProjects/Skye/jars/locales.jar  sourceMod=2018-05-08 01:08:54  destMod=2018-05-08 01:08:54  sourceSize=104614  destSize=104614  conditions=[NEWER_REMOTE, LOCAL_IN_FUTURE, SIZE_DIFFERS]  download=false
+2018-10-14 14:44:27.850 [JV] INFO  [JTS-Main] - LOCALE: /Users/lc/IdeaProjects/Skye/jars/locales.jar already up-to-date
+2018-10-14 14:44:27.850 [JV] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 14:44:27.850 [JV] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 14:44:27.881 [JV] INFO  [JTS-Main] - LOCALE: loaded 9 supported locales
+2018-10-14 14:44:27.900 [JV] INFO  [JTS-Main] - LOCALE: loaded 8 countries
+2018-10-14 14:44:27.900 [JV] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 14:44:27.904 [JV] INFO  [JTS-Main] - Locale from ini: en
+2018-10-14 14:44:27.904 [JV] INFO  [JTS-Main] - LOCALE: created classloader java.net.URLClassLoader@34e9fd99 with file:/Users/lc/IdeaProjects/Skye/jars/locales.jar, parent: sun.misc.Launcher$AppClassLoader@14ae5a5
+2018-10-14 14:44:27.904 [JV] INFO  [JTS-Main] - Locale=en_US  country=United States  variant=
+2018-10-14 14:44:27.906 [JV] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage]
+2018-10-14 14:44:27.909 [JV] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en]
+2018-10-14 14:44:27.909 [JV] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en_US]
+2018-10-14 14:44:27.910 [JV] INFO  [JTS-Main] - LOCALE: type: launcher intended: en_US actual:  size: 353
+2018-10-14 14:44:27.910 [JV] INFO  [JTS-Main] - initPreUI() - entry
+2018-10-14 14:44:27.921 [JV] INFO  [JTS-Main] - Build 973.2h, Sep 25, 2018 12:05:32 PM
+2018-10-14 14:44:27.980 [JV] INFO  [JTS-Main] - LookAndFeelChangedListener installed
+2018-10-14 14:44:27.983 [JV] INFO  [JTS-Main] - JtsLookAndFeel initialized
+2018-10-14 14:44:28.101 [JV] INFO  [JTS-Main] - Current LAF: TWS LAF
+2018-10-14 14:44:28.102 [JV] INFO  [JTS-Main] - initPreUI() - exit
+2018-10-14 14:44:28.108 [JV] INFO  [JTS-Main] - Connect and request MiscUrls
+2018-10-14 14:44:28.109 [JV] INFO  [JTS-MiscUlrsRequester-5] - Connecting mcgw1.ibllc.com.cn:4000 timeout=0
+2018-10-14 14:44:28.110 [JV] INFO  [AWT-EventQueue-0] - java.lang.UnsupportedOperationException: Toolkit.getLockingKeyState
+2018-10-14 14:44:28.110 [JV] INFO  [JTS-Main] - Hard linking is not enabled in standalone mode
+2018-10-14 14:44:28.426 [JV] INFO  [JTS-MiscUlrsRequester-5] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /127.0.0.1:55621
+2018-10-14 14:44:28.427 [JV] INFO  [JTS-MiscUlrsRequester-5] - Resolving mac address
+2018-10-14 14:44:28.428 [JV] INFO  [JTS-MiscUlrsRequester-5] - falling back to custom mac address resolution
+2018-10-14 14:44:28.437 [JV] INFO  [JTS-MiscUlrsRequester-5] - MACNetworkInfo created <1a98229d|ac:de:48:00:11:22|127.0.0.1>
+2018-10-14 14:44:28.439 [JV] INFO  [JTS-MISC URLsListenerS1-7] - Starting Listener thread
+2018-10-14 14:44:28.451 [JV] INFO  [JTS-MiscUlrsRequester-5] - Sending MiscUrls request
+2018-10-14 14:44:28.451 [JV] INFO  [JTS-AuthDispatcherS1-8] - Starting dispatcher
+2018-10-14 14:44:28.454 [JV] INFO  [JTS-MiscUlrsRequester-5] - LOGIN_TIME_MONITOR	 false 14:44:28:454 since start = 0 thread delay = 0 global delay = 0 tag=null, cls=AuthDispatcher method=send
+2018-10-14 14:44:28.454 [JV] INFO  [JTS-AuthResponseMonitor-9] - Starting auth response monitor thread
+2018-10-14 14:44:28.454 [JV] INFO  [JTS-MISC URLsListenerS1-7] - Initial listener buffer size is 408288
+2018-10-14 14:44:28.455 [JV] INFO  [JTS-MISC URLsListenerS1-7] - Capping listener buffer size at 65536
+2018-10-14 14:44:28.549 [JV] INFO  [JTS-AuthDispatcherS1-8] - Received NS_MISC_URLS
+2018-10-14 14:44:28.550 [JV] INFO  [JTS-AuthDispatcherS1-8] - Received URLs ='{alpine_help=https://www.interactivebrokers.com/en/general/alpineHelp.php, ib_system_status=http://status.interactivebrokers.net/cgi-bin/bb_status.pl, customer_service=https://www.interactivebrokers.com/en/p.php?f=customerService&ib_entity=llc, wbdemo=direct, java_upgrade_howto=https://www.interactivebrokers.com/en/software/downloadPlugin.php?ib_entity=llc, demo=email, ssl=1, pass_change_ib=https://gdcdyn.interactivebrokers.com/sso/Login?service=AM.LOGIN&MSG=PWD, paper_account_creation=https://gdcdyn.interactivebrokers.com/sso/Login, pass_reset=https://gdcdyn.interactivebrokers.com/Universal/servlet/AccountAccess.PasswordReset, bingo_help=https://www.interactivebrokers.com/en/general/bingoHelp.php, pass_reset_wb=https://www.clientam.com/Universal/servlet/AccountAccess.PasswordReset, gold_help=https://www.interactivebrokers.com/en/general/goldHelp.php, s3store=1}'
+2018-10-14 14:44:28.552 [JV] INFO  [JTS-AuthDispatcherS1-8] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_BY_DESIGN
+2018-10-14 14:44:28.553 [JV] INFO  [JTS-MISC URLsListenerS1-7] - Socket or stream for connection mcgw1.ibllc.com.cn:4000 was closed by another thread
+2018-10-14 14:44:28.553 [JV] INFO  [JTS-AuthDispatcherS1-8] - Terminating dispatcher
+2018-10-14 14:44:28.553 [JV] INFO  [JTS-MISC URLsListenerS1-7] - Terminating Listener thread
+2018-10-14 14:44:28.553 [JV] INFO  [JTS-AuthResponseMonitor-9] - Terminating auth response monitor thread
+2018-10-14 14:44:29.722 [JV] INFO  [AWT-EventQueue-0] - twslaunch.autoupdate.serviceImpl: null
+2018-10-14 14:44:29.788 [JV] INFO  [AWT-EventQueue-0] - Started on 20181014-06:44:29
+2018-10-14 14:44:29.790 [JV] INFO  [AWT-EventQueue-0] - Default timezone:Asia/Shanghai name:China Standard Time dst:0
+2018-10-14 14:44:29.791 [JV] INFO  [AWT-EventQueue-0] - java version = 1.8.0_181
+2018-10-14 14:44:29.791 [JV] INFO  [AWT-EventQueue-0] - sun.arch.data.model = 64
+2018-10-14 14:44:29.791 [JV] INFO  [AWT-EventQueue-0] - os = Mac OS X
+2018-10-14 14:44:29.791 [JV] INFO  [AWT-EventQueue-0] - os architecture = 32
+2018-10-14 14:44:29.791 [JV] INFO  [AWT-EventQueue-0] - runtime = Java(TM) SE Runtime Environment
+2018-10-14 14:44:29.791 [JV] INFO  [AWT-EventQueue-0] - vendor = Oracle Corporation
+2018-10-14 14:44:29.791 [JV] INFO  [AWT-EventQueue-0] - vm name = Java HotSpot(TM) 64-Bit Server VM
+2018-10-14 14:44:29.791 [JV] INFO  [AWT-EventQueue-0] - username = 'lc'
+2018-10-14 14:44:29.933 [JV] INFO  [AWT-EventQueue-0] - OvernightManager.dayInit: new values: dayOfTheWeek: 1 (Sun), YYYYMMofToday: 201810, YYYYMMDDofToday: 20181014, m_todayDate: 20181014, dueToChangeInTimezone: false
+2018-10-14 14:44:30.119 [JV] INFO  [AWT-EventQueue-0] - Setting dir is /Users/lc/IdeaProjects/Skye/
+2018-10-14 14:44:30.120 [JV] INFO  [AWT-EventQueue-0] - PROXY Cleared HTTP proxy: no valid proxy is present (passing on :0)
+2018-10-14 14:44:30.123 [JV] INFO  [AWT-EventQueue-0] - SPLASH Creating screen with 5 steps
+2018-10-14 14:44:30.601 [JV] INFO  [AWT-EventQueue-0] - initAutoEncryptionMenu(): autoEncryption set to true
+2018-10-14 14:44:30.607 [JV] INFO  [AWT-EventQueue-0] - Contacting mcgw1.ibllc.com.cn:4000 as user NOT PRINTED
+2018-10-14 14:44:30.617 [JV] INFO  [AWT-EventQueue-0] - mapProdToPaper: m_simulatedTradingModeSelected=false
+2018-10-14 14:44:30.617 [JV] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection attempt time is cleared!
+2018-10-14 14:44:30.617 [JV] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection set as now:14:44:30:617
+2018-10-14 14:44:30.617 [JV] INFO  [AWT-EventQueue-0] - Prelogin delay:0
+2018-10-14 14:44:30.618 [JV] INFO  [JTS-Login-13] - Starting launcher login thread
+2018-10-14 14:44:30.619 [JV] INFO  [JTS-Login-13] - SPLASH Connecting to server
+2018-10-14 14:44:30.619 [JV] INFO  [JTS-Login-13] - Connecting mcgw1.ibllc.com.cn:4000 timeout=20000
+2018-10-14 14:44:30.620 [JV] INFO  [JTS-Login-13] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /127.0.0.1:55623
+2018-10-14 14:44:30.621 [JV] INFO  [JTS-Order-Audit-15] - Starting async queue thread
+2018-10-14 14:44:30.621 [JV] INFO  [AWT-EventQueue-0] - Network monitor is activated
+2018-10-14 14:44:30.623 [JV] INFO  [JTS-Login-13] - NSCX init:false
+2018-10-14 14:44:30.623 [JV] INFO  [JTS-Login-13] - JTSAuthConnection.onConnected(): lastKnownCipherStatus=SECURE
+2018-10-14 14:44:30.623 [JV] INFO  [JTS-Login-13] - Changing state for connection from PRELOGON to PRELOGON in A 1086619238: SessionSocket:2
+2018-10-14 14:44:30.624 [JV] INFO  [JTS-Login-13] - Authenticating
+2018-10-14 14:44:30.624 [JV] INFO  [JTS-CCPListenerS2-16] - Starting Listener thread
+2018-10-14 14:44:30.624 [JV] INFO  [JTS-Login-13] - AuthTimeoutMonitor: deactivate
+2018-10-14 14:44:30.624 [JV] INFO  [JTS-Login-13] - AuthTimeoutMonitor: timeout=20000
+2018-10-14 14:44:30.625 [JV] INFO  [JTS-Login-13] - AuthTimeoutMonitor: activate
+2018-10-14 14:44:30.625 [JV] INFO  [JTS-AuthTimeoutMonitorThread-18] - Starting auth timeout monitor thread
+2018-10-14 14:44:30.625 [JV] INFO  [JTS-Login-13] - SPLASH -0001 step 1 AuthDispatcher.connect
+2018-10-14 14:44:30.626 [JV] INFO  [JTS-Login-13] - Sending connect request
+2018-10-14 14:44:30.626 [JV] INFO  [JTS-AuthDispatcherS2-17] - Starting dispatcher
+2018-10-14 14:44:30.627 [JV] INFO  [JTS-Login-13] - AuthDispatcher.initNSMsgVersionLimits: minVersion=35, maxVersion=38
+2018-10-14 14:44:30.628 [JV] INFO  [JTS-CCPListenerS2-16] - Initial listener buffer size is 408288
+2018-10-14 14:44:30.628 [JV] INFO  [JTS-Login-13] - SPLASH Authenticating
+2018-10-14 14:44:30.628 [JV] INFO  [JTS-CCPListenerS2-16] - Capping listener buffer size at 65536
+2018-10-14 14:44:30.629 [JV] INFO  [JTS-Login-13] - Terminating launcher login thread
+2018-10-14 14:44:30.753 [JV] INFO  [JTS-AuthDispatcherS2-17] - set nsMsgVersion: context=SecureConnectionStart; version=38
+2018-10-14 14:44:30.815 [JV] INFO  [JTS-AuthDispatcherS2-17] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,OU=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20181013-14:00:11 Europe/London	notAfter:20181015-22:00:11 Europe/London
+2018-10-14 14:44:30.815 [JV] INFO  [JTS-AuthDispatcherS2-17] - cert #1 subject:CN=prod.ckg.ibllc.com,OU=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20180720-01:00:00 Europe/London	notAfter:20200904-13:00:00 Europe/London
+2018-10-14 14:44:30.816 [JV] INFO  [JTS-AuthDispatcherS2-17] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2018-10-14 14:44:30.817 [JV] INFO  [JTS-AuthDispatcherS2-17] - Current time is: 20181014-07:44:30 Europe/London
+2018-10-14 14:44:30.823 [JV] INFO  [JTS-AuthDispatcherS2-17] - CipherContext initialization successed.
+2018-10-14 14:44:30.825 [JV] INFO  [JTS-AuthDispatcherS2-17] - SPLASH 0200 step 2 AuthDispatcher.send
+2018-10-14 14:44:30.875 [JV] INFO  [JTS-AuthDispatcherS2-17] - set nsMsgVersion: context=AuthStart; version=38
+2018-10-14 14:44:30.876 [JV] INFO  [JTS-AuthDispatcherS2-17] - Received NS_AUTH_START: 1
+2018-10-14 14:44:30.878 [JV] INFO  [JTS-AuthDispatcherS2-17] - pwd time to expiry ms: 2562876930000 days: 29663
+2018-10-14 14:44:30.878 [JV] INFO  [JTS-AuthDispatcherS2-17] - Long pwd allowed : true
+2018-10-14 14:44:30.878 [JV] INFO  [JTS-AuthDispatcherS2-17] -  NS_AUTH_START version=38 pwd=1 soft=0 token(s)=[token=0] initialTokenType=PWD authenticationType=MARKET_DATA_CONNECTION identityHashcode=874217608
+2018-10-14 14:44:30.879 [JV] INFO  [JTS-AuthDispatcherS2-17] - Starting password Authentication
+2018-10-14 14:44:30.880 [JV] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 14:44:30.930 [JV] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 14:44:30.931 [JV] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 14:44:30.931 [JV] INFO  [JTS-AuthDispatcherS2-17] - Received AUTH_PARAMS
+2018-10-14 14:44:30.931 [JV] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 14:44:30.980 [JV] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 14:44:30.980 [JV] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 14:44:30.980 [JV] INFO  [JTS-AuthDispatcherS2-17] - Received SERVER_PARAMS
+2018-10-14 14:44:30.982 [JV] INFO  [JTS-AuthDispatcherS2-17] - Session Token received in AuthenticationMessageXYZ: c98db23dbb88051d95c577c44580b7be8d70c009  messageId=SERVER_KEY (4)
+2018-10-14 14:44:30.983 [JV] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 14:44:31.031 [JV] INFO  [JTS-AuthDispatcherS2-17] - SPLASH 0206 step 3 AuthDispatcher.processDataItr
+2018-10-14 14:44:31.031 [JV] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 14:44:31.031 [JV] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 14:44:31.031 [JV] INFO  [JTS-AuthDispatcherS2-17] - Received AUTH_RESULT
+2018-10-14 14:44:31.032 [JV] INFO  [JTS-AuthDispatcherS2-17] - Passed pwd authentication.
+2018-10-14 14:44:31.032 [JV] INFO  [JTS-AuthDispatcherS2-17] - Authentication completed.
+2018-10-14 14:44:31.032 [JV] INFO  [JTS-AuthDispatcherS2-17] - setting session token in AuthenticationHandler: authenticationType=MARKET_DATA_CONNECTION hashCode=874217608 new=c98db23dbb88051d95c577c44580b7be8d70c009 old=NULL ctciOld=NULL
+2018-10-14 14:44:31.078 [JV] INFO  [JTS-AuthDispatcherS2-17] - Received NS_CONNECT_RESPONSE
+2018-10-14 14:44:31.079 [JV] INFO  [JTS-AuthDispatcherS2-17] - Log encryption support is enabled [logKeyId: aaa].
+2018-10-14 14:44:31.080 [JV] INFO  [JTS-AuthDispatcherS2-17] - CCP sent paperUser NOT PRINTED for prodUser NOT PRINTED
+2018-10-14 14:44:31.128 [JV] INFO  [JTS-AuthDispatcherS2-17] - Received NS_FIX_START
+2018-10-14 14:44:31.129 [JV] INFO  [JTS-AuthDispatcherS2-17] - Terminating dispatcher
+2018-10-14 14:44:31.130 [JV] INFO  [JTS-PostAuthenticateS2-23] - AuthTimeoutMonitor: deactivate
+2018-10-14 14:44:31.130 [JV] INFO  [JTS-AuthTimeoutMonitorThread-18] - Terminating auth timeout monitor thread
+2018-10-14 14:44:31.130 [JV] INFO  [JTS-PostAuthenticateS2-23] - Authentication complete
+2018-10-14 14:44:31.130 [JV] INFO  [JTS-PostAuthenticateS2-23] - Creating a FixLogonHandlerFactory instance...
+2018-10-14 14:44:31.131 [JV] INFO  [JTS-PostAuthenticateS2-23] - Instance created.
+2018-10-14 14:44:31.137 [JV] INFO  [AWT-EventQueue-0] - initPreUI() - entry
+2018-10-14 14:44:31.137 [JV] INFO  [AWT-EventQueue-0] - jtsLookAndFeel uninitialized
+2018-10-14 14:44:31.137 [JV] INFO  [AWT-EventQueue-0] - JtsLookAndFeel initialized
+2018-10-14 14:44:31.139 [JV] INFO  [JTS-PostAuthenticateS2-23] - JDOMFactory Class =interface org.jdom.JDOMFactory
+2018-10-14 14:44:31.140 [JV] INFO  [AWT-EventQueue-0] - Current LAF: TWS LAF
+2018-10-14 14:44:31.140 [JV] INFO  [AWT-EventQueue-0] - initPreUI() - exit
+2018-10-14 14:44:31.141 [JV] INFO  [JTS-PostAuthenticateS2-23] - hsqldb jdbc =class org.hsqldb.jdbcDriver 2.4
+2018-10-14 14:44:31.143 [JV] INFO  [JTS-PostAuthenticateS2-23] - Changing state for connection from PRELOGON to PRELOGON in A 1086619238: SessionSocket:2
+2018-10-14 14:44:31.144 [JV] INFO  [JTS-PostAuthenticateS2-23] - createOrRenameToNewStyleUserDirectory: no action: use existing newDir=/Users/lc/IdeaProjects/Skye/beokipfnbfiojkemeddcpjjcjbaifpmiejmmnahg
+2018-10-14 14:44:31.144 [JV] INFO  [JTS-PostAuthenticateS2-23] - performLogSwitch: forceToSwitch=false
+2018-10-14 14:44:31.148 [JV] INFO  [JTS-PostAuthenticateS2-23] - Switching to a new encrypted log...
+2018-10-14 15:13:36.724 [OC] INFO  [JTS-Main] - ------------------------------- IB GATEWAY RESTART --------------------------------
+2018-10-14 15:13:36.727 [OC] INFO  [JTS-Main] - Jts dir is /Users/lc/IdeaProjects/Skye/
+2018-10-14 15:13:36.740 [OC] INFO  [JTS-Main] - PROXY Set SOCKS proxy (socket) 127.0.0.1:1080
+2018-10-14 15:13:36.740 [OC] INFO  [JTS-Main] - PROXY Installed custom selector
+2018-10-14 15:13:36.743 [OC] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null
+2018-10-14 15:13:36.745 [OC] INFO  [JTS-Main] - LOCALE: JTS Locale=en_US  country=United States  variant=
+2018-10-14 15:13:36.746 [OC] INFO  [JTS-Main] - Region: from ini usr -> Custom
+2018-10-14 15:13:36.746 [OC] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null
+2018-10-14 15:13:36.746 [OC] INFO  [JTS-Main] - LOCALE: JTS Locale=en_US  country=United States  variant=
+2018-10-14 15:13:36.747 [OC] INFO  [JTS-Main] - Region:Custom
+2018-10-14 15:13:36.748 [OC] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 15:13:36.748 [OC] INFO  [JTS-Main] - Chinese peer detected ('mcgw1.ibllc.com.cn:4000'): switching download root to 'https://download.ibkr.com.cn'.
+2018-10-14 15:13:36.749 [OC] INFO  [JTS-Main] - WebRegionURL Path:/java/classes/locales.jar URL:http://www.interactivebrokers.com/java/classes/locales.jar
+2018-10-14 15:13:36.750 [OC] INFO  [JTS-Main] - Starting to download 'https://download.ibkr.com.cn/java/classes/locales.jar' using HotBackup 'https://download.ibkr.com.cn/java/classes/locales.jar'
+2018-10-14 15:13:38.671 [OC] INFO  [JTS-Main] - LOCALE: needToUpdate  dest=/Users/lc/IdeaProjects/Skye/jars/locales.jar  sourceMod=2018-05-08 01:08:54  destMod=2018-05-08 01:08:54  sourceSize=104614  destSize=104614  conditions=[NEWER_REMOTE, LOCAL_IN_FUTURE, SIZE_DIFFERS]  download=false
+2018-10-14 15:13:38.671 [OC] INFO  [JTS-Main] - LOCALE: /Users/lc/IdeaProjects/Skye/jars/locales.jar already up-to-date
+2018-10-14 15:13:38.671 [OC] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 15:13:38.672 [OC] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 15:13:38.702 [OC] INFO  [JTS-Main] - LOCALE: loaded 9 supported locales
+2018-10-14 15:13:38.721 [OC] INFO  [JTS-Main] - LOCALE: loaded 8 countries
+2018-10-14 15:13:38.721 [OC] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 15:13:38.725 [OC] INFO  [JTS-Main] - Locale from ini: en
+2018-10-14 15:13:38.726 [OC] INFO  [JTS-Main] - LOCALE: created classloader java.net.URLClassLoader@34e9fd99 with file:/Users/lc/IdeaProjects/Skye/jars/locales.jar, parent: sun.misc.Launcher$AppClassLoader@14ae5a5
+2018-10-14 15:13:38.726 [OC] INFO  [JTS-Main] - Locale=en_US  country=United States  variant=
+2018-10-14 15:13:38.728 [OC] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage]
+2018-10-14 15:13:38.731 [OC] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en]
+2018-10-14 15:13:38.732 [OC] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en_US]
+2018-10-14 15:13:38.732 [OC] INFO  [JTS-Main] - LOCALE: type: launcher intended: en_US actual:  size: 353
+2018-10-14 15:13:38.733 [OC] INFO  [JTS-Main] - initPreUI() - entry
+2018-10-14 15:13:38.743 [OC] INFO  [JTS-Main] - Build 973.2h, Sep 25, 2018 12:05:32 PM
+2018-10-14 15:13:38.812 [OC] INFO  [JTS-Main] - LookAndFeelChangedListener installed
+2018-10-14 15:13:38.816 [OC] INFO  [JTS-Main] - JtsLookAndFeel initialized
+2018-10-14 15:13:38.942 [OC] INFO  [JTS-Main] - Current LAF: TWS LAF
+2018-10-14 15:13:38.943 [OC] INFO  [JTS-Main] - initPreUI() - exit
+2018-10-14 15:13:38.949 [OC] INFO  [JTS-Main] - Connect and request MiscUrls
+2018-10-14 15:13:38.950 [OC] INFO  [JTS-MiscUlrsRequester-5] - Connecting mcgw1.ibllc.com.cn:4000 timeout=0
+2018-10-14 15:13:38.951 [OC] INFO  [AWT-EventQueue-0] - java.lang.UnsupportedOperationException: Toolkit.getLockingKeyState
+2018-10-14 15:13:38.951 [OC] INFO  [JTS-Main] - Hard linking is not enabled in standalone mode
+2018-10-14 15:13:39.020 [OC] INFO  [JTS-MiscUlrsRequester-5] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /127.0.0.1:55877
+2018-10-14 15:13:39.021 [OC] INFO  [JTS-MiscUlrsRequester-5] - Resolving mac address
+2018-10-14 15:13:39.022 [OC] INFO  [JTS-MiscUlrsRequester-5] - falling back to custom mac address resolution
+2018-10-14 15:13:39.209 [OC] INFO  [JTS-MiscUlrsRequester-5] - MACNetworkInfo created <1a98229d|ac:de:48:00:11:22|127.0.0.1>
+2018-10-14 15:13:39.211 [OC] INFO  [JTS-MISC URLsListenerS1-7] - Starting Listener thread
+2018-10-14 15:13:39.222 [OC] INFO  [JTS-MiscUlrsRequester-5] - Sending MiscUrls request
+2018-10-14 15:13:39.222 [OC] INFO  [JTS-AuthDispatcherS1-8] - Starting dispatcher
+2018-10-14 15:13:39.225 [OC] INFO  [JTS-MiscUlrsRequester-5] - LOGIN_TIME_MONITOR	 false 15:13:39:225 since start = 0 thread delay = 0 global delay = 0 tag=null, cls=AuthDispatcher method=send
+2018-10-14 15:13:39.226 [OC] INFO  [JTS-AuthResponseMonitor-9] - Starting auth response monitor thread
+2018-10-14 15:13:39.226 [OC] INFO  [JTS-MISC URLsListenerS1-7] - Initial listener buffer size is 408288
+2018-10-14 15:13:39.226 [OC] INFO  [JTS-MISC URLsListenerS1-7] - Capping listener buffer size at 65536
+2018-10-14 15:13:39.273 [OC] INFO  [JTS-AuthDispatcherS1-8] - Received NS_MISC_URLS
+2018-10-14 15:13:39.274 [OC] INFO  [JTS-AuthDispatcherS1-8] - Received URLs ='{alpine_help=https://www.interactivebrokers.com/en/general/alpineHelp.php, ib_system_status=http://status.interactivebrokers.net/cgi-bin/bb_status.pl, customer_service=https://www.interactivebrokers.com/en/p.php?f=customerService&ib_entity=llc, wbdemo=direct, java_upgrade_howto=https://www.interactivebrokers.com/en/software/downloadPlugin.php?ib_entity=llc, demo=email, ssl=1, pass_change_ib=https://gdcdyn.interactivebrokers.com/sso/Login?service=AM.LOGIN&MSG=PWD, paper_account_creation=https://gdcdyn.interactivebrokers.com/sso/Login, pass_reset=https://gdcdyn.interactivebrokers.com/Universal/servlet/AccountAccess.PasswordReset, bingo_help=https://www.interactivebrokers.com/en/general/bingoHelp.php, pass_reset_wb=https://www.clientam.com/Universal/servlet/AccountAccess.PasswordReset, gold_help=https://www.interactivebrokers.com/en/general/goldHelp.php, s3store=1}'
+2018-10-14 15:13:39.275 [OC] INFO  [JTS-AuthDispatcherS1-8] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_BY_DESIGN
+2018-10-14 15:13:39.276 [OC] INFO  [JTS-MISC URLsListenerS1-7] - Socket or stream for connection mcgw1.ibllc.com.cn:4000 was closed by another thread
+2018-10-14 15:13:39.276 [OC] INFO  [JTS-AuthDispatcherS1-8] - Terminating dispatcher
+2018-10-14 15:13:39.276 [OC] INFO  [JTS-MISC URLsListenerS1-7] - Terminating Listener thread
+2018-10-14 15:13:39.276 [OC] INFO  [JTS-AuthResponseMonitor-9] - Terminating auth response monitor thread
+2018-10-14 15:13:40.627 [OC] INFO  [AWT-EventQueue-0] - twslaunch.autoupdate.serviceImpl: null
+2018-10-14 15:13:40.714 [OC] INFO  [AWT-EventQueue-0] - Started on 20181014-07:13:40
+2018-10-14 15:13:40.716 [OC] INFO  [AWT-EventQueue-0] - Default timezone:Asia/Shanghai name:China Standard Time dst:0
+2018-10-14 15:13:40.716 [OC] INFO  [AWT-EventQueue-0] - java version = 1.8.0_181
+2018-10-14 15:13:40.716 [OC] INFO  [AWT-EventQueue-0] - sun.arch.data.model = 64
+2018-10-14 15:13:40.716 [OC] INFO  [AWT-EventQueue-0] - os = Mac OS X
+2018-10-14 15:13:40.716 [OC] INFO  [AWT-EventQueue-0] - os architecture = 32
+2018-10-14 15:13:40.716 [OC] INFO  [AWT-EventQueue-0] - runtime = Java(TM) SE Runtime Environment
+2018-10-14 15:13:40.716 [OC] INFO  [AWT-EventQueue-0] - vendor = Oracle Corporation
+2018-10-14 15:13:40.716 [OC] INFO  [AWT-EventQueue-0] - vm name = Java HotSpot(TM) 64-Bit Server VM
+2018-10-14 15:13:40.716 [OC] INFO  [AWT-EventQueue-0] - username = 'lc'
+2018-10-14 15:13:40.860 [OC] INFO  [AWT-EventQueue-0] - OvernightManager.dayInit: new values: dayOfTheWeek: 1 (Sun), YYYYMMofToday: 201810, YYYYMMDDofToday: 20181014, m_todayDate: 20181014, dueToChangeInTimezone: false
+2018-10-14 15:13:41.041 [OC] INFO  [AWT-EventQueue-0] - Setting dir is /Users/lc/IdeaProjects/Skye/
+2018-10-14 15:13:41.041 [OC] INFO  [AWT-EventQueue-0] - PROXY Cleared HTTP proxy: no valid proxy is present (passing on :0)
+2018-10-14 15:13:41.043 [OC] INFO  [AWT-EventQueue-0] - SPLASH Creating screen with 5 steps
+2018-10-14 15:13:41.530 [OC] INFO  [AWT-EventQueue-0] - initAutoEncryptionMenu(): autoEncryption set to true
+2018-10-14 15:13:41.538 [OC] INFO  [AWT-EventQueue-0] - Contacting mcgw1.ibllc.com.cn:4000 as user NOT PRINTED
+2018-10-14 15:13:41.549 [OC] INFO  [AWT-EventQueue-0] - mapProdToPaper: m_simulatedTradingModeSelected=false
+2018-10-14 15:13:41.549 [OC] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection attempt time is cleared!
+2018-10-14 15:13:41.550 [OC] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection set as now:15:13:41:550
+2018-10-14 15:13:41.550 [OC] INFO  [AWT-EventQueue-0] - Prelogin delay:0
+2018-10-14 15:13:41.551 [OC] INFO  [JTS-Login-13] - Starting launcher login thread
+2018-10-14 15:13:41.552 [OC] INFO  [JTS-Login-13] - SPLASH Connecting to server
+2018-10-14 15:13:41.552 [OC] INFO  [JTS-Login-13] - Connecting mcgw1.ibllc.com.cn:4000 timeout=20000
+2018-10-14 15:13:41.553 [OC] INFO  [JTS-Login-13] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /127.0.0.1:55879
+2018-10-14 15:13:41.554 [OC] INFO  [JTS-Order-Audit-15] - Starting async queue thread
+2018-10-14 15:13:41.555 [OC] INFO  [AWT-EventQueue-0] - Network monitor is activated
+2018-10-14 15:13:41.557 [OC] INFO  [JTS-Login-13] - NSCX init:false
+2018-10-14 15:13:41.558 [OC] INFO  [JTS-Login-13] - JTSAuthConnection.onConnected(): lastKnownCipherStatus=SECURE
+2018-10-14 15:13:41.558 [OC] INFO  [JTS-Login-13] - Changing state for connection from PRELOGON to PRELOGON in A 1082250882: SessionSocket:2
+2018-10-14 15:13:41.558 [OC] INFO  [JTS-Login-13] - Authenticating
+2018-10-14 15:13:41.559 [OC] INFO  [JTS-CCPListenerS2-16] - Starting Listener thread
+2018-10-14 15:13:41.559 [OC] INFO  [JTS-Login-13] - AuthTimeoutMonitor: deactivate
+2018-10-14 15:13:41.559 [OC] INFO  [JTS-Login-13] - AuthTimeoutMonitor: timeout=20000
+2018-10-14 15:13:41.560 [OC] INFO  [JTS-Login-13] - AuthTimeoutMonitor: activate
+2018-10-14 15:13:41.560 [OC] INFO  [JTS-AuthTimeoutMonitorThread-18] - Starting auth timeout monitor thread
+2018-10-14 15:13:41.560 [OC] INFO  [JTS-Login-13] - SPLASH -0001 step 1 AuthDispatcher.connect
+2018-10-14 15:13:41.561 [OC] INFO  [JTS-Login-13] - Sending connect request
+2018-10-14 15:13:41.561 [OC] INFO  [JTS-AuthDispatcherS2-17] - Starting dispatcher
+2018-10-14 15:13:41.562 [OC] INFO  [JTS-Login-13] - AuthDispatcher.initNSMsgVersionLimits: minVersion=35, maxVersion=38
+2018-10-14 15:13:41.564 [OC] INFO  [JTS-CCPListenerS2-16] - Initial listener buffer size is 408288
+2018-10-14 15:13:41.564 [OC] INFO  [JTS-Login-13] - SPLASH Authenticating
+2018-10-14 15:13:41.564 [OC] INFO  [JTS-CCPListenerS2-16] - Capping listener buffer size at 65536
+2018-10-14 15:13:41.565 [OC] INFO  [JTS-Login-13] - Terminating launcher login thread
+2018-10-14 15:13:41.689 [OC] INFO  [JTS-AuthDispatcherS2-17] - set nsMsgVersion: context=SecureConnectionStart; version=38
+2018-10-14 15:13:41.711 [OC] INFO  [JTS-AuthDispatcherS2-17] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,OU=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20181013-14:00:11 Europe/London	notAfter:20181015-22:00:11 Europe/London
+2018-10-14 15:13:41.711 [OC] INFO  [JTS-AuthDispatcherS2-17] - cert #1 subject:CN=prod.ckg.ibllc.com,OU=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20180720-01:00:00 Europe/London	notAfter:20200904-13:00:00 Europe/London
+2018-10-14 15:13:41.711 [OC] INFO  [JTS-AuthDispatcherS2-17] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2018-10-14 15:13:41.713 [OC] INFO  [JTS-AuthDispatcherS2-17] - Current time is: 20181014-08:13:41 Europe/London
+2018-10-14 15:13:41.719 [OC] INFO  [JTS-AuthDispatcherS2-17] - CipherContext initialization successed.
+2018-10-14 15:13:41.750 [OC] INFO  [JTS-DeadlockMonitor-2] - Memory:total=3,728,384KB free=3,670,738KB HeapUsage: Max=3,728,384KB used=57,645KB committed=199,680KB NonHeapUsage: Max=0KB used=46,891KB committed=47,872KB
+2018-10-14 15:13:41.771 [OC] INFO  [JTS-AuthDispatcherS2-17] - SPLASH 0210 step 2 AuthDispatcher.processDataItr
+2018-10-14 15:13:41.772 [OC] INFO  [JTS-AuthDispatcherS2-17] - set nsMsgVersion: context=AuthStart; version=38
+2018-10-14 15:13:41.773 [OC] INFO  [JTS-AuthDispatcherS2-17] - Received NS_AUTH_START: 1
+2018-10-14 15:13:41.815 [OC] INFO  [JTS-AuthDispatcherS2-17] - pwd time to expiry ms: 2562875179000 days: 29663
+2018-10-14 15:13:41.815 [OC] INFO  [JTS-AuthDispatcherS2-17] - Long pwd allowed : true
+2018-10-14 15:13:41.816 [OC] INFO  [JTS-AuthDispatcherS2-17] -  NS_AUTH_START version=38 pwd=1 soft=0 token(s)=[token=0] initialTokenType=PWD authenticationType=MARKET_DATA_CONNECTION identityHashcode=2060511837
+2018-10-14 15:13:41.818 [OC] INFO  [JTS-AuthDispatcherS2-17] - Starting password Authentication
+2018-10-14 15:13:41.819 [OC] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 15:13:41.870 [OC] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 15:13:41.871 [OC] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 15:13:41.871 [OC] INFO  [JTS-AuthDispatcherS2-17] - Received AUTH_PARAMS
+2018-10-14 15:13:41.871 [OC] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 15:13:41.920 [OC] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 15:13:41.920 [OC] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 15:13:41.921 [OC] INFO  [JTS-AuthDispatcherS2-17] - Received SERVER_PARAMS
+2018-10-14 15:13:41.922 [OC] INFO  [JTS-AuthDispatcherS2-17] - Session Token received in AuthenticationMessageXYZ: 91dfa0f4dbd1f76fa9483c59b5df0f2213734ed1  messageId=SERVER_KEY (4)
+2018-10-14 15:13:41.923 [OC] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 15:13:41.971 [OC] INFO  [JTS-AuthDispatcherS2-17] - SPLASH 0201 step 2 AuthDispatcher.processDataItr
+2018-10-14 15:13:41.971 [OC] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 15:13:41.971 [OC] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 15:13:41.971 [OC] INFO  [JTS-AuthDispatcherS2-17] - Received AUTH_RESULT
+2018-10-14 15:13:41.971 [OC] INFO  [JTS-AuthDispatcherS2-17] - Passed pwd authentication.
+2018-10-14 15:13:41.972 [OC] INFO  [JTS-AuthDispatcherS2-17] - Authentication completed.
+2018-10-14 15:13:41.972 [OC] INFO  [JTS-AuthDispatcherS2-17] - setting session token in AuthenticationHandler: authenticationType=MARKET_DATA_CONNECTION hashCode=2060511837 new=91dfa0f4dbd1f76fa9483c59b5df0f2213734ed1 old=NULL ctciOld=NULL
+2018-10-14 15:13:42.016 [OC] INFO  [JTS-AuthDispatcherS2-17] - Received NS_CONNECT_RESPONSE
+2018-10-14 15:13:42.017 [OC] INFO  [JTS-AuthDispatcherS2-17] - Log encryption support is enabled [logKeyId: aaa].
+2018-10-14 15:13:42.017 [OC] INFO  [JTS-AuthDispatcherS2-17] - CCP sent paperUser NOT PRINTED for prodUser NOT PRINTED
+2018-10-14 15:13:42.065 [OC] INFO  [JTS-AuthDispatcherS2-17] - Received NS_FIX_START
+2018-10-14 15:13:42.067 [OC] INFO  [JTS-AuthDispatcherS2-17] - Terminating dispatcher
+2018-10-14 15:13:42.067 [OC] INFO  [JTS-PostAuthenticateS2-23] - AuthTimeoutMonitor: deactivate
+2018-10-14 15:13:42.067 [OC] INFO  [JTS-AuthTimeoutMonitorThread-18] - Terminating auth timeout monitor thread
+2018-10-14 15:13:42.068 [OC] INFO  [JTS-PostAuthenticateS2-23] - Authentication complete
+2018-10-14 15:13:42.068 [OC] INFO  [JTS-PostAuthenticateS2-23] - Creating a FixLogonHandlerFactory instance...
+2018-10-14 15:13:42.068 [OC] INFO  [JTS-PostAuthenticateS2-23] - Instance created.
+2018-10-14 15:13:42.074 [OC] INFO  [AWT-EventQueue-0] - initPreUI() - entry
+2018-10-14 15:13:42.075 [OC] INFO  [AWT-EventQueue-0] - jtsLookAndFeel uninitialized
+2018-10-14 15:13:42.075 [OC] INFO  [AWT-EventQueue-0] - JtsLookAndFeel initialized
+2018-10-14 15:13:42.077 [OC] INFO  [JTS-PostAuthenticateS2-23] - JDOMFactory Class =interface org.jdom.JDOMFactory
+2018-10-14 15:13:42.078 [OC] INFO  [AWT-EventQueue-0] - Current LAF: TWS LAF
+2018-10-14 15:13:42.078 [OC] INFO  [AWT-EventQueue-0] - initPreUI() - exit
+2018-10-14 15:13:42.079 [OC] INFO  [JTS-PostAuthenticateS2-23] - hsqldb jdbc =class org.hsqldb.jdbcDriver 2.4
+2018-10-14 15:13:42.081 [OC] INFO  [JTS-PostAuthenticateS2-23] - Changing state for connection from PRELOGON to PRELOGON in A 1082250882: SessionSocket:2
+2018-10-14 15:13:42.081 [OC] INFO  [JTS-PostAuthenticateS2-23] - createOrRenameToNewStyleUserDirectory: no action: use existing newDir=/Users/lc/IdeaProjects/Skye/beokipfnbfiojkemeddcpjjcjbaifpmiejmmnahg
+2018-10-14 15:13:42.082 [OC] INFO  [JTS-PostAuthenticateS2-23] - performLogSwitch: forceToSwitch=false
+2018-10-14 15:13:42.087 [OC] INFO  [JTS-PostAuthenticateS2-23] - Switching to a new encrypted log...
+2018-10-14 16:02:54.850 [KG] INFO  [JTS-Main] - ------------------------------- IB GATEWAY RESTART --------------------------------
+2018-10-14 16:02:54.852 [KG] INFO  [JTS-Main] - Jts dir is /Users/lc/IdeaProjects/Skye/
+2018-10-14 16:02:54.866 [KG] INFO  [JTS-Main] - PROXY Set SOCKS proxy (socket) 127.0.0.1:1080
+2018-10-14 16:02:54.866 [KG] INFO  [JTS-Main] - PROXY Installed custom selector
+2018-10-14 16:02:54.868 [KG] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null
+2018-10-14 16:02:54.870 [KG] INFO  [JTS-Main] - LOCALE: JTS Locale=en_US  country=United States  variant=
+2018-10-14 16:02:54.872 [KG] INFO  [JTS-Main] - Region: from ini usr -> Custom
+2018-10-14 16:02:54.872 [KG] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null
+2018-10-14 16:02:54.872 [KG] INFO  [JTS-Main] - LOCALE: JTS Locale=en_US  country=United States  variant=
+2018-10-14 16:02:54.872 [KG] INFO  [JTS-Main] - Region:Custom
+2018-10-14 16:02:54.874 [KG] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 16:02:54.874 [KG] INFO  [JTS-Main] - Chinese peer detected ('mcgw1.ibllc.com.cn:4000'): switching download root to 'https://download.ibkr.com.cn'.
+2018-10-14 16:02:54.875 [KG] INFO  [JTS-Main] - WebRegionURL Path:/java/classes/locales.jar URL:http://www.interactivebrokers.com/java/classes/locales.jar
+2018-10-14 16:02:54.876 [KG] INFO  [JTS-Main] - Starting to download 'https://download.ibkr.com.cn/java/classes/locales.jar' using HotBackup 'https://download.ibkr.com.cn/java/classes/locales.jar'
+2018-10-14 16:02:55.999 [KG] INFO  [JTS-Main] - LOCALE: needToUpdate  dest=/Users/lc/IdeaProjects/Skye/jars/locales.jar  sourceMod=2018-05-08 01:08:54  destMod=2018-05-08 01:08:54  sourceSize=104614  destSize=104614  conditions=[NEWER_REMOTE, LOCAL_IN_FUTURE, SIZE_DIFFERS]  download=false
+2018-10-14 16:02:55.999 [KG] INFO  [JTS-Main] - LOCALE: /Users/lc/IdeaProjects/Skye/jars/locales.jar already up-to-date
+2018-10-14 16:02:56.000 [KG] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 16:02:56.000 [KG] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 16:02:56.030 [KG] INFO  [JTS-Main] - LOCALE: loaded 9 supported locales
+2018-10-14 16:02:56.049 [KG] INFO  [JTS-Main] - LOCALE: loaded 8 countries
+2018-10-14 16:02:56.049 [KG] WARN  [JTS-Main] - The locales jar directory resolved to '/Users/lc/IdeaProjects/Skye/jars' ('installDir' system property is not set).
+2018-10-14 16:02:56.053 [KG] INFO  [JTS-Main] - Locale from ini: en
+2018-10-14 16:02:56.053 [KG] INFO  [JTS-Main] - LOCALE: created classloader java.net.URLClassLoader@34e9fd99 with file:/Users/lc/IdeaProjects/Skye/jars/locales.jar, parent: sun.misc.Launcher$AppClassLoader@14ae5a5
+2018-10-14 16:02:56.054 [KG] INFO  [JTS-Main] - Locale=en_US  country=United States  variant=
+2018-10-14 16:02:56.055 [KG] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage]
+2018-10-14 16:02:56.058 [KG] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en]
+2018-10-14 16:02:56.059 [KG] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en_US]
+2018-10-14 16:02:56.059 [KG] INFO  [JTS-Main] - LOCALE: type: launcher intended: en_US actual:  size: 353
+2018-10-14 16:02:56.060 [KG] INFO  [JTS-Main] - initPreUI() - entry
+2018-10-14 16:02:56.070 [KG] INFO  [JTS-Main] - Build 973.2h, Sep 25, 2018 12:05:32 PM
+2018-10-14 16:02:56.129 [KG] INFO  [JTS-Main] - LookAndFeelChangedListener installed
+2018-10-14 16:02:56.132 [KG] INFO  [JTS-Main] - JtsLookAndFeel initialized
+2018-10-14 16:02:56.250 [KG] INFO  [JTS-Main] - Current LAF: TWS LAF
+2018-10-14 16:02:56.250 [KG] INFO  [JTS-Main] - initPreUI() - exit
+2018-10-14 16:02:56.256 [KG] INFO  [JTS-Main] - Connect and request MiscUrls
+2018-10-14 16:02:56.257 [KG] INFO  [JTS-MiscUlrsRequester-5] - Connecting mcgw1.ibllc.com.cn:4000 timeout=0
+2018-10-14 16:02:56.258 [KG] INFO  [AWT-EventQueue-0] - java.lang.UnsupportedOperationException: Toolkit.getLockingKeyState
+2018-10-14 16:02:56.259 [KG] INFO  [JTS-Main] - Hard linking is not enabled in standalone mode
+2018-10-14 16:02:56.715 [KG] INFO  [JTS-MiscUlrsRequester-5] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /127.0.0.1:56233
+2018-10-14 16:02:56.716 [KG] INFO  [JTS-MiscUlrsRequester-5] - Resolving mac address
+2018-10-14 16:02:56.716 [KG] INFO  [JTS-MiscUlrsRequester-5] - falling back to custom mac address resolution
+2018-10-14 16:02:56.726 [KG] INFO  [JTS-MiscUlrsRequester-5] - MACNetworkInfo created <1a98229d|ac:de:48:00:11:22|127.0.0.1>
+2018-10-14 16:02:56.728 [KG] INFO  [JTS-MISC URLsListenerS1-7] - Starting Listener thread
+2018-10-14 16:02:56.739 [KG] INFO  [JTS-MiscUlrsRequester-5] - Sending MiscUrls request
+2018-10-14 16:02:56.739 [KG] INFO  [JTS-AuthDispatcherS1-8] - Starting dispatcher
+2018-10-14 16:02:56.742 [KG] INFO  [JTS-MiscUlrsRequester-5] - LOGIN_TIME_MONITOR	 false 16:02:56:742 since start = 0 thread delay = 0 global delay = 0 tag=null, cls=AuthDispatcher method=send
+2018-10-14 16:02:56.742 [KG] INFO  [JTS-AuthResponseMonitor-9] - Starting auth response monitor thread
+2018-10-14 16:02:56.743 [KG] INFO  [JTS-MISC URLsListenerS1-7] - Initial listener buffer size is 408288
+2018-10-14 16:02:56.743 [KG] INFO  [JTS-MISC URLsListenerS1-7] - Capping listener buffer size at 65536
+2018-10-14 16:02:56.839 [KG] INFO  [JTS-AuthDispatcherS1-8] - Received NS_MISC_URLS
+2018-10-14 16:02:56.841 [KG] INFO  [JTS-AuthDispatcherS1-8] - Received URLs ='{alpine_help=https://www.interactivebrokers.com/en/general/alpineHelp.php, ib_system_status=http://status.interactivebrokers.net/cgi-bin/bb_status.pl, customer_service=https://www.interactivebrokers.com/en/p.php?f=customerService&ib_entity=llc, wbdemo=direct, java_upgrade_howto=https://www.interactivebrokers.com/en/software/downloadPlugin.php?ib_entity=llc, demo=email, ssl=1, pass_change_ib=https://gdcdyn.interactivebrokers.com/sso/Login?service=AM.LOGIN&MSG=PWD, paper_account_creation=https://gdcdyn.interactivebrokers.com/sso/Login, pass_reset=https://gdcdyn.interactivebrokers.com/Universal/servlet/AccountAccess.PasswordReset, bingo_help=https://www.interactivebrokers.com/en/general/bingoHelp.php, pass_reset_wb=https://www.clientam.com/Universal/servlet/AccountAccess.PasswordReset, gold_help=https://www.interactivebrokers.com/en/general/goldHelp.php, s3store=1}'
+2018-10-14 16:02:56.844 [KG] INFO  [JTS-AuthDispatcherS1-8] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_BY_DESIGN
+2018-10-14 16:02:56.845 [KG] INFO  [JTS-MISC URLsListenerS1-7] - Socket or stream for connection mcgw1.ibllc.com.cn:4000 was closed by another thread
+2018-10-14 16:02:56.845 [KG] INFO  [JTS-AuthDispatcherS1-8] - Terminating dispatcher
+2018-10-14 16:02:56.845 [KG] INFO  [JTS-MISC URLsListenerS1-7] - Terminating Listener thread
+2018-10-14 16:02:56.845 [KG] INFO  [JTS-AuthResponseMonitor-9] - Terminating auth response monitor thread
+2018-10-14 16:02:57.841 [KG] INFO  [AWT-EventQueue-0] - twslaunch.autoupdate.serviceImpl: null
+2018-10-14 16:02:57.906 [KG] INFO  [AWT-EventQueue-0] - Started on 20181014-08:02:57
+2018-10-14 16:02:57.908 [KG] INFO  [AWT-EventQueue-0] - Default timezone:Asia/Shanghai name:China Standard Time dst:0
+2018-10-14 16:02:57.908 [KG] INFO  [AWT-EventQueue-0] - java version = 1.8.0_181
+2018-10-14 16:02:57.908 [KG] INFO  [AWT-EventQueue-0] - sun.arch.data.model = 64
+2018-10-14 16:02:57.908 [KG] INFO  [AWT-EventQueue-0] - os = Mac OS X
+2018-10-14 16:02:57.908 [KG] INFO  [AWT-EventQueue-0] - os architecture = 32
+2018-10-14 16:02:57.908 [KG] INFO  [AWT-EventQueue-0] - runtime = Java(TM) SE Runtime Environment
+2018-10-14 16:02:57.908 [KG] INFO  [AWT-EventQueue-0] - vendor = Oracle Corporation
+2018-10-14 16:02:57.908 [KG] INFO  [AWT-EventQueue-0] - vm name = Java HotSpot(TM) 64-Bit Server VM
+2018-10-14 16:02:57.909 [KG] INFO  [AWT-EventQueue-0] - username = 'lc'
+2018-10-14 16:02:58.052 [KG] INFO  [AWT-EventQueue-0] - OvernightManager.dayInit: new values: dayOfTheWeek: 1 (Sun), YYYYMMofToday: 201810, YYYYMMDDofToday: 20181014, m_todayDate: 20181014, dueToChangeInTimezone: false
+2018-10-14 16:02:58.238 [KG] INFO  [AWT-EventQueue-0] - Setting dir is /Users/lc/IdeaProjects/Skye/
+2018-10-14 16:02:58.239 [KG] INFO  [AWT-EventQueue-0] - PROXY Cleared HTTP proxy: no valid proxy is present (passing on :0)
+2018-10-14 16:02:58.241 [KG] INFO  [AWT-EventQueue-0] - SPLASH Creating screen with 5 steps
+2018-10-14 16:02:58.716 [KG] INFO  [AWT-EventQueue-0] - initAutoEncryptionMenu(): autoEncryption set to true
+2018-10-14 16:02:58.723 [KG] INFO  [AWT-EventQueue-0] - Contacting mcgw1.ibllc.com.cn:4000 as user NOT PRINTED
+2018-10-14 16:02:58.732 [KG] INFO  [AWT-EventQueue-0] - mapProdToPaper: m_simulatedTradingModeSelected=false
+2018-10-14 16:02:58.732 [KG] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection attempt time is cleared!
+2018-10-14 16:02:58.732 [KG] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection set as now:16:02:58:732
+2018-10-14 16:02:58.732 [KG] INFO  [AWT-EventQueue-0] - Prelogin delay:0
+2018-10-14 16:02:58.733 [KG] INFO  [JTS-Login-13] - Starting launcher login thread
+2018-10-14 16:02:58.733 [KG] INFO  [JTS-Login-13] - SPLASH Connecting to server
+2018-10-14 16:02:58.734 [KG] INFO  [JTS-Login-13] - Connecting mcgw1.ibllc.com.cn:4000 timeout=20000
+2018-10-14 16:02:58.734 [KG] INFO  [JTS-Login-13] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /127.0.0.1:56235
+2018-10-14 16:02:58.735 [KG] INFO  [JTS-Order-Audit-15] - Starting async queue thread
+2018-10-14 16:02:58.736 [KG] INFO  [AWT-EventQueue-0] - Network monitor is activated
+2018-10-14 16:02:58.738 [KG] INFO  [JTS-Login-13] - NSCX init:false
+2018-10-14 16:02:58.738 [KG] INFO  [JTS-Login-13] - JTSAuthConnection.onConnected(): lastKnownCipherStatus=SECURE
+2018-10-14 16:02:58.738 [KG] INFO  [JTS-Login-13] - Changing state for connection from PRELOGON to PRELOGON in A 1954627424: SessionSocket:2
+2018-10-14 16:02:58.738 [KG] INFO  [JTS-Login-13] - Authenticating
+2018-10-14 16:02:58.738 [KG] INFO  [JTS-CCPListenerS2-16] - Starting Listener thread
+2018-10-14 16:02:58.739 [KG] INFO  [JTS-Login-13] - AuthTimeoutMonitor: deactivate
+2018-10-14 16:02:58.739 [KG] INFO  [JTS-Login-13] - AuthTimeoutMonitor: timeout=20000
+2018-10-14 16:02:58.739 [KG] INFO  [JTS-Login-13] - AuthTimeoutMonitor: activate
+2018-10-14 16:02:58.739 [KG] INFO  [JTS-AuthTimeoutMonitorThread-18] - Starting auth timeout monitor thread
+2018-10-14 16:02:58.740 [KG] INFO  [JTS-Login-13] - SPLASH -0001 step 1 AuthDispatcher.connect
+2018-10-14 16:02:58.740 [KG] INFO  [JTS-Login-13] - Sending connect request
+2018-10-14 16:02:58.741 [KG] INFO  [JTS-AuthDispatcherS2-17] - Starting dispatcher
+2018-10-14 16:02:58.741 [KG] INFO  [JTS-Login-13] - AuthDispatcher.initNSMsgVersionLimits: minVersion=35, maxVersion=38
+2018-10-14 16:02:58.743 [KG] INFO  [JTS-CCPListenerS2-16] - Initial listener buffer size is 408288
+2018-10-14 16:02:58.743 [KG] INFO  [JTS-Login-13] - SPLASH Authenticating
+2018-10-14 16:02:58.743 [KG] INFO  [JTS-CCPListenerS2-16] - Capping listener buffer size at 65536
+2018-10-14 16:02:58.744 [KG] INFO  [JTS-Login-13] - Terminating launcher login thread
+2018-10-14 16:02:58.867 [KG] INFO  [JTS-AuthDispatcherS2-17] - set nsMsgVersion: context=SecureConnectionStart; version=38
+2018-10-14 16:02:58.929 [KG] INFO  [JTS-AuthDispatcherS2-17] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,OU=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20181013-14:00:11 Europe/London	notAfter:20181015-22:00:11 Europe/London
+2018-10-14 16:02:58.929 [KG] INFO  [JTS-AuthDispatcherS2-17] - cert #1 subject:CN=prod.ckg.ibllc.com,OU=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20180720-01:00:00 Europe/London	notAfter:20200904-13:00:00 Europe/London
+2018-10-14 16:02:58.929 [KG] INFO  [JTS-AuthDispatcherS2-17] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2018-10-14 16:02:58.931 [KG] INFO  [JTS-AuthDispatcherS2-17] - Current time is: 20181014-09:02:58 Europe/London
+2018-10-14 16:02:58.936 [KG] INFO  [JTS-AuthDispatcherS2-17] - CipherContext initialization successed.
+2018-10-14 16:02:58.939 [KG] INFO  [JTS-AuthDispatcherS2-17] - SPLASH 0200 step 2 AuthDispatcher.send
+2018-10-14 16:02:58.991 [KG] INFO  [JTS-AuthDispatcherS2-17] - set nsMsgVersion: context=AuthStart; version=38
+2018-10-14 16:02:58.992 [KG] INFO  [JTS-AuthDispatcherS2-17] - Received NS_AUTH_START: 1
+2018-10-14 16:02:58.993 [KG] INFO  [JTS-AuthDispatcherS2-17] - pwd time to expiry ms: 2562872222000 days: 29663
+2018-10-14 16:02:58.993 [KG] INFO  [JTS-AuthDispatcherS2-17] - Long pwd allowed : true
+2018-10-14 16:02:58.994 [KG] INFO  [JTS-AuthDispatcherS2-17] -  NS_AUTH_START version=38 pwd=1 soft=0 token(s)=[token=0] initialTokenType=PWD authenticationType=MARKET_DATA_CONNECTION identityHashcode=1105880637
+2018-10-14 16:02:58.995 [KG] INFO  [JTS-AuthDispatcherS2-17] - Starting password Authentication
+2018-10-14 16:02:58.995 [KG] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 16:02:59.046 [KG] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 16:02:59.047 [KG] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 16:02:59.047 [KG] INFO  [JTS-AuthDispatcherS2-17] - Received AUTH_PARAMS
+2018-10-14 16:02:59.048 [KG] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 16:02:59.097 [KG] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 16:02:59.097 [KG] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 16:02:59.097 [KG] INFO  [JTS-AuthDispatcherS2-17] - Received SERVER_PARAMS
+2018-10-14 16:02:59.099 [KG] INFO  [JTS-AuthDispatcherS2-17] - Session Token received in AuthenticationMessageXYZ: cb12406ff6dfb7618525a8d051e9cef85d88ad58  messageId=SERVER_KEY (4)
+2018-10-14 16:02:59.100 [KG] INFO  [JTS-AuthDispatcherS2-17] - sendXYZMessage: 777
+2018-10-14 16:02:59.148 [KG] INFO  [JTS-AuthDispatcherS2-17] - SPLASH 0209 step 3 AuthDispatcher.processDataItr
+2018-10-14 16:02:59.149 [KG] INFO  [JTS-AuthDispatcherS2-17] - Receiver: 777
+2018-10-14 16:02:59.149 [KG] INFO  [JTS-AuthDispatcherS2-17] - processXYZMessage: 777 protocol version: 38
+2018-10-14 16:02:59.149 [KG] INFO  [JTS-AuthDispatcherS2-17] - Received AUTH_RESULT
+2018-10-14 16:02:59.149 [KG] INFO  [JTS-AuthDispatcherS2-17] - Passed pwd authentication.
+2018-10-14 16:02:59.149 [KG] INFO  [JTS-AuthDispatcherS2-17] - Authentication completed.
+2018-10-14 16:02:59.150 [KG] INFO  [JTS-AuthDispatcherS2-17] - setting session token in AuthenticationHandler: authenticationType=MARKET_DATA_CONNECTION hashCode=1105880637 new=cb12406ff6dfb7618525a8d051e9cef85d88ad58 old=NULL ctciOld=NULL
+2018-10-14 16:02:59.194 [KG] INFO  [JTS-AuthDispatcherS2-17] - Received NS_CONNECT_RESPONSE
+2018-10-14 16:02:59.195 [KG] INFO  [JTS-AuthDispatcherS2-17] - Log encryption support is enabled [logKeyId: aaa].
+2018-10-14 16:02:59.195 [KG] INFO  [JTS-AuthDispatcherS2-17] - CCP sent paperUser NOT PRINTED for prodUser NOT PRINTED
+2018-10-14 16:02:59.244 [KG] INFO  [JTS-AuthDispatcherS2-17] - Received NS_FIX_START
+2018-10-14 16:02:59.246 [KG] INFO  [JTS-AuthDispatcherS2-17] - Terminating dispatcher
+2018-10-14 16:02:59.247 [KG] INFO  [JTS-PostAuthenticateS2-23] - AuthTimeoutMonitor: deactivate
+2018-10-14 16:02:59.247 [KG] INFO  [JTS-AuthTimeoutMonitorThread-18] - Terminating auth timeout monitor thread
+2018-10-14 16:02:59.247 [KG] INFO  [JTS-PostAuthenticateS2-23] - Authentication complete
+2018-10-14 16:02:59.247 [KG] INFO  [JTS-PostAuthenticateS2-23] - Creating a FixLogonHandlerFactory instance...
+2018-10-14 16:02:59.248 [KG] INFO  [JTS-PostAuthenticateS2-23] - Instance created.
+2018-10-14 16:02:59.255 [KG] INFO  [AWT-EventQueue-0] - initPreUI() - entry
+2018-10-14 16:02:59.255 [KG] INFO  [AWT-EventQueue-0] - jtsLookAndFeel uninitialized
+2018-10-14 16:02:59.255 [KG] INFO  [AWT-EventQueue-0] - JtsLookAndFeel initialized
+2018-10-14 16:02:59.257 [KG] INFO  [JTS-PostAuthenticateS2-23] - JDOMFactory Class =interface org.jdom.JDOMFactory
+2018-10-14 16:02:59.258 [KG] INFO  [AWT-EventQueue-0] - Current LAF: TWS LAF
+2018-10-14 16:02:59.258 [KG] INFO  [AWT-EventQueue-0] - initPreUI() - exit
+2018-10-14 16:02:59.259 [KG] INFO  [JTS-PostAuthenticateS2-23] - hsqldb jdbc =class org.hsqldb.jdbcDriver 2.4
+2018-10-14 16:02:59.261 [KG] INFO  [JTS-PostAuthenticateS2-23] - Changing state for connection from PRELOGON to PRELOGON in A 1954627424: SessionSocket:2
+2018-10-14 16:02:59.261 [KG] INFO  [JTS-PostAuthenticateS2-23] - createOrRenameToNewStyleUserDirectory: no action: use existing newDir=/Users/lc/IdeaProjects/Skye/beokipfnbfiojkemeddcpjjcjbaifpmiejmmnahg
+2018-10-14 16:02:59.261 [KG] INFO  [JTS-PostAuthenticateS2-23] - performLogSwitch: forceToSwitch=false
+2018-10-14 16:02:59.266 [KG] INFO  [JTS-PostAuthenticateS2-23] - Switching to a new encrypted log...

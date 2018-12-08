@@ -1,0 +1,7 @@
+-name chen@pilot.skye.gem
+-mnesia dir mnesia -s lager -s mnesia
++K true
++A30
++S 8 +P 2000000 +pc unicode
+-env ERL_MAX_ETS_TABLES 200000 -env ERL_MAX_PORTS 200000
+-mnesia auto_repair true -mnesia dc_dump_limit 40 -mnesia dump_log_write_threshold 40000

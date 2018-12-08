@@ -1,0 +1,714 @@
+
+=====
+===== LOGGING STARTED Sat Dec  8 12:25:12 CST 2018
+=====
+Exec: /usr/local/Cellar/erlang/21.1.4/lib/erlang/erts-10.1.3/bin/erlexec -boot /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/skye -mode embedded -boot_var ERTS_LIB_DIR /usr/local/Cellar/erlang/21.1.4/lib/erlang/lib -config /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/sys.config -args_file /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/vm.args -pa -- console 
+Root: /Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+/Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+Erlang/OTP 21 [erts-10.1.3] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:30] [hipe] [dtrace]
+
+Adapters:[]
+[]
+[]
+=CRASH REPORT==== 8-Dec-2018::12:25:12.710768 ===
+  crasher:
+    initial call: soj_server:init/1
+    pid: <0.248.0>
+    registered_name: []
+    exception error: undefined function mnesia:subscribe/1
+      in function  soj_server:init/1 (/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl, line 67)
+      in call from gen_server:init_it/2 (gen_server.erl, line 374)
+      in call from gen_server:init_it/6 (gen_server.erl, line 342)
+    ancestors: [skye_sup,<0.245.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.246.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 244
+  neighbours:
+
+=SUPERVISOR REPORT==== 8-Dec-2018::12:25:12.711016 ===
+    supervisor: {local,skye_sup}
+    errorContext: start_error
+    reason: {undef,
+                [{mnesia,subscribe,[system],[]},
+                 {soj_server,init,1,
+                     [{file,
+                          "/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl"},
+                      {line,67}]},
+                 {gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},
+                 {gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},
+                 {proc_lib,init_p_do_apply,3,
+                     [{file,"proc_lib.erl"},{line,249}]}]}
+    offender: [{pid,undefined},
+               {id,soj_server},
+               {mfargs,{soj_server,start_link,[test]}},
+               {restart_type,transient},
+               {shutdown,2000},
+               {child_type,worker}]
+=CRASH REPORT==== 8-Dec-2018::12:25:12.712134 ===
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.244.0>
+    registered_name: []
+    exception exit: {{shutdown,
+                      {failed_to_start_child,soj_server,
+                       {undef,
+                        [{mnesia,subscribe,[system],[]},
+                         {soj_server,init,1,
+                          [{file,
+                            "/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl"},
+                           {line,67}]},
+                         {gen_server,init_it,2,
+                          [{file,"gen_server.erl"},{line,374}]},
+                         {gen_server,init_it,6,
+                          [{file,"gen_server.erl"},{line,342}]},
+                         {proc_lib,init_p_do_apply,3,
+                          [{file,"proc_lib.erl"},{line,249}]}]}}},
+                     {skye_app,start,[normal,[]]}}
+      in function  application_master:init/4 (application_master.erl, line 138)
+    ancestors: [<0.243.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.245.0>,normal}]
+    links: [<0.243.0>,<0.205.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 240
+  neighbours:
+
+{"init terminating in do_boot",{undef,[{lager,start,[],[]},{init,start_em,1,[]},{init,do_boot,3,[]}]}}
+init terminating in do_boot ({undef,[{lager,start,[],[]},{init,start_em,1,[]},{init,do_boot,3,[]}]})
+
+Crash dump is being written to: erl_crash.dump...done
+
+=====
+===== LOGGING STARTED Sat Dec  8 12:32:19 CST 2018
+=====
+Exec: /usr/local/Cellar/erlang/21.1.4/lib/erlang/erts-10.1.3/bin/erlexec -boot /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/skye -mode embedded -boot_var ERTS_LIB_DIR /usr/local/Cellar/erlang/21.1.4/lib/erlang/lib -config /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/sys.config -args_file /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/vm.args -pa -- console 
+Root: /Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+/Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+Erlang/OTP 21 [erts-10.1.3] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:30] [hipe] [dtrace]
+
+Adapters:[]
+[]
+[]
+=CRASH REPORT==== 8-Dec-2018::12:32:20.233011 ===
+  crasher:
+    initial call: soj_server:init/1
+    pid: <0.248.0>
+    registered_name: []
+    exception error: undefined function mnesia:subscribe/1
+      in function  soj_server:init/1 (/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl, line 67)
+      in call from gen_server:init_it/2 (gen_server.erl, line 374)
+      in call from gen_server:init_it/6 (gen_server.erl, line 342)
+    ancestors: [skye_sup,<0.245.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.246.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 244
+  neighbours:
+
+=SUPERVISOR REPORT==== 8-Dec-2018::12:32:20.233195 ===
+    supervisor: {local,skye_sup}
+    errorContext: start_error
+    reason: {undef,
+                [{mnesia,subscribe,[system],[]},
+                 {soj_server,init,1,
+                     [{file,
+                          "/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl"},
+                      {line,67}]},
+                 {gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},
+                 {gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},
+                 {proc_lib,init_p_do_apply,3,
+                     [{file,"proc_lib.erl"},{line,249}]}]}
+    offender: [{pid,undefined},
+               {id,soj_server},
+               {mfargs,{soj_server,start_link,[test]}},
+               {restart_type,transient},
+               {shutdown,2000},
+               {child_type,worker}]
+=CRASH REPORT==== 8-Dec-2018::12:32:20.233988 ===
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.244.0>
+    registered_name: []
+    exception exit: {{shutdown,
+                      {failed_to_start_child,soj_server,
+                       {undef,
+                        [{mnesia,subscribe,[system],[]},
+                         {soj_server,init,1,
+                          [{file,
+                            "/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl"},
+                           {line,67}]},
+                         {gen_server,init_it,2,
+                          [{file,"gen_server.erl"},{line,374}]},
+                         {gen_server,init_it,6,
+                          [{file,"gen_server.erl"},{line,342}]},
+                         {proc_lib,init_p_do_apply,3,
+                          [{file,"proc_lib.erl"},{line,249}]}]}}},
+                     {skye_app,start,[normal,[]]}}
+      in function  application_master:init/4 (application_master.erl, line 138)
+    ancestors: [<0.243.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.245.0>,normal}]
+    links: [<0.243.0>,<0.205.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 240
+  neighbours:
+
+{"init terminating in do_boot",{undef,[{lager,start,[],[]},{init,start_em,1,[]},{init,do_boot,3,[]}]}}
+init terminating in do_boot ({undef,[{lager,start,[],[]},{init,start_em,1,[]},{init,do_boot,3,[]}]})
+
+Crash dump is being written to: erl_crash.dump...done
+
+=====
+===== LOGGING STARTED Sat Dec  8 12:39:31 CST 2018
+=====
+Exec: /usr/local/Cellar/erlang/21.1.4/lib/erlang/erts-10.1.3/bin/erlexec -boot /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/skye -mode embedded -boot_var ERTS_LIB_DIR /usr/local/Cellar/erlang/21.1.4/lib/erlang/lib -config /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/sys.config -args_file /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/vm.args -pa -- console 
+Root: /Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+/Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+Erlang/OTP 21 [erts-10.1.3] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:30] [hipe] [dtrace]
+
+Adapters:[]
+[]
+[]
+=SUPERVISOR REPORT==== 8-Dec-2018::12:39:31.890296 ===
+    supervisor: {local,skye_sup}
+    errorContext: start_error
+    reason: {undef,
+                [{mnesia,subscribe,[system],[]},
+                 {soj_server,init,1,
+                     [{file,
+                          "/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl"},
+                      {line,67}]},
+                 {gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},
+                 {gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},
+                 {proc_lib,init_p_do_apply,3,
+                     [{file,"proc_lib.erl"},{line,249}]}]}
+    offender: [{pid,undefined},
+               {id,soj_server},
+               {mfargs,{soj_server,start_link,[test]}},
+               {restart_type,transient},
+               {shutdown,2000},
+               {child_type,worker}]
+=CRASH REPORT==== 8-Dec-2018::12:39:31.890050 ===
+  crasher:
+    initial call: soj_server:init/1
+    pid: <0.248.0>
+    registered_name: []
+    exception error: undefined function mnesia:subscribe/1
+      in function  soj_server:init/1 (/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl, line 67)
+      in call from gen_server:init_it/2 (gen_server.erl, line 374)
+      in call from gen_server:init_it/6 (gen_server.erl, line 342)
+    ancestors: [skye_sup,<0.245.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.246.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 244
+  neighbours:
+
+=CRASH REPORT==== 8-Dec-2018::12:39:31.891476 ===
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.244.0>
+    registered_name: []
+    exception exit: {{shutdown,
+                      {failed_to_start_child,soj_server,
+                       {undef,
+                        [{mnesia,subscribe,[system],[]},
+                         {soj_server,init,1,
+                          [{file,
+                            "/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl"},
+                           {line,67}]},
+                         {gen_server,init_it,2,
+                          [{file,"gen_server.erl"},{line,374}]},
+                         {gen_server,init_it,6,
+                          [{file,"gen_server.erl"},{line,342}]},
+                         {proc_lib,init_p_do_apply,3,
+                          [{file,"proc_lib.erl"},{line,249}]}]}}},
+                     {skye_app,start,[normal,[]]}}
+      in function  application_master:init/4 (application_master.erl, line 138)
+    ancestors: [<0.243.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.245.0>,normal}]
+    links: [<0.243.0>,<0.205.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 240
+  neighbours:
+
+{"init terminating in do_boot",{undef,[{lager,start,[],[]},{init,start_em,1,[]},{init,do_boot,3,[]}]}}
+init terminating in do_boot ({undef,[{lager,start,[],[]},{init,start_em,1,[]},{init,do_boot,3,[]}]})
+
+Crash dump is being written to: erl_crash.dump...done
+
+=====
+===== LOGGING STARTED Sat Dec  8 12:39:43 CST 2018
+=====
+Exec: /usr/local/Cellar/erlang/21.1.4/lib/erlang/erts-10.1.3/bin/erlexec -boot /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/skye -mode embedded -boot_var ERTS_LIB_DIR /usr/local/Cellar/erlang/21.1.4/lib/erlang/lib -config /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/sys.config -args_file /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/vm.args -pa -- console 
+Root: /Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+/Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+Erlang/OTP 21 [erts-10.1.3] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:30] [hipe] [dtrace]
+
+Adapters:[]
+[]
+[]
+=SUPERVISOR REPORT==== 8-Dec-2018::12:39:43.781042 ===
+    supervisor: {local,skye_sup}
+    errorContext: start_error
+    reason: {undef,
+                [{lager_config,get,[{lager_event,loglevel},{0,[]}],[]},
+                 {soj_server,init,1,
+                     [{file,
+                          "/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl"},
+                      {line,71}]},
+                 {gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},
+                 {gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},
+                 {proc_lib,init_p_do_apply,3,
+                     [{file,"proc_lib.erl"},{line,249}]}]}
+    offender: [{pid,undefined},
+               {id,soj_server},
+               {mfargs,{soj_server,start_link,[test]}},
+               {restart_type,transient},
+               {shutdown,2000},
+               {child_type,worker}]
+=CRASH REPORT==== 8-Dec-2018::12:39:43.780813 ===
+  crasher:
+    initial call: soj_server:init/1
+    pid: <0.295.0>
+    registered_name: []
+    exception error: undefined function lager_config:get/2
+      in function  soj_server:init/1 (/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl, line 71)
+      in call from gen_server:init_it/2 (gen_server.erl, line 374)
+      in call from gen_server:init_it/6 (gen_server.erl, line 342)
+    ancestors: [skye_sup,<0.293.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.294.0>,<0.282.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 291
+  neighbours:
+
+=CRASH REPORT==== 8-Dec-2018::12:39:43.782020 ===
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.292.0>
+    registered_name: []
+    exception exit: {{shutdown,
+                      {failed_to_start_child,soj_server,
+                       {undef,
+                        [{lager_config,get,[{lager_event,loglevel},{0,[]}],[]},
+                         {soj_server,init,1,
+                          [{file,
+                            "/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl"},
+                           {line,71}]},
+                         {gen_server,init_it,2,
+                          [{file,"gen_server.erl"},{line,374}]},
+                         {gen_server,init_it,6,
+                          [{file,"gen_server.erl"},{line,342}]},
+                         {proc_lib,init_p_do_apply,3,
+                          [{file,"proc_lib.erl"},{line,249}]}]}}},
+                     {skye_app,start,[normal,[]]}}
+      in function  application_master:init/4 (application_master.erl, line 138)
+    ancestors: [<0.291.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.293.0>,normal}]
+    links: [<0.291.0>,<0.236.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 240
+  neighbours:
+
+{"init terminating in do_boot",{undef,[{lager,start,[],[]},{init,start_em,1,[]},{init,do_boot,3,[]}]}}
+init terminating in do_boot ({undef,[{lager,start,[],[]},{init,start_em,1,[]},{init,do_boot,3,[]}]})
+
+Crash dump is being written to: erl_crash.dump...done
+
+=====
+===== LOGGING STARTED Sat Dec  8 12:42:55 CST 2018
+=====
+Exec: /usr/local/Cellar/erlang/21.1.4/lib/erlang/erts-10.1.3/bin/erlexec -boot /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/skye -mode embedded -boot_var ERTS_LIB_DIR /usr/local/Cellar/erlang/21.1.4/lib/erlang/lib -config /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/sys.config -args_file /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/vm.args -pa -- console 
+Root: /Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+/Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+Erlang/OTP 21 [erts-10.1.3] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:30] [hipe] [dtrace]
+
+WARNING: This is a deprecated console configuration. Please use "[{level,info},{formatter_config,[{eol,[92,114,92,110,92]}]}]" instead.
+Adapters:[]
+[]
+[]
+2018-12-08 12:42:55.737 [info] <0.430.0>@soj_server:init:71 subscription done [test]
+2018-12-08 12:42:55.737 [error] <0.430.0>@gproc:reg CRASH REPORT Process <0.430.0> with 0 neighbours crashed with reason: call to undefined function gproc:reg({p,l,interesting_stuff})
+2018-12-08 12:42:55.738 [error] <0.429.0>@gproc:reg Supervisor skye_sup had child soj_server started with soj_server:start_link(test) at undefined exit with reason call to undefined function gproc:reg({p,l,interesting_stuff}) in context start_error
+=CRASH REPORT==== 8-Dec-2018::12:42:55.737409 ===
+  crasher:
+    initial call: soj_server:init/1
+    pid: <0.430.0>
+    registered_name: []
+    exception error: undefined function gproc:reg/1
+      in function  soj_server:init/1 (/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl, line 76)
+      in call from gen_server:init_it/2 (gen_server.erl, line 374)
+      in call from gen_server:init_it/6 (gen_server.erl, line 342)
+    ancestors: [skye_sup,<0.428.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.429.0>,<0.382.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 4524
+  neighbours:
+
+=SUPERVISOR REPORT==== 8-Dec-2018::12:42:55.737555 ===
+    supervisor: {local,skye_sup}
+    errorContext: start_error
+    reason: {undef,
+                [{gproc,reg,[{p,l,interesting_stuff}],[]},
+                 {soj_server,init,1,
+                     [{file,
+                          "/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl"},
+                      {line,76}]},
+                 {gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},
+                 {gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},
+                 {proc_lib,init_p_do_apply,3,
+                     [{file,"proc_lib.erl"},{line,249}]}]}
+    offender: [{pid,undefined},
+               {id,soj_server},
+               {mfargs,{soj_server,start_link,[test]}},
+               {restart_type,transient},
+               {shutdown,2000},
+               {child_type,worker}]
+2018-12-08 12:42:55.739 [error] <0.427.0> CRASH REPORT Process <0.427.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,soj_server,{undef,[{gproc,reg,[{p,l,interesting_stuff}],[]},{soj_server,init,1,[{file,"/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl"},{line,76}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}}},{skye_app,start,[normal,[]]}} in application_master:init/4 line 138
+=CRASH REPORT==== 8-Dec-2018::12:42:55.738522 ===
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.427.0>
+    registered_name: []
+    exception exit: {{shutdown,
+                      {failed_to_start_child,soj_server,
+                       {undef,
+                        [{gproc,reg,[{p,l,interesting_stuff}],[]},
+                         {soj_server,init,1,
+                          [{file,
+                            "/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl"},
+                           {line,76}]},
+                         {gen_server,init_it,2,
+                          [{file,"gen_server.erl"},{line,374}]},
+                         {gen_server,init_it,6,
+                          [{file,"gen_server.erl"},{line,342}]},
+                         {proc_lib,init_p_do_apply,3,
+                          [{file,"proc_lib.erl"},{line,249}]}]}}},
+                     {skye_app,start,[normal,[]]}}
+      in function  application_master:init/4 (application_master.erl, line 138)
+    ancestors: [<0.426.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.428.0>,normal}]
+    links: [<0.426.0>,<0.336.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 240
+  neighbours:
+
+2018-12-08 12:42:55.740 [info] <0.336.0> Application skye exited with reason: {{shutdown,{failed_to_start_child,soj_server,{undef,[{gproc,reg,[{p,l,interesting_stuff}],[]},{soj_server,init,1,[{file,"/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl"},{line,76}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,374}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,249}]}]}}},{skye_app,start,[normal,[]]}}
+=INFO REPORT==== 8-Dec-2018::12:42:55.740678 ===
+    application: skye
+    exited: {{shutdown,
+                 {failed_to_start_child,soj_server,
+                     {undef,
+                         [{gproc,reg,[{p,l,interesting_stuff}],[]},
+                          {soj_server,init,1,
+                              [{file, 
+                                   "/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl"},
+                               {line,76}]},
+                          {gen_server,init_it,2,
+                              [{file,"gen_server.erl"},{line,374}]},
+                          {gen_server,init_it,6,
+                              [{file,"gen_server.erl"},{line,342}]},
+                          {proc_lib,init_p_do_apply,3,
+                              [{file,"proc_lib.erl"},{line,249}]}]}}},
+             {skye_app,start,[normal,[]]}}
+    type: permanent
+Eshell V10.1.3  (abort with ^G)
+(chen@pilot.skye.gem)1> =SUPERVISOR REPORT==== 8-Dec-2018::12:42:55.777633 ===
+    supervisor: {local,gr_param_sup}
+    errorContext: child_terminated
+    reason: killed
+    offender: [{pid,<0.421.0>},
+               {id,gr_lager_default_tracer_params},
+               {mfargs,{gr_param,start_link,[gr_lager_default_tracer_params]}},
+               {restart_type,transient},
+               {shutdown,brutal_kill},
+               {child_type,worker}]
+=SUPERVISOR REPORT==== 8-Dec-2018::12:42:55.777629 ===
+    supervisor: {local,gr_counter_sup}
+    errorContext: child_terminated
+    reason: killed
+    offender: [{pid,<0.423.0>},
+               {id,gr_lager_default_tracer_counters},
+               {mfargs,{gr_counter,start_link,
+                                   [gr_lager_default_tracer_counters]}},
+               {restart_type,transient},
+               {shutdown,brutal_kill},
+               {child_type,worker}]
+{"Kernel pid terminated",application_controller,"{application_start_failure,skye,{{shutdown,{failed_to_start_child,soj_server,{undef,[{gproc,reg,[{p,l,interesting_stuff}],[]},{soj_server,init,1,[{file,\"/Users/lc/IdeaProjects/Skye/_build/default/deps/skye/src/soj_server.erl\"},{line,76}]},{gen_server,init_it,2,[{file,\"gen_server.erl\"},{line,374}]},{gen_server,init_it,6,[{file,\"gen_server.erl\"},{line,342}]},{proc_lib,init_p_do_apply,3,[{file,\"proc_lib.erl\"},{line,249}]}]}}},{skye_app,start,[normal,[]]}}}"}
+Kernel pid terminated (application_controller) ({application_start_failure,skye,{{shutdown,{failed_to_start_child,soj_server,{undef,[{gproc,reg,[{p,l,interesting_stuff}],[]},{soj_server,init,1,[{file,
+
+Crash dump is being written to: erl_crash.dump...done
+
+=====
+===== LOGGING STARTED Sat Dec  8 12:44:09 CST 2018
+=====
+Exec: /usr/local/Cellar/erlang/21.1.4/lib/erlang/erts-10.1.3/bin/erlexec -boot /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/skye -mode embedded -boot_var ERTS_LIB_DIR /usr/local/Cellar/erlang/21.1.4/lib/erlang/lib -config /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/sys.config -args_file /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/vm.args -pa -- console 
+Root: /Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+/Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+Erlang/OTP 21 [erts-10.1.3] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:30] [hipe] [dtrace]
+
+WARNING: This is a deprecated console configuration. Please use "[{level,info},{formatter_config,[{eol,[92,114,92,110,92]}]}]" instead.
+Adapters:[]
+[]
+[]
+2018-12-08 12:44:09.851 [info] <0.451.0>@soj_server:init:71 subscription done [test]
+Mara gets started:[]:
+Eshell V10.1.3  (abort with ^G)
+(chen@pilot.skye.gem)1> 
+=====
+===== LOGGING STARTED Sat Dec  8 12:45:49 CST 2018
+=====
+Exec: /usr/local/Cellar/erlang/21.1.4/lib/erlang/erts-10.1.3/bin/erlexec -boot /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/skye -mode embedded -boot_var ERTS_LIB_DIR /usr/local/Cellar/erlang/21.1.4/lib/erlang/lib -config /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/sys.config -args_file /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/vm.args -pa -- console 
+Root: /Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+/Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+Protocol 'inet_tcp': the name chen@pilot.skye.gem seems to be in use by another Erlang node
+
+=====
+===== LOGGING STARTED Sat Dec  8 12:47:30 CST 2018
+=====
+Exec: /usr/local/Cellar/erlang/21.1.4/lib/erlang/erts-10.1.3/bin/erlexec -boot /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/skye -mode embedded -boot_var ERTS_LIB_DIR /usr/local/Cellar/erlang/21.1.4/lib/erlang/lib -config /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/sys.config -args_file /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/vm.args -pa -- console 
+Root: /Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+/Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+Protocol 'inet_tcp': the name chen@pilot.skye.gem seems to be in use by another Erlang node
+
+=====
+===== LOGGING STARTED Sat Dec  8 12:47:50 CST 2018
+=====
+Exec: /usr/local/Cellar/erlang/21.1.4/lib/erlang/erts-10.1.3/bin/erlexec -boot /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/skye -mode embedded -boot_var ERTS_LIB_DIR /usr/local/Cellar/erlang/21.1.4/lib/erlang/lib -config /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/sys.config -args_file /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/vm.args -pa -- console 
+Root: /Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+/Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+Protocol 'inet_tcp': the name chen@pilot.skye.gem seems to be in use by another Erlang node
+
+===== Sat Dec  8 12:49:12 CST 2018
+=INFO REPORT==== 8-Dec-2018::12:49:12.834295 ===
+SIGTERM received - shutting down 
+
+2018-12-08 12:49:12.834 [info] <0.370.0> SIGTERM received - shutting down
+=SUPERVISOR REPORT==== 8-Dec-2018::12:49:12.849160 ===
+    supervisor: {local,gr_counter_sup}
+    errorContext: child_terminated
+    reason: killed
+    offender: [{pid,<0.436.0>},
+               {id,gr_lager_default_tracer_counters},
+               {mfargs,{gr_counter,start_link,
+                                   [gr_lager_default_tracer_counters]}},
+               {restart_type,transient},
+               {shutdown,brutal_kill},
+               {child_type,worker}]
+=SUPERVISOR REPORT==== 8-Dec-2018::12:49:12.849430 ===
+    supervisor: {local,gr_param_sup}
+    errorContext: child_terminated
+    reason: killed
+    offender: [{pid,<0.434.0>},
+               {id,gr_lager_default_tracer_params},
+               {mfargs,{gr_param,start_link,[gr_lager_default_tracer_params]}},
+               {restart_type,transient},
+               {shutdown,brutal_kill},
+               {child_type,worker}]
+
+=====
+===== LOGGING STARTED Sat Dec  8 12:49:31 CST 2018
+=====
+Exec: /usr/local/Cellar/erlang/21.1.4/lib/erlang/erts-10.1.3/bin/erlexec -boot /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/skye -mode embedded -boot_var ERTS_LIB_DIR /usr/local/Cellar/erlang/21.1.4/lib/erlang/lib -config /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/sys.config -args_file /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/vm.args -pa -- console 
+Root: /Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+/Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+Erlang/OTP 21 [erts-10.1.3] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:30] [hipe] [dtrace]
+
+WARNING: This is a deprecated console configuration. Please use "[{level,info},{formatter_config,[{eol,[92,114,92,110,92]}]}]" instead.
+Adapters:[]
+[]
+[]
+2018-12-08 12:49:31.645 [info] <0.451.0>@soj_server:init:71 subscription done [test]
+Mara gets started:[]:
+Eshell V10.1.3  (abort with ^G)
+(chen@pilot.skye.gem)1> 
+=====
+===== LOGGING STARTED Sat Dec  8 12:51:47 CST 2018
+=====
+Exec: /usr/local/Cellar/erlang/21.1.4/lib/erlang/erts-10.1.3/bin/erlexec -boot /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/skye -mode embedded -boot_var ERTS_LIB_DIR /usr/local/Cellar/erlang/21.1.4/lib/erlang/lib -config /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/sys.config -args_file /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/vm.args -pa -- console 
+Root: /Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+/Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+Erlang/OTP 21 [erts-10.1.3] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:30] [hipe] [dtrace]
+
+WARNING: This is a deprecated console configuration. Please use "[{level,info},{formatter_config,[{eol,[92,114,92,110,92]}]}]" instead.
+Adapters:[]
+[]
+[]
+2018-12-08 12:51:47.617 [info] <0.451.0>@soj_server:init:71 subscription done [test]
+Mara gets started:[]:
+Eshell V10.1.3  (abort with ^G)
+(chen@pilot.skye.gem)1> =INFO REPORT==== 8-Dec-2018::12:53:00.701309 ===
+SIGTERM received - shutting down 
+
+2018-12-08 12:53:00.701 [info] <0.370.0> SIGTERM received - shutting down
+=SUPERVISOR REPORT==== 8-Dec-2018::12:53:00.716052 ===
+    supervisor: {local,gr_counter_sup}
+    errorContext: child_terminated
+    reason: killed
+    offender: [{pid,<0.436.0>},
+               {id,gr_lager_default_tracer_counters},
+               {mfargs,{gr_counter,start_link,
+                                   [gr_lager_default_tracer_counters]}},
+               {restart_type,transient},
+               {shutdown,brutal_kill},
+               {child_type,worker}]
+=SUPERVISOR REPORT==== 8-Dec-2018::12:53:00.716315 ===
+    supervisor: {local,gr_param_sup}
+    errorContext: child_terminated
+    reason: killed
+    offender: [{pid,<0.434.0>},
+               {id,gr_lager_default_tracer_params},
+               {mfargs,{gr_param,start_link,[gr_lager_default_tracer_params]}},
+               {restart_type,transient},
+               {shutdown,brutal_kill},
+               {child_type,worker}]
+
+=====
+===== LOGGING STARTED Sat Dec  8 12:53:26 CST 2018
+=====
+Exec: /usr/local/Cellar/erlang/21.1.4/lib/erlang/erts-10.1.3/bin/erlexec -boot /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/skye -mode embedded -boot_var ERTS_LIB_DIR /usr/local/Cellar/erlang/21.1.4/lib/erlang/lib -config /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/sys.config -args_file /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/vm.args -pa -- console 
+Root: /Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+/Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+Erlang/OTP 21 [erts-10.1.3] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:30] [hipe] [dtrace]
+
+WARNING: This is a deprecated console configuration. Please use "[{level,info},{formatter_config,[{eol,[92,114,92,110,92]}]}]" instead.
+Adapters:[]
+[]
+[]
+2018-12-08 12:53:26.809 [info] <0.451.0>@soj_server:init:71 subscription done [test]
+Mara gets started:[]:
+Eshell V10.1.3  (abort with ^G)
+(chen@pilot.skye.gem)1> =INFO REPORT==== 8-Dec-2018::12:53:49.071221 ===
+SIGTERM received - shutting down 
+
+2018-12-08 12:53:49.071 [info] <0.370.0> SIGTERM received - shutting down
+=SUPERVISOR REPORT==== 8-Dec-2018::12:53:49.085236 ===
+    supervisor: {local,gr_counter_sup}
+    errorContext: child_terminated
+    reason: killed
+    offender: [{pid,<0.436.0>},
+               {id,gr_lager_default_tracer_counters},
+               {mfargs,{gr_counter,start_link,
+                                   [gr_lager_default_tracer_counters]}},
+               {restart_type,transient},
+               {shutdown,brutal_kill},
+               {child_type,worker}]
+=SUPERVISOR REPORT==== 8-Dec-2018::12:53:49.085395 ===
+    supervisor: {local,gr_param_sup}
+    errorContext: child_terminated
+    reason: killed
+    offender: [{pid,<0.434.0>},
+               {id,gr_lager_default_tracer_params},
+               {mfargs,{gr_param,start_link,[gr_lager_default_tracer_params]}},
+               {restart_type,transient},
+               {shutdown,brutal_kill},
+               {child_type,worker}]
+
+=====
+===== LOGGING STARTED Sat Dec  8 12:54:21 CST 2018
+=====
+Exec: /usr/local/Cellar/erlang/21.1.4/lib/erlang/erts-10.1.3/bin/erlexec -boot /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/skye -mode embedded -boot_var ERTS_LIB_DIR /usr/local/Cellar/erlang/21.1.4/lib/erlang/lib -config /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/sys.config -args_file /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/vm.args -pa -- console 
+Root: /Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+/Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+Erlang/OTP 21 [erts-10.1.3] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:30] [hipe] [dtrace]
+
+WARNING: This is a deprecated console configuration. Please use "[{level,info},{formatter_config,[{eol,[92,114,92,110,92]}]}]" instead.
+Adapters:[]
+[]
+[]
+2018-12-08 12:54:21.812 [info] <0.451.0>@soj_server:init:71 subscription done [test]
+Mara gets started:[]:
+Eshell V10.1.3  (abort with ^G)
+(chen@pilot.skye.gem)1> =INFO REPORT==== 8-Dec-2018::12:55:50.126129 ===
+SIGTERM received - shutting down 
+
+2018-12-08 12:55:50.126 [info] <0.370.0> SIGTERM received - shutting down
+=SUPERVISOR REPORT==== 8-Dec-2018::12:55:50.149990 ===
+    supervisor: {local,gr_counter_sup}
+    errorContext: child_terminated
+    reason: killed
+    offender: [{pid,<0.436.0>},
+               {id,gr_lager_default_tracer_counters},
+               {mfargs,{gr_counter,start_link,
+                                   [gr_lager_default_tracer_counters]}},
+               {restart_type,transient},
+               {shutdown,brutal_kill},
+               {child_type,worker}]
+=SUPERVISOR REPORT==== 8-Dec-2018::12:55:50.150211 ===
+    supervisor: {local,gr_param_sup}
+    errorContext: child_terminated
+    reason: killed
+    offender: [{pid,<0.434.0>},
+               {id,gr_lager_default_tracer_params},
+               {mfargs,{gr_param,start_link,[gr_lager_default_tracer_params]}},
+               {restart_type,transient},
+               {shutdown,brutal_kill},
+               {child_type,worker}]
+
+=====
+===== LOGGING STARTED Sat Dec  8 12:56:08 CST 2018
+=====
+Exec: /usr/local/Cellar/erlang/21.1.4/lib/erlang/erts-10.1.3/bin/erlexec -boot /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/skye -mode embedded -boot_var ERTS_LIB_DIR /usr/local/Cellar/erlang/21.1.4/lib/erlang/lib -config /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/sys.config -args_file /Users/lc/IdeaProjects/Skye/_build/default/rel/skye/releases/1.0/vm.args -pa -- console 
+Root: /Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+/Users/lc/IdeaProjects/Skye/_build/default/rel/skye
+Erlang/OTP 21 [erts-10.1.3] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:30] [hipe] [dtrace]
+
+WARNING: This is a deprecated console configuration. Please use "[{level,info},{formatter_config,[{eol,[92,114,92,110,92]}]}]" instead.
+Adapters:[]
+[]
+[]
+2018-12-08 12:56:08.672 [info] <0.451.0>@soj_server:init:71 subscription done [test]
+Mara gets started:[]:
+Eshell V10.1.3  (abort with ^G)
+(chen@pilot.skye.gem)1> 

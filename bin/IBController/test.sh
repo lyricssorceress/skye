@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+TWSUSERID=zjhcxx170
+TWSPASSWORD=zjhcxx1701
+TWSAPIPORT=4001
+IBCTRLPORT=7462
+
+TWSDIR=../IBJts/
+TWSCP=$TWSDIR/jts.jar:$TWSDIR/total.2013.jar
+IBCINI='./IBController.ini'
+JAVAOPTS='-Xmx768M -XX:MaxPermSize=256M'
+
+java -cp  $TWSCP:./IBController.jar $JAVAOPTS ibcontroller.IBGatewayController $IBCINI $TWSUSERID $TWSPASSWORD $TWSAPIPORT $IBCTRLPORT
